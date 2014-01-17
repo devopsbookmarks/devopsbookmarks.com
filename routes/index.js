@@ -26,7 +26,7 @@ exports.index = function(req, res) {
   }
 
   res.render('index', {
-    title: 'Express',
+    title: 'Devops Bookmarks',
     tools: tools,
     tags: tags,
     platforms: data.platforms,

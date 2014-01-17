@@ -1,4 +1,16 @@
-exports.platforms = [{
+var tools = require('./tools').tools;
+var _u = require('underscore');
+
+function withCount(tags) {
+  _u.each(tags, function(tag) {
+    tag.count = _u.filter(tools, function(tool) {
+      return _u.contains(tool.tags, tag.slug);
+    }).length;
+  });
+  return tags;
+}
+
+var platforms = [{
   slug: "linux",
   name: "Linux"
 }, {
@@ -9,7 +21,7 @@ exports.platforms = [{
   name: "OSX"
 }];
 
-exports.licenses = [{
+var licenses = [{
   slug: "open-source",
   name: "Open Source"
 }, {
@@ -20,7 +32,7 @@ exports.licenses = [{
   name: "Proprietary / Commercial"
 }];
 
-exports.categories = [{
+var categories = [{
   slug: "scm",
   name: "Source Code Management",
   subcat: "Development"
@@ -62,10 +74,6 @@ exports.categories = [{
   slug: "monitoring",
   name: "Logging & Monitoring",
   subcat: "Maintenance"
-}, {
-  slug: "backup",
-  name: "Backup and Archival",
-  subcat: "Maintenance"
 }];
 
 // Dependency Management (and thus Dev Environment Setup) => Merged with Virt/Containers/Provisioning
@@ -73,4 +81,9 @@ exports.categories = [{
 // DevOps Testing
 // IRC / Communication => Merge with CI
 // Performance / Load Balancing
+// Backup?
 // Where to put Zookeeper/etcd ?
+
+exports.categories = withCount(categories);
+exports.platforms = withCount(platforms);
+exports.licenses = withCount(licenses);

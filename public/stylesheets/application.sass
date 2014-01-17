@@ -225,7 +225,7 @@ a, a:link, a:visited, a:active
 
     a
       text-decoration: none
-      color: $dark2
+      color: darken($dark2, 10%)
       +transition(color .2s)
       &.alert
         color: $alert
@@ -234,16 +234,14 @@ a, a:link, a:visited, a:active
 
     h2
       +transition(background .2s, color .2s)
-      color: $dark2
 
     &:hover
-      border-color: $light2
       background: $light2
       color: $dark3
 
     .icon.disabled
       &:before
-        color: lighten($alert, 25%)
+        color: lighten($dark1, 50%)
       &:after
         position: absolute
         text-align: center
@@ -258,7 +256,6 @@ a, a:link, a:visited, a:active
 
     p.categories
       small
-        color: $dark2
         text-transform: lowercase
         &:after
           content: ', '

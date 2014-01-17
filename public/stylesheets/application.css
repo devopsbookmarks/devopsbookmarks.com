@@ -767,7 +767,7 @@ a, a:link, a:visited, a:active {
 }
 .content .tool a {
   text-decoration: none;
-  color: #67a6a6;
+  color: #518989;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   transition: color 0.2s;
@@ -782,15 +782,13 @@ a, a:link, a:visited, a:active {
   -webkit-transition: background 0.2s, color 0.2s;
   -moz-transition: background 0.2s, color 0.2s;
   transition: background 0.2s, color 0.2s;
-  color: #67a6a6;
 }
 .content .tool:hover {
-  border-color: white;
   background: white;
   color: #222222;
 }
 .content .tool .icon.disabled:before {
-  color: #ffbab6;
+  color: #d2d3d3;
 }
 .content .tool .icon.disabled:after {
   position: absolute;
@@ -805,7 +803,6 @@ a, a:link, a:visited, a:active {
   margin-left: 0.1em;
 }
 .content .tool p.categories small {
-  color: #67a6a6;
   text-transform: lowercase;
 }
 .content .tool p.categories small:after {

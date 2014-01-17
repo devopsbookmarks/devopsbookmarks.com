@@ -16,6 +16,7 @@ block content
         a(class=(_u.contains(tags, platform.slug) ? 'active' : ''), href=urlFor(platform.slug))
           span.icon(class="icon-" + platform.slug)
           = platform.name
+          small= " (" + platform.count + ")"
 
     .licenses
       h3 License
@@ -23,12 +24,14 @@ block content
         a(class=(_u.contains(tags, license.slug) ? 'active' : ''), href=urlFor(license.slug))
           span.icon(class='icon-' + license.slug)
           = license.name
+          small= " (" + license.count + ")"
 
     .categories
       h3 Category
       each category in categories
           a(class=(_u.contains(tags, category.slug) ? 'active' : ''), href=urlFor(category.slug))
             = category.name
+            small= " (" + category.count + ")"
 
     .meta
       h3 Meta
