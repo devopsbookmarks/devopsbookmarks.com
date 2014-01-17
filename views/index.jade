@@ -1,0 +1,55 @@
+extends layout
+
+block content
+  - var urlFor = function(slug) {
+  -   var newTags = _u.contains(tags, slug) ? _u.without(tags, slug) : _u.union(tags, slug)
+  -   return "/" + newTags.sort().join('+')
+  - }
+
+  .nav
+    .logo
+      a(href="/") DevOps Bookmarks
+
+    .platforms
+      h3 Platform
+      each platform in platforms
+        a(class=(_u.contains(tags, platform.slug) ? 'active' : ''), href=urlFor(platform.slug))
+          span.icon(class="icon-" + platform.slug)
+          = platform.name
+
+    .licenses
+      h3 License
+      each license in licenses
+        a(class=(_u.contains(tags, license.slug) ? 'active' : ''), href=urlFor(license.slug))
+          span.icon(class='icon-' + license.slug)
+          = license.name
+
+    .categories
+      h3 Category
+      each category in categories
+          a(class=(_u.contains(tags, category.slug) ? 'active' : ''), href=urlFor(category.slug))
+            = category.name
+
+    .meta
+      h3 Meta
+      a Submit a tool
+      a About
+
+  .content
+    .content-grid
+      #tools
+        each tool in tools
+          .tool-container
+            .tool
+              h2
+                a(href=tool.url, rel="nofollow")= tool.name
+              p= tool.description
+              p.tags
+                each tag in platforms
+                  span.icon(class="icon-"+tag.slug)(class=(_u.contains(tool.tags, tag.slug) ? '' : 'disabled'))(title=tag.name)
+                each tag in licenses
+                  span.icon(class="icon-"+tag.slug)(class=(_u.contains(tool.tags, tag.slug) ? '' : 'disabled'))(title=tag.name)
+              p.categories
+                each category in tool.tags
+                  if categories[category]
+                    small= categories[category].name

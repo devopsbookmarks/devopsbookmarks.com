@@ -1,0 +1,32 @@
+## OSX Defaults
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+## Linux Defaults
+*~
+
+## Windows Defaults
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+## Custom
+*.sublime-workspace
+*swp
+*gem
+.sass-cache
+vendor/
+tmp/
+tags
+*.numbers
+node_modules

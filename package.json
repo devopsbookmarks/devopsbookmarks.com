@@ -1,0 +1,26 @@
+{
+  "name": "devops",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "express": "3.4.7",
+    "jade": "*",
+    "underscore": "*"
+  },
+  "devDependencies": {
+    "bower" : "~1.2.8",
+    "grunt" : "~0.4.0",
+    "grunt-contrib-watch" : "*",
+    "grunt-contrib-sass" : "*",
+    "grunt-contrib-copy" : "*",
+    "grunt-contrib-uglify" : "*",
+    "grunt-contrib-concat" : "*",
+    "matchdep" : "*"
+  }
+}
