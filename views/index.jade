@@ -1,8 +1,12 @@
 extends layout
 
 block content
-  - var urlFor = function(slug) {
-  -   var newTags = _u.contains(tags, slug) ? _u.without(tags, slug) : _u.union(tags, slug)
+  - var onlyUrlFor = function(tag, outOf) {
+  -   return _u.union(_u.difference(tags, _u.pluck(outOf, 'slug')), tag).sort().join('+')
+  - }
+
+  - var extraUrlFor = function(tag) {
+  -   var newTags = _u.contains(tags, tag) ? _u.without(tags, tag) : _u.union(tags, tag)
   -   return "/" + newTags.sort().join('+')
   - }
 
@@ -12,26 +16,37 @@ block content
 
     .platforms
       h3 Platform
-      each platform in platforms
-        a(class=(_u.contains(tags, platform.slug) ? 'active' : ''), href=urlFor(platform.slug))
-          span.icon(class="icon-" + platform.slug)
-          = platform.name
-          small= " (" + platform.count + ")"
+      each tag in platforms
+        .tag
+          - active = _u.contains(tags, tag.slug)
+          a.toggle(href=extraUrlFor(tag.slug))
+            span.icon(class=(active ? "fa fa-minus" : "fa fa-plus"))
+          a(class=(active ? 'active' : ''), href=onlyUrlFor(tag.slug, platforms))
+            span.icon(class=tag.icon)
+            = tag.name
 
     .licenses
       h3 License
-      each license in licenses
-        a(class=(_u.contains(tags, license.slug) ? 'active' : ''), href=urlFor(license.slug))
-          span.icon(class='icon-' + license.slug)
-          = license.name
-          small= " (" + license.count + ")"
+      each tag in licenses
+        .tag
+          - active = _u.contains(tags, tag.slug)
+          a.toggle(href=extraUrlFor(tag.slug))
+            span.icon(class=(active ? "fa fa-minus" : "fa fa-plus"))
+          a(class=(active ? 'active' : ''), href=onlyUrlFor(tag.slug, licenses))
+            span.icon(class=tag.icon)
+            = tag.name
 
     .categories
       h3 Category
-      each category in categories
-          a(class=(_u.contains(tags, category.slug) ? 'active' : ''), href=urlFor(category.slug))
-            = category.name
-            small= " (" + category.count + ")"
+      each tag in categories
+        .tag
+          - active = _u.contains(tags, tag.slug)
+          a.toggle(href=extraUrlFor(tag.slug))
+            span.icon(class=(active ? "fa fa-minus" : "fa fa-plus"))
+          a(class=(active ? 'active' : ''), href=onlyUrlFor(tag.slug, categories))
+            if tag.icon
+              span.icon(class=tag.icon)
+            = tag.name
 
     .meta
       h3 Meta
@@ -49,9 +64,9 @@ block content
               p= tool.description
               p.tags
                 each tag in platforms
-                  span.icon(class="icon-"+tag.slug)(class=(_u.contains(tool.tags, tag.slug) ? '' : 'disabled'))(title=tag.name)
+                  span.icon(class=tag.icon)(class=(_u.contains(tool.tags, tag.slug) ? '' : 'disabled'))(title=tag.name)
                 each tag in licenses
-                  span.icon(class="icon-"+tag.slug)(class=(_u.contains(tool.tags, tag.slug) ? '' : 'disabled'))(title=tag.name)
+                  span.icon(class=tag.icon)(class=(_u.contains(tool.tags, tag.slug) ? '' : 'disabled'))(title=tag.name)
               p.categories
                 each category in tool.tags
                   if categories[category]

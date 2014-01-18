@@ -12,24 +12,30 @@ function withCount(tags) {
 
 var platforms = [{
   slug: "linux",
-  name: "Linux"
+  name: "Linux",
+  icon: "fa fa-linux"
 }, {
   slug: "windows",
-  name: "Windows"
+  name: "Windows",
+  icon: "fa fa-windows"
 }, {
   slug: "osx",
-  name: "OSX"
+  name: "OSX",
+  icon: "fa fa-apple"
 }];
 
 var licenses = [{
   slug: "open-source",
-  name: "Open Source"
+  name: "Open Source",
+  icon: "fa fa-code-fork"
 }, {
   slug: "free",
-  name: "Free / Restricted"
+  name: "Free / Restricted",
+  icon: "fa fa-beer"
 }, {
   slug: "commercial",
-  name: "Proprietary / Commercial"
+  name: "Proprietary / Commercial",
+  icon: "fa fa-usd"
 }];
 
 var categories = [{

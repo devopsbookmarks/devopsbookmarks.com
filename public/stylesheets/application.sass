@@ -15,9 +15,12 @@ $font-weight: 300
 @import "normalize-scss/normalize"
 @import "bower-bourbon/bourbon"
 @import "responsive"
-@import "fonts"
+//@import "fonts"
 
 .icon
+  display: inline-block
+  width: 1em
+  text-align: center
   margin: 0 5px 0 0
   position: relative
 
@@ -43,76 +46,6 @@ p,h1,h2,h3,h4,h5,h6
 a, a:link, a:visited, a:active
   text-decoration: none
 
-.header
-  +clearfix
-  width: 100%
-  background: $dark1
-  color: $light1
-
-  @media #{$landscape}
-    height: $header-height
-    position: fixed
-    top: 0
-    z-index: 1
-
-  .item
-    display: block
-    padding: 10px
-    text-align: center
-
-    @media #{$landscape}
-      text-align: left
-      padding: 0 10px
-      float: left
-      &:last-child
-        padding-right: 0
-
-  a, a:link, a:visited, a:active, a:hover
-    color: $light3
-    text-decoration: none
-    +transition(color .2s, background .2s)
-
-  .logo
-    background: $dark3
-
-    @media #{$landscape}
-      width: $sidebar-width
-      overflow: hidden
-
-    a, a:link, a:visited, a:active
-      white-space: nowrap
-      display: block
-      text-transform: uppercase
-      font-size: 24px
-      &:hover
-        color: $light1
-
-      @media #{$landscape}
-        line-height: $header-height
-
-  .description
-    p
-      margin: 0
-      @media #{$landscape}
-        line-height: $header-height
-      @media #{$landscape-1}
-        display: none
-
-  .menu
-    a, a:link, a:visited, a:active
-      padding: 0 10px
-      &:hover
-        color: $light1
-
-    @media #{$landscape}
-      float: right
-      a, a:link, a:visited, a:active
-        display: inline-block
-        line-height: $header-height
-        &:hover
-          background: $dark3
-
-
 .nav
   background: rgba($dark1, .5)
   color: $light1
@@ -137,6 +70,15 @@ a, a:link, a:visited, a:active
       text-transform: uppercase
       background: rgba($dark2, .5)
 
+    .tag
+      @media #{$landscape}
+        +clearfix
+      @media #{$portrait-1}
+        +clearfix
+      @media #{$portrait-2}
+        display: inline-block
+        width: 50%
+
     a, a:link, a:visited, a:active, a:hover
       display: block
       cursor: pointer
@@ -146,9 +88,16 @@ a, a:link, a:visited, a:active
       color: $light1
       +transition(background .2s)
 
-      @media #{$portrait-2}
-        display: inline-block
-        width: 50%
+      @media #{$portrait}
+        font-size: .9em
+
+      &.toggle
+        float: right
+        z-index: 100
+        overflow: hidden
+        text-align: center
+        .icon
+          margin-right: 0
 
       &.active
         background: rgba(darken($dark2, 30%), .5)
