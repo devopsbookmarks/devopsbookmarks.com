@@ -1,6 +1,6 @@
 var cluster = require('cluster');
 
-if (cluster.isMaster) {
+if (cluster.isMaster && process.env.NODE_ENV) {
   var cpuCount = require('os').cpus().length;
   for (var i=0; i < cpuCount; i++)
     cluster.fork();
