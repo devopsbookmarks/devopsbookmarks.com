@@ -9,8 +9,8 @@ var data = require('../data');
 exports.index = function(req, res) {
   var tools = data.tools, tags = [];
 
-  if (req.params[1] && req.params[1].length > 0) {
-    tags = req.params[1].split("+");
+  if (req.params[0] && req.params[0].length > 0) {
+    tags = req.params[0].split("+");
 
     var selCategories = _u.intersection(tags, _u.keys(data.categories));
     var selPlatforms = _u.intersection(tags, _u.keys(data.platforms));
