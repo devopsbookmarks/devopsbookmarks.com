@@ -22,7 +22,8 @@ exports.index = function(req, res) {
              (selLicenses.length == 0 || _u.intersection(selLicenses, tool.tags).length > 0);
     });
   } else {
-    tools = tools.slice(tools.length > 20 ? tools.length-20 : 0);
+    // show all tools
+    //tools = tools.slice(tools.length > 20 ? tools.length-20 : 0);
   }
 
   res.render('index', {
