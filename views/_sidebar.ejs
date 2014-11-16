@@ -1,0 +1,62 @@
+<!-- Sidebar -->
+<div class="nav">
+  <div class="logo">
+    <a href="/">DevOps Bookmarks</a>
+  </div>
+
+  <!-- Platforms menu -->
+  <div class="platforms">
+    <h3>Platform</h3>
+    <% _u.each(platforms, function(tag) { %>
+      <div class="tag">
+        <% var active = _u.contains(tags, tag.slug); %>
+        <a class="toggle" href="<%= extraUrlFor(tag.slug, tags) %>">
+          <span class="icon <%= active ? 'fa fa-minus' : 'fa fa-plus' %>"></span>
+        </a>
+        <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, platforms, tags) %>">
+          <span class="icon <%= tag.icon %>"></span>
+          <%= tag.name %>
+        </a>
+      </div>
+    <% }); %>
+  </div>
+
+  <!-- Licenses menu -->
+  <div class="licenses">
+    <h3>License</h3>
+    <% _u.each(licenses, function(tag) { %>
+      <div class="tag">
+        <% var active = _u.contains(tags, tag.slug); %>
+        <a class="toggle" href="<%= extraUrlFor(tag.slug, tags) %>">
+          <span class="icon <%= active ? 'fa fa-minus' : 'fa fa-plus' %>"></span>
+        </a>
+        <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, licenses, tags) %>">
+          <span class="icon <%= tag.icon %>"></span>
+          <%= tag.name %>
+        </a>
+      </div>
+    <% }); %>
+  </div>
+
+  <!-- Categories menu -->
+  <div class="categories">
+    <h3>Category</h3>
+    <% _u.each(categories, function(tag) { %>
+      <div class="tag">
+        <% var active = _u.contains(tags, tag.slug); %>
+        <a class="toggle" href="<%= extraUrlFor(tag.slug, tags) %>">
+          <span class="icon <%= active ? 'fa fa-minus' : 'fa fa-plus' %>"></span>
+        </a>
+        <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, categories, tags) %>">
+          <%= tag.name %>
+        </a>
+      </div>
+    <% }); %>
+  </div>
+
+  <div class="meta">
+    <h3>Meta</h3>
+    <a>Submit a tool</a>
+    <a>About</a>
+  </div>
+</div>
