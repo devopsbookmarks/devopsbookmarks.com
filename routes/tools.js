@@ -15,7 +15,7 @@ function extraUrlFor(tag, allTags) {
   return "/" + newTags.sort().join('+');
 }
 
-exports.index = function(req, res) {
+module.exports = function(req, res) {
   var tools = data.tools, tags = [];
 
   if (req.params[0] && req.params[0].length > 0) {
@@ -35,7 +35,7 @@ exports.index = function(req, res) {
     //tools = tools.slice(tools.length > 20 ? tools.length-20 : 0);
   }
 
-  res.render('index', {
+  res.render('tools', {
     title: 'Devops Bookmarks',
     tools: tools,
     tags: tags,
