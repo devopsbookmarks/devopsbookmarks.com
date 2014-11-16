@@ -1500,5 +1500,17 @@ exports.tools=[
       "ci"
     ],
     url: "http://cabotapp.com/"
+  },
+  {
+    slug: "soloist",
+    name: "Soloist",
+    description: "Soloist lets you quickly and easily converge Chef recipes using chef-solo.",
+    tags: [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "provisioning"
+    ]
   }
 ];
