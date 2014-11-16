@@ -1504,6 +1504,7 @@ exports.tools=[
   {
     slug: "soloist",
     name: "Soloist",
+    url: "https://github.com/mkocher/soloist",
     description: "Soloist lets you quickly and easily converge Chef recipes using chef-solo.",
     tags: [
       "linux",
