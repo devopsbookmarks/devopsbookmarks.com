@@ -3,5 +3,4 @@
 set -xe
 
 npm install
-grunt
-node app
+grunt dev

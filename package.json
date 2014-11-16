@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "engines": {
     "node": "0.10.x"
@@ -14,11 +14,12 @@
     "underscore" : "~1.7.0"
   },
   "devDependencies": {
-    "load-grunt-tasks"    : "~1.0.0",
-    "grunt"               : "~0.4.5",
-    "grunt-cli"           : "~0.1.13",
-    "grunt-sass"          : "~0.16.0",
-    "grunt-bower-task"    : "~0.4.0",
-    "grunt-contrib-watch" : "~0.6.1"
+    "load-grunt-tasks"     : "~1.0.0",
+    "grunt"                : "~0.4.5",
+    "grunt-cli"            : "~0.1.13",
+    "grunt-sass"           : "~0.16.0",
+    "grunt-bower-task"     : "~0.4.0",
+    "grunt-contrib-watch"  : "~0.6.1",
+    "grunt-express-server" : "~0.4.19"
   }
 }

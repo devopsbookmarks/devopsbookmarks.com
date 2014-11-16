@@ -22,14 +22,32 @@ module.exports = function(grunt) {
       }
     },
 
+    express: {
+      dev: {
+        options: {
+          script: 'server.js'
+        }
+      }
+    },
+
     watch: {
+      options: {
+        spawn: false
+      },
       sass: {
         files: [ 'public/stylesheets/**/*.scss' ],
         tasks: [ 'sass:dist' ]
+      },
+      js: {
+        files: [ 'server.js', 'data/**/*.js', 'routes/**/*.js' ],
+        tasks: [ 'express:dev' ]
       }
     }
   });
 
-  grunt.registerTask('default', [ 'bower:install', 'sass:dist' ]);
-  grunt.registerTask('heroku', ['default']);
+  grunt.registerTask('build', [ 'bower:install', 'sass:dist' ]);
+  grunt.registerTask('dev', [ 'build', 'express:dev', 'watch' ]);
+  grunt.registerTask('heroku', [ 'build' ]);
+
+  grunt.registerTask('default', ['dev']);
 }
