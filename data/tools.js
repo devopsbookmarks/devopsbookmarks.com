@@ -1512,5 +1512,17 @@ exports.tools=[
       "open-source",
       "provisioning"
     ]
+  },
+  {
+    slug: "vagrant-cachier",
+    name: "Vagrant Cachier",
+    description: "A Vagrant plugin that helps you reduce the amount of coffee you drink while waiting for boxes to be provisioned by sharing a common package cache among similiar VM instances.",
+    tags: [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "provisioning"
+    ]
   }
 ];
