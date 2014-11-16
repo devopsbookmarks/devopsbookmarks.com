@@ -1,0 +1,263 @@
+// https://kuler.adobe.com/Sunrise-(subtle)-color-theme-1450987/
+$dark1: #525454;
+//$dark2: #5B8182
+$dark2: #67A6A6;
+$dark3: #222222;
+$light1: #F0F0F0;
+$light2: #FFFFFF;
+$light3: lighten($dark2, 25%);
+$alert: #FF4136;
+
+$sidebar-width: 300px;
+$header-height: 56px;
+$font-weight: 300;
+
+@import "normalize-scss/normalize";
+@import "bower-bourbon/bourbon";
+@import "responsive";
+//@import "fonts"
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  text-align: center;
+  margin: 0 5px 0 0;
+  position: relative;
+}
+
+*, *:before, *:after {
+  @include box-sizing(border-box);
+}
+
+html {
+  font: 14px "Raleway", "Roboto", Arial, sans-serif;
+  font-weight: $font-weight;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: $dark3 url(../images/bg.png) repeat;
+  color: $dark3;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  font-weight: $font-weight;
+  margin: .25em 0 .5em 0;
+}
+
+a, a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+.nav {
+  background: rgba($dark1, .5);
+  color: $light1;
+  -webkit-font-smoothing: subpixel-antialiased;
+
+  @media #{$landscape} {
+    position: fixed;
+    float: left;
+    width: $sidebar-width;
+    border-right: .3em solid rgba($dark2, .5);
+    height: 100%;
+    overflow-y: auto;
+    z-index: 2;
+  }
+
+  &>* {
+    display: block;
+    @include clearfix;
+
+    h3 {
+      margin: 0;
+      padding: 7px 10px;
+      text-transform: uppercase;
+      background: rgba($dark2, .5);
+    }
+
+    .tag {
+      @media #{$landscape} {
+        @include clearfix;
+      }
+      @media #{$portrait-1} {
+        @include clearfix;
+      }
+      @media #{$portrait-2} {
+        display: inline-block;
+        width: 50%;
+      }
+    }
+
+    a, a:link, a:visited, a:active, a:hover {
+      display: block;
+      cursor: pointer;
+      line-height: 32px;
+      padding: 0 10px;
+      position: relative;
+      color: $light1;
+      @include transition(background .2s);
+
+      @media #{$portrait} {
+        font-size: .9em;
+      }
+
+      &.toggle {
+        float: right;
+        z-index: 100;
+        overflow: hidden;
+        text-align: center;
+        .icon {
+          margin-right: 0;
+        }
+      }
+
+      &.active {
+        background: rgba(darken($dark2, 20%), .5);
+        &:after {
+          display: block;
+        }
+        .icon-block {
+          display: none;
+        }
+      }
+
+      &:hover {
+        background: $dark3;
+      }
+    }
+  }
+
+  .logo {
+    a, a:link, a:visited, a:active, a:hover {
+      color: $light3;
+      background: $dark3;
+      white-space: nowrap;
+      display: block;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 24px;
+      line-height: $header-height;
+      @include transition(color .2s, background .2s);
+      &:hover {
+        color: $light1;
+      }
+      @media #{$portrait} {
+        text-align: center;
+      }
+      @media #{$portrait-2} {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.content {
+  margin: 0;
+  padding: .5em;
+  color: $dark1;
+
+  @media #{$landscape} {
+    margin-left: $sidebar-width;
+  }
+
+  .content-grid {
+    @include clearfix;
+    @include column-count(1);
+    @include column-gap(0);
+
+    @media #{$portrait-2} {
+      @include column-count(2);
+    }
+    @media #{$landscape-2} {
+      @include column-count(2);
+    }
+    @media #{$landscape-3} {
+      @include column-count(3);
+    }
+    @media #{$landscape-4} {
+      @include column-count(4);
+    }
+    @media #{$landscape-5} {
+      @include column-count(5);
+    }
+  }
+
+  .tool-container {
+    display: inline-block;
+    text-align: center;
+    padding: .5em;
+    width: 100%;
+  }
+
+  .tool {
+    border: 1px solid $light3;
+    border-radius: 3px;
+    background: $light1;
+    color: $dark1;
+    @include transition(background .2s, border .2s);
+
+    &>* {
+      padding: 10px;
+      margin: 0;
+      display: block;
+      border-bottom: 1px dashed $light3;
+      &:last-child {
+        border-bottom: 0
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: darken($dark2, 10%);
+      @include transition(color .2s);
+      &.alert {
+        color: $alert;
+      }
+      &:hover {
+        color: $dark3;
+      }
+    }
+
+    h2 {
+      @include transition(background .2s, color .2s);
+    }
+
+    &:hover {
+      background: $light2;
+      color: $dark3;
+    }
+
+    .icon.disabled {
+      &:before {
+        color: lighten($dark1, 50%);
+      }
+      &:after {
+        position: absolute;
+        text-align: center;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        line-height: 100%;
+        content: '\2014';
+        color: $light1;
+        margin-left: .1em;
+      }
+    }
+
+    p.categories {
+      small {
+        text-transform: lowercase;
+        &:after {
+          content: ', ';
+        }
+        &:last-child:after {
+          display: none;
+        }
+      }
+    }
+  }
+}

@@ -7,14 +7,14 @@ module.exports = function(grunt) {
           loadPath: [ 'vendor' ]
         },
         files: {
-          'public/stylesheets/application.css' : 'public/stylesheets/application.sass'
+          'public/stylesheets/application.css' : 'public/stylesheets/application.scss'
         }
       }
     },
 
     watch: {
       sass: {
-        files: [ 'public/stylesheets/**/*.sass', 'components/**/*.sass' ],
+        files: [ 'public/stylesheets/**/*.scss' ],
         tasks: [ 'sass:dist' ]
       }
     }

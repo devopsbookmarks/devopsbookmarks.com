@@ -1,0 +1,45 @@
+@function lower-bound($range) {
+  @if length($range) <= 0 {
+    @return 0px;
+  }
+  @else {
+    @return nth($range,1);
+  }
+}
+
+@function upper-bound($range) {
+  @if length($range) < 2 {
+    @return 999999999999px;
+  }
+  @else {
+    @return nth($range, 2);
+  }
+}
+
+@function resolution($range) {
+  $lower: lower-bound($range);
+  $upper: upper-bound($range);
+  @return "only screen and (min-width:#{$lower}) and (max-width:#{$upper})";
+}
+
+$portrait-1-range: (0px, 480px);
+$portrait-2-range: (480px, 640px);
+$landscape-1-range: (640px, 800px);
+$landscape-2-range: (800px, 1152px);
+$landscape-3-range: (1152px, 1440px);
+$landscape-4-range: (1440px, 1920px);
+$landscape-5-range: (1920px, 99999999px);
+
+$portrait-range: (lower-bound($portrait-1-range), upper-bound($portrait-2-range));
+$landscape-range: (lower-bound($landscape-1-range), upper-bound($landscape-5-range));
+
+$portrait: resolution($portrait-range);
+$landscape: resolution($landscape-range);
+
+$portrait-1: resolution($portrait-1-range);
+$portrait-2: resolution($portrait-2-range);
+$landscape-1: resolution($landscape-1-range);
+$landscape-2: resolution($landscape-2-range);
+$landscape-3: resolution($landscape-3-range);
+$landscape-4: resolution($landscape-4-range);
+$landscape-5: resolution($landscape-5-range);
