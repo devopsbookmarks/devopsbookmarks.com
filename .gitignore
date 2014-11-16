@@ -129,3 +129,5 @@ tmp/
 log/
 tags
 *.numbers
+public/stylesheets/application.css
+
