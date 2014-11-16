@@ -77,19 +77,6 @@ a, a:link, a:visited, a:active {
       background: rgba($dark2, .5);
     }
 
-    .tag {
-      @media #{$landscape} {
-        @include clearfix;
-      }
-      @media #{$portrait-1} {
-        @include clearfix;
-      }
-      @media #{$portrait-2} {
-        display: inline-block;
-        width: 50%;
-      }
-    }
-
     a, a:link, a:visited, a:active, a:hover {
       display: block;
       cursor: pointer;
@@ -99,7 +86,7 @@ a, a:link, a:visited, a:active {
       color: $light1;
       @include transition(background .2s);
 
-      @media #{$portrait} {
+      @media #{$portrait-1} {
         font-size: .9em;
       }
 
@@ -160,6 +147,16 @@ a, a:link, a:visited, a:active {
 
   @media #{$landscape} {
     margin-left: $sidebar-width;
+  }
+
+  .content-article {
+    color: $light2;
+    padding: 1rem;
+    line-height: 1.5;
+
+    a {
+      color: $light3;
+    }
   }
 
   .content-grid {

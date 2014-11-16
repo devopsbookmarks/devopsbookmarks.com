@@ -29,7 +29,8 @@ if (cluster.isMaster && process.env.NODE_ENV) {
     app.use(express.errorHandler());
   }
 
-  app.get(/^\/([a-zA-Z0-9+-]*)$/, require('./routes/tools'));
+  app.get('/', require('./routes/home'));
+  app.get(/^\/([a-zA-Z0-9+-]+)$/, require('./routes/tools'));
 
   http.createServer(app).listen(app.get('port'), function(){
     console.log('Express server listening on port ' + app.get('port'));

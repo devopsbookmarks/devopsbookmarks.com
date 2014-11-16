@@ -1,6 +1,5 @@
-
 /*
- * GET home page.
+ * GET tools page.
  */
 
 var _u = require('underscore');
