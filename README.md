@@ -17,3 +17,9 @@ As the intention is to have a free and permissive web application and
 content so these will be splt into separate repositories. The domain
 devopsbookmarks.com will eventually just be a consumer of these open
 tools.
+
+## Inspiration
+
+* http://www.unheap.com/
+* https://www.ruby-toolbox.com/
+
