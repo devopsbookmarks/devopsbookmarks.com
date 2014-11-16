@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "express"    : "3.4.7",
-    "jade"       : "*",
-    "underscore" : "*"
+    "ejs"        : "~1.0.0",
+    "underscore" : "~1.7.0"
   },
   "devDependencies": {
     "load-grunt-tasks"    : "~1.0.0",

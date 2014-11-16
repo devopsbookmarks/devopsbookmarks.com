@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title><%= title %></title>
+  <meta name="description" content="discover the latest devops tools and frameworks">
+
+  <link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Raleway:400" />
+  <link rel="stylesheet" media="all" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+  <link rel="stylesheet" media="all" href="/stylesheets/application.css" />
+</head>
+<body>
+
+  <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div class="container">
+
+    <!-- Sidebar -->
+    <div class="nav">
+      <div class="logo">
+        <a href="/">DevOps Bookmarks</a>
+      </div>
+
+      <!-- Platforms menu -->
+      <div class="platforms">
+        <h3>Platform</h3>
+        <% _u.each(platforms, function(tag) { %>
+          <div class="tag">
+            <% var active = _u.contains(tags, tag.slug); %>
+            <a class="toggle" href="<%= extraUrlFor(tag.slug, tags) %>">
+              <span class="icon <%= active ? 'fa fa-minus' : 'fa fa-plus' %>"></span>
+            </a>
+            <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, platforms, tags) %>">
+              <span class="icon <%= tag.icon %>"></span>
+              <%= tag.name %>
+            </a>
+          </div>
+        <% }); %>
+      </div>
+
+      <!-- Licenses menu -->
+      <div class="licenses">
+        <h3>License</h3>
+        <% _u.each(licenses, function(tag) { %>
+          <div class="tag">
+            <% var active = _u.contains(tags, tag.slug); %>
+            <a class="toggle" href="<%= extraUrlFor(tag.slug, tags) %>">
+              <span class="icon <%= active ? 'fa fa-minus' : 'fa fa-plus' %>"></span>
+            </a>
+            <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, licenses, tags) %>">
+              <span class="icon <%= tag.icon %>"></span>
+              <%= tag.name %>
+            </a>
+          </div>
+        <% }); %>
+      </div>
+
+      <!-- Categories menu -->
+      <div class="categories">
+        <h3>Category</h3>
+        <% _u.each(categories, function(tag) { %>
+          <div class="tag">
+            <% var active = _u.contains(tags, tag.slug); %>
+            <a class="toggle" href="<%= extraUrlFor(tag.slug, tags) %>">
+              <span class="icon <%= active ? 'fa fa-minus' : 'fa fa-plus' %>"></span>
+            </a>
+            <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, categories, tags) %>">
+              <%= tag.name %>
+            </a>
+          </div>
+        <% }); %>
+      </div>
+
+      <div class="meta">
+        <h3>Meta</h3>
+        <a>Submit a tool</a>
+        <a>About</a>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="content-grid">
+        <% _u.each(tools, function(tool) { %>
+
+          <div class="tool-container">
+            <div class="tool">
+              <h2>
+                <a href="<%= tool.url %>" rel="nofollow"><%= tool.name %></a>
+              </h2>
+              <p>
+                <%= tool.description %>
+              </p>
+              <p class="tags">
+                <% _u.each(platforms, function(tag) { %>
+                  <span class="icon <%= tag.icon %> <%= _u.contains(tool.tags, tag.slug) ? '' : 'disabled' %>" title="<%= tag.name %>"></span>
+                <% }); %>
+                <% _u.each(licenses, function(tag) { %>
+                  <span class="icon <%= tag.icon %> <%= _u.contains(tool.tags, tag.slug) ? '' : 'disabled' %>" title="<%= tag.name %>"></span>
+                <% }); %>
+              </p>
+              <p class="categories">
+                <% _u.each(tool.tags, function(category) { %>
+                  <% if (categories[category]) { %>
+                    <small><%= categories[category].name %></small>
+                  <% } %>
+                <% }); %>
+              </p>
+            </div>
+          </div>
+
+        <% }); %>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-56790151-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</body>
+</html>
