@@ -1,10 +1,18 @@
 module.exports = function(grunt) {
   grunt.initConfig({
+    bower: {
+      install: {
+        options: {
+          copy: false
+        }
+      }
+    },
+
     sass: {
       dist: {
         options: {
           style: 'compressed',
-          loadPath: [ 'vendor' ]
+          includePaths: [ 'bower_components' ]
         },
         files: {
           'public/stylesheets/application.css' : 'public/stylesheets/application.scss'
@@ -20,6 +28,6 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('default', [ 'sass:dist' ]);
+  grunt.registerTask('default', [ 'bower:install', 'sass:dist' ]);
   require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 }

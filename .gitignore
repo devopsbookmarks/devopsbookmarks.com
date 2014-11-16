@@ -115,6 +115,9 @@ node_modules
 # sftp configuration file
 sftp-config.json
 
+# Bower
+bower_components/
+
 ###
 ### CUSTOM GITIGNORES GO HERE
 ###
@@ -122,7 +125,7 @@ sftp-config.json
 *swp
 *gem
 .sass-cache
-vendor/
 tmp/
+log/
 tags
 *.numbers

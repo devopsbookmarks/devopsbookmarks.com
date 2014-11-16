@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+set -xe
+
+npm install
+grunt
+node app
