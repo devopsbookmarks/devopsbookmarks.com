@@ -29,5 +29,8 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('default', [ 'bower:install', 'sass:dist' ]);
+
+  grunt.registerTask('heroku', ['default']);
+
   require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 }
