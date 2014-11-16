@@ -1,0 +1,19 @@
+# Devops Bookmarks
+
+> To discover tools in the devops landscape.
+
+There are new awesome tools and frameworks being released everyday.
+This is an open and transparent attempt at aggregating all these tools
+and frameworks.
+
+## Contributing
+
+We're sorting out how to contribute to this project, please wait until
+further notice.
+
+## Roadmap
+
+As the intention is to have a free and permissive web application and
+content so these will be splt into separate repositories. The domain
+devopsbookmarks.com will eventually just be a consumer of these open
+tools.
