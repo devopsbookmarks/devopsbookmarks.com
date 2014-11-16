@@ -1523,6 +1523,7 @@ exports.tools=[
       "osx",
       "open-source",
       "provisioning"
-    ]
+    ],
+    url: "http://fgrehm.viewdocs.io/vagrant-cachier"
   }
 ];
