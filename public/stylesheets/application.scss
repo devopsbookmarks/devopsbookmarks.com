@@ -48,11 +48,9 @@ a, a:link, a:visited, a:active {
   -webkit-font-smoothing: subpixel-antialiased;
 
   @media #{$landscape} {
-    position: fixed;
-    float: left;
+    @include position(fixed, 0px auto 0px 0px);
     width: $sidebar-width;
     border-right: .3em solid rgba($dark2, .5);
-    height: 100%;
     overflow-y: auto;
     z-index: 2;
   }
@@ -76,10 +74,6 @@ a, a:link, a:visited, a:active {
       position: relative;
       color: $light1;
       @include transition(background .2s);
-
-      @media #{$portrait-1} {
-        font-size: .9em;
-      }
 
       &.toggle {
         float: right;
@@ -144,6 +138,10 @@ a, a:link, a:visited, a:active {
     color: $light2;
     padding: 1rem;
     line-height: 1.5;
+
+    h2 {
+      font-size: 2rem;
+    }
 
     a {
       color: $light3;
