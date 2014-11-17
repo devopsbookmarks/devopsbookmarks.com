@@ -9,7 +9,7 @@
   <meta name="description" content="discover the latest devops tools and frameworks">
 
   <link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Raleway:400" />
-  <link rel="stylesheet" media="all" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   <link rel="stylesheet" media="all" href="/stylesheets/application.css" />
 </head>
 <body>
@@ -24,33 +24,7 @@
     <div class="content">
       <div class="content-grid">
         <% _u.each(tools, function(tool) { %>
-
-          <div class="tool-container">
-            <div class="tool">
-              <h2>
-                <a href="<%= tool.url %>" rel="nofollow"><%= tool.name %></a>
-              </h2>
-              <p>
-                <%= tool.description %>
-              </p>
-              <p class="tags">
-                <% _u.each(platforms, function(tag) { %>
-                  <span class="icon <%= tag.icon %> <%= _u.contains(tool.tags, tag.slug) ? '' : 'disabled' %>" title="<%= tag.name %>"></span>
-                <% }); %>
-                <% _u.each(licenses, function(tag) { %>
-                  <span class="icon <%= tag.icon %> <%= _u.contains(tool.tags, tag.slug) ? '' : 'disabled' %>" title="<%= tag.name %>"></span>
-                <% }); %>
-              </p>
-              <p class="categories">
-                <% _u.each(tool.tags, function(category) { %>
-                  <% if (categories[category]) { %>
-                    <small><%= categories[category].name %></small>
-                  <% } %>
-                <% }); %>
-              </p>
-            </div>
-          </div>
-
+          <% include _tool %>
         <% }); %>
       </div>
     </div>

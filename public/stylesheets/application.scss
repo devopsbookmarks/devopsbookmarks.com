@@ -15,14 +15,6 @@ $font-weight: 300;
 @import "bower-bourbon/bourbon";
 @import "responsive";
 
-.icon {
-  display: inline-block;
-  width: 1em;
-  text-align: center;
-  margin: 0 5px 0 0;
-  position: relative;
-}
-
 *, *:before, *:after {
   @include box-sizing(border-box);
 }
@@ -217,21 +209,11 @@ a, a:link, a:visited, a:active {
       color: $dark3;
     }
 
-    .icon.disabled {
-      &:before {
-        color: lighten($dark1, 50%);
-      }
-      &:after {
-        position: absolute;
-        text-align: center;
-        display: block;
-        left: 0;
-        top: 0;
-        width: 100%;
-        line-height: 100%;
-        content: '\2014';
-        color: $light1;
-        margin-left: .1em;
+    p.tags {
+      i {
+        &.disabled {
+          opacity: .1;
+        }
       }
     }
 

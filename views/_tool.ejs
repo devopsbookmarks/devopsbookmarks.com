@@ -1,0 +1,26 @@
+<div class="tool-container">
+  <div class="tool">
+    <h2>
+      <a href="<%= tool.url %>" rel="nofollow"><%= tool.name %></a>
+    </h2>
+    <p>
+      <%= tool.description %>
+    </p>
+    <p class="tags">
+      <% _u.each(platforms, function(tag) { %>
+        <i class="<%= tag.icon %> <%= _u.contains(tool.tags, tag.slug) ? '' : 'disabled' %>" title="<%= tag.name %>"></i>
+      <% }); %>
+      &nbsp;&nbsp;
+      <% _u.each(licenses, function(tag) { %>
+        <i class="<%= tag.icon %> <%= _u.contains(tool.tags, tag.slug) ? '' : 'disabled' %>" title="<%= tag.name %>"></i>
+      <% }); %>
+    </p>
+    <p class="categories">
+      <% _u.each(tool.tags, function(category) { %>
+        <% if (categories[category]) { %>
+          <small><%= categories[category].name %></small>
+        <% } %>
+      <% }); %>
+    </p>
+  </div>
+</div>

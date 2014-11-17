@@ -13,29 +13,29 @@ function withCount(tags) {
 var platforms = [{
   slug: "linux",
   name: "Linux",
-  icon: "fa fa-linux"
+  icon: "fa fa-fw fa-linux"
 }, {
   slug: "windows",
   name: "Windows",
-  icon: "fa fa-windows"
+  icon: "fa fa-fw fa-windows"
 }, {
   slug: "osx",
   name: "OSX",
-  icon: "fa fa-apple"
+  icon: "fa fa-fw fa-apple"
 }];
 
 var licenses = [{
   slug: "open-source",
   name: "Open Source",
-  icon: "fa fa-code-fork"
+  icon: "fa fa-fw fa-code-fork"
 }, {
   slug: "free",
   name: "Free / Restricted",
-  icon: "fa fa-beer"
+  icon: "fa fa-fw fa-beer"
 }, {
   slug: "commercial",
   name: "Proprietary / Commercial",
-  icon: "fa fa-usd"
+  icon: "fa fa-fw fa-usd"
 }];
 
 var categories = [{
@@ -43,12 +43,6 @@ var categories = [{
   name: "Source Code Management",
   subcat: "Development"
 }, {
-
-//   slug: "dep-mgmt",
-//   name: "Dependency Management",
-//   subcat: "Development"
-// }, {
-
   slug: "ci",
   name: "Continuous Integration & Delivery",
   subcat: "Integration"
@@ -81,14 +75,6 @@ var categories = [{
   name: "Logging & Monitoring",
   subcat: "Maintenance"
 }];
-
-// Dependency Management (and thus Dev Environment Setup) => Merged with Virt/Containers/Provisioning
-// Configuration Management => ??
-// DevOps Testing
-// IRC / Communication => Merge with CI
-// Performance / Load Balancing
-// Backup?
-// Where to put Zookeeper/etcd ?
 
 exports.categories = withCount(categories);
 exports.platforms = withCount(platforms);

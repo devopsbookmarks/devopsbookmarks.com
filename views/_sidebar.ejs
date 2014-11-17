@@ -11,10 +11,10 @@
       <div class="tag">
         <% var active = _u.contains(tags, tag.slug); %>
         <a class="toggle" href="<%= extraUrlFor(tag.slug, tags) %>">
-          <span class="icon <%= active ? 'fa fa-minus' : 'fa fa-plus' %>"></span>
+          <i class="fa fa-fw <%= active ? 'fa-minus' : 'fa-plus' %>"></i>
         </a>
         <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, platforms, tags) %>">
-          <span class="icon <%= tag.icon %>"></span>
+          <i class="<%= tag.icon %>"></i>
           <%= tag.name %>
         </a>
       </div>
@@ -28,10 +28,10 @@
       <div class="tag">
         <% var active = _u.contains(tags, tag.slug); %>
         <a class="toggle" href="<%= extraUrlFor(tag.slug, tags) %>">
-          <span class="icon <%= active ? 'fa fa-minus' : 'fa fa-plus' %>"></span>
+          <i class="fa fa-fw <%= active ? 'fa-minus' : 'fa-plus' %>"></i>
         </a>
         <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, licenses, tags) %>">
-          <span class="icon <%= tag.icon %>"></span>
+          <i class="<%= tag.icon %>"></i>
           <%= tag.name %>
         </a>
       </div>
@@ -45,7 +45,7 @@
       <div class="tag">
         <% var active = _u.contains(tags, tag.slug); %>
         <a class="toggle" href="<%= extraUrlFor(tag.slug, tags) %>">
-          <span class="icon <%= active ? 'fa fa-minus' : 'fa fa-plus' %>"></span>
+          <i class="fa fa-fw <%= active ? 'fa-minus' : 'fa-plus' %>"></i>
         </a>
         <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, categories, tags) %>">
           <%= tag.name %>
