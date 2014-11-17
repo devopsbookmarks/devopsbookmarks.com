@@ -15,7 +15,7 @@ if (cluster.isMaster && process.env.NODE_ENV) {
   app.use(require('compression')());
   app.use(require('errorhandler')());
 
-  app.use('/static', express.static(__dirname + '/public'));
+  app.use(express.static(__dirname + '/public'));
   app.get('/', require('./routes/home'));
   app.get('/:tags', require('./routes/tools'));
 
