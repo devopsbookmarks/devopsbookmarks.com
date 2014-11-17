@@ -15,9 +15,9 @@ if (cluster.isMaster && process.env.NODE_ENV) {
   app.use(require('compression')());
   app.use(require('errorhandler')());
 
-  app.use(express.static(__dirname + '/public'));
+  app.use('/static', express.static(__dirname + '/public'));
   app.get('/', require('./routes/home'));
-  app.get(/^\/([a-zA-Z0-9+-]+)$/, require('./routes/tools'));
+  app.get('/:tags', require('./routes/tools'));
 
   app.listen(process.env.PORT || 3000);
 }
