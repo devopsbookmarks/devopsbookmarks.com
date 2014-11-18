@@ -228,4 +228,19 @@ a, a:link, a:visited, a:active {
       }
     }
   }
+
+  .random-tool {
+    h3 {
+      text-align: center;
+      color: $light2;
+      margin: 0 .5rem;
+      padding: .5rem;
+      border-bottom: 1px dashed $light2;
+    }
+
+    @media #{$landscape} {
+      width: $sidebar-width;
+      margin: 0 auto;
+    }
+  }
 }

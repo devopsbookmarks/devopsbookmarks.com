@@ -22,6 +22,7 @@ module.exports = function(req, res) {
     topics: data.topics,
     _u: _u,
     onlyUrlFor: onlyUrlFor,
-    extraUrlFor: extraUrlFor
+    extraUrlFor: extraUrlFor,
+    tool: _u.sample(data.tools)
   });
 }
