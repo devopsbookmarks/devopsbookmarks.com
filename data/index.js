@@ -19,7 +19,15 @@ walker.on('file', function(root, fileStats, next) {
     var toolStr = fs.readFileSync(root + '/' + fileStats.name, 'utf-8');
     var toolJson = JSON.parse(toolStr);
     toolJson.forEach(function(tool) {
-      tools['topics'] = '...'
+      tool.topics = _u.reduce(tool.tags, function(applied_topics, tag) {
+        return _u.reduce(topics, function(applied_topics, topic) {
+          if (_u.contains(topic.include_tags, tag)) {
+            applied_topics.push(topic.slug);
+          }
+          return applied_topics;
+        }, applied_topics);
+      }, []);
+
       tools.push(tool);
     });
   }

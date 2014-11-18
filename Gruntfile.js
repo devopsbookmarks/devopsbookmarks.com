@@ -39,7 +39,7 @@ module.exports = function(grunt) {
         tasks: [ 'sass:dist' ]
       },
       js: {
-        files: [ 'server.js', 'data/**/*.js', 'routes/**/*.js' ],
+        files: [ 'server.js', 'data/**/*.js', 'routes/**/*.js', 'data/**/*.json' ],
         tasks: [ 'express:dev' ]
       }
     }

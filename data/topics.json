@@ -1,28 +1,37 @@
 [{
   "name": "Source Code Management",
-  "slug": "scm"
+  "slug": "scm",
+  "include_tags": [ "scm", "vcs" ]
 }, {
   "name": "Continuous Integration & Delivery",
-  "slug": "ci"
+  "slug": "ci",
+  "include_tags": [ "ci" ]
 }, {
   "name": "Packaging & Artifacts",
-  "slug": "packaging"
+  "slug": "packaging",
+  "include_tags": [ "packaging" ]
 }, {
   "name": "Virtualization & Containers",
-  "slug": "virt"
+  "slug": "virt",
+  "include_tags": [ "virt" ]
 }, {
   "name": "Cloud & PaaS Environments",
-  "slug": "cloud-paas"
+  "slug": "cloud-paas",
+  "include_tags": [ "cloud-paas" ]
 }, {
   "name": "Provisioning",
-  "slug": "provisioning"
+  "slug": "provisioning",
+  "include_tags": [ "provisioning" ]
 }, {
   "name": "Orchestration",
-  "slug": "orchestration"
+  "slug": "orchestration",
+  "include_tags": [ "orchestration" ]
 }, {
   "name": "Process Management",
-  "slug": "process-mgmt"
+  "slug": "process-mgmt",
+  "include_tags": [ "process-mgmt" ]
 }, {
   "name": "Logging & Monitoring",
-  "slug": "monitoring"
+  "slug": "monitoring",
+  "include_tags": [ "monitoring" ]
 }]
