@@ -16,10 +16,8 @@
       <% }); %>
     </p>
     <p class="topics">
-      <% _u.each(tool.tags, function(topic) { %>
-        <% if (topics[topic]) { %>
-          <small><%= topics[topic].name %></small>
-        <% } %>
+      <% _u.each(tool.tags, function(tag) { %>
+        <small><%= tag %></small>
       <% }); %>
     </p>
   </div>
