@@ -4,6 +4,22 @@
     <a href="/"><h1>DevOps Bookmarks</h1></a>
   </div>
 
+  <!-- Topics menu -->
+  <div class="topics menu">
+    <h3>Topics</h3>
+    <% _u.each(topics, function(tag) { %>
+      <div class="tag">
+        <% var active = _u.contains(tags, tag.slug); %>
+        <a class="toggle" href="<%= extraUrlFor(tag.slug, tags) %>">
+          <i class="fa fa-fw <%= active ? 'fa-check-circle' : 'fa-circle-o' %>"></i>
+        </a>
+        <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, topics, tags) %>">
+          <%= tag.name %>
+        </a>
+      </div>
+    <% }); %>
+  </div>
+
   <!-- Platforms menu -->
   <div class="platforms menu">
     <h3>Platform</h3>
@@ -32,22 +48,6 @@
         </a>
         <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, licenses, tags) %>">
           <i class="<%= tag.icon %>"></i>
-          <%= tag.name %>
-        </a>
-      </div>
-    <% }); %>
-  </div>
-
-  <!-- Topics menu -->
-  <div class="topics menu">
-    <h3>Topics</h3>
-    <% _u.each(topics, function(tag) { %>
-      <div class="tag">
-        <% var active = _u.contains(tags, tag.slug); %>
-        <a class="toggle" href="<%= extraUrlFor(tag.slug, tags) %>">
-          <i class="fa fa-fw <%= active ? 'fa-check-circle' : 'fa-circle-o' %>"></i>
-        </a>
-        <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, topics, tags) %>">
           <%= tag.name %>
         </a>
       </div>
