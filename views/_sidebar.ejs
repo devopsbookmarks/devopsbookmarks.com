@@ -11,7 +11,7 @@
       <div class="tag">
         <% var active = _u.contains(tags, tag.slug); %>
         <a class="toggle" href="<%= extraUrlFor(tag.slug, tags) %>">
-          <i class="fa fa-fw <%= active ? 'fa-minus' : 'fa-plus' %>"></i>
+          <i class="fa fa-fw <%= active ? 'fa-check-circle' : 'fa-circle-o' %>"></i>
         </a>
         <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, platforms, tags) %>">
           <i class="<%= tag.icon %>"></i>
@@ -28,7 +28,7 @@
       <div class="tag">
         <% var active = _u.contains(tags, tag.slug); %>
         <a class="toggle" href="<%= extraUrlFor(tag.slug, tags) %>">
-          <i class="fa fa-fw <%= active ? 'fa-minus' : 'fa-plus' %>"></i>
+          <i class="fa fa-fw <%= active ? 'fa-check-circle' : 'fa-circle-o' %>"></i>
         </a>
         <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, licenses, tags) %>">
           <i class="<%= tag.icon %>"></i>
@@ -45,7 +45,7 @@
       <div class="tag">
         <% var active = _u.contains(tags, tag.slug); %>
         <a class="toggle" href="<%= extraUrlFor(tag.slug, tags) %>">
-          <i class="fa fa-fw <%= active ? 'fa-minus' : 'fa-plus' %>"></i>
+          <i class="fa fa-fw <%= active ? 'fa-check-circle' : 'fa-circle-o' %>"></i>
         </a>
         <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, categories, tags) %>">
           <%= tag.name %>

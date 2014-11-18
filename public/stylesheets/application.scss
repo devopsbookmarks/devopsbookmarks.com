@@ -79,6 +79,8 @@ a, a:link, a:visited, a:active {
         z-index: 100;
         overflow: hidden;
         text-align: center;
+        border-left: 1px dashed rgba($dark2, .33);
+
         .icon {
           margin-right: 0;
         }
