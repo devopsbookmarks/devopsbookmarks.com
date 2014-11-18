@@ -1,0 +1,28 @@
+[{
+  "name": "Source Code Management",
+  "slug": "scm"
+}, {
+  "name": "Continuous Integration & Delivery",
+  "slug": "ci"
+}, {
+  "name": "Packaging & Artifacts",
+  "slug": "packaging"
+}, {
+  "name": "Virtualization & Containers",
+  "slug": "virt"
+}, {
+  "name": "Cloud & PaaS Environments",
+  "slug": "cloud-paas"
+}, {
+  "name": "Provisioning",
+  "slug": "provisioning"
+}, {
+  "name": "Orchestration",
+  "slug": "orchestration"
+}, {
+  "name": "Process Management",
+  "slug": "process-mgmt"
+}, {
+  "name": "Logging & Monitoring",
+  "slug": "monitoring"
+}]

@@ -1,0 +1,13 @@
+[{
+  "name": "Linux",
+  "slug": "linux",
+  "icon": "fa fa-fw fa-linux"
+}, {
+  "name": "Windows",
+  "slug": "windows",
+  "icon": "fa fa-fw fa-windows"
+}, {
+  "name": "OSX",
+  "slug": "osx",
+  "icon": "fa fa-fw fa-apple"
+}]

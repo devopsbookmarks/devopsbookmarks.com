@@ -1,0 +1,13 @@
+[{
+  "name": "Open Source",
+  "slug": "open-source",
+  "icon": "fa fa-fw fa-code-fork"
+}, {
+  "name": "Free / Restricted",
+  "slug": "free",
+  "icon": "fa fa-fw fa-beer"
+}, {
+  "name": "Proprietary / Commercial",
+  "slug": "commercial",
+  "icon": "fa fa-fw fa-usd"
+}]
