@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "graylog",
+    "name": "Graylog 2",
+    "description": "An open source data analytics and reporting system, built on top of Java, Scala and ElasticSearch",
+    "tags": [
+      "linux",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "http://www.graylog2.org"
+  }
+]

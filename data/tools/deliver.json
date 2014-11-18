@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "deliver",
+    "name": "Deliver",
+    "description": "A pure bash-based deployment tool with virtually no dependencies except the shell.",
+    "tags": [
+      "linux",
+      "open-source",
+      "provisioning"
+    ],
+    "url": "https://github.com/gerhard/deliver"
+  }
+]

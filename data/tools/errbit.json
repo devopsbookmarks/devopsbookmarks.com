@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "errbit",
+    "name": "Errbit",
+    "description": "An open source, self-hosted error catching tool, which can collect and manage errors from other applications. It is compatible with the Airbrake API and can be used as a drop-in replacement.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "https://github.com/errbit/errbit"
+  }
+]

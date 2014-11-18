@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "rex",
+    "name": "Rex",
+    "description": "A agent-less server orchestration tool built on Perl",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "orchestration"
+    ],
+    "url": "http://www.rexify.org"
+  }
+]

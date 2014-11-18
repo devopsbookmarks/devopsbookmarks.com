@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "deployinator",
+    "name": "Deployinator",
+    "description": "A simple, rack-based deployment framework",
+    "tags": [
+      "linux",
+      "open-source",
+      "provisioning",
+      "orchestration"
+    ],
+    "url": "https://github.com/etsy/deployinator"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "buildstep",
+    "name": "Buildstep",
+    "description": "Buildstep uses Docker and small buildpack scripts to build applications like Heroku. It was used by Dokku to create a 100-line Heroku clone. There are many open source Buildpack scripts for various languages like Java, Ruby, Erlang, PHP, etc.",
+    "tags": [
+      "linux",
+      "open-source",
+      "cloud-paas"
+    ],
+    "url": "https://github.com/progrium/buildstep"
+  }
+]

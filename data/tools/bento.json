@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "bento",
+    "name": "Bento",
+    "description": "A modularized collection of Packer definitions for building machine images. A good place to start with Packer.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "virt"
+    ],
+    "url": "https://github.com/opscode/bento"
+  }
+]

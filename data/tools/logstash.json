@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "logstash",
+    "name": "Logstash",
+    "description": "A modern tool for managing events and logs, with an ElasticSearch backend which allows a high degree of searching and filtering. It includes a shipper in remote systems, indexer in the aggregator machine, and a Web UI.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "http://logstash.net"
+  }
+]

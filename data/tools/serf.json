@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "serf",
+    "name": "Serf",
+    "description": "Serf is a service discovery and orchestration tool which is highly decentralized, highly available, fault tolerant, cross platform and extremely lightweight.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "orchestration"
+    ],
+    "url": "http://www.serfdom.io/"
+  }
+]

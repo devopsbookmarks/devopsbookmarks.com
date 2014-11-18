@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "riemann",
+    "name": "Riemann",
+    "description": "Riemann aggregates events from servers and applications, notifies exceptions, tracks latency, collects system statistics and more, all with a powerful stream processing language",
+    "tags": [
+      "linux",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "http://riemann.io"
+  }
+]

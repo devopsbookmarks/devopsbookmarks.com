@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "fabric",
+    "name": "Fabric",
+    "description": "Fabric is a python framework to configure deployment or system administration tasks, and then run those tasks on local or remote systems. It uses SSH heavily for interacting with remote systems, and uses Roles to group tasks",
+    "tags": [
+      "linux",
+      "osx",
+      "open-source",
+      "orchestration"
+    ],
+    "url": "http://docs.fabfile.org/"
+  }
+]

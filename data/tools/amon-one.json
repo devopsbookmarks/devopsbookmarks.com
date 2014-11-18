@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "amon-one",
+    "name": "AmonOne",
+    "description": "A modern, self-hosted server monitoring system with system monitoring, process monitoring and notifications",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "https://github.com/martinrusev/amonone"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "boot2docker",
+    "name": "boot2docker",
+    "description": "boot2docker is a lightweight Linux distribution based on Tiny Core Linux made specifically to run Docker containers. It runs completely from RAM, weighs ~24MB and boots in a couple of seconds. Can be used as a base OS when running your own PaaS with Docker, or other kind of deployments.",
+    "tags": [
+      "linux",
+      "open-source",
+      "virt",
+      "cloud-paas"
+    ],
+    "url": "https://github.com/steeve/boot2docker"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "jenkins-ci",
+    "name": "Jenkins",
+    "description": "Jenkins is an open source, lightweight CI tool written in Java, with high extensibility and a fast release cycle. It was forked from Hudson after Oracle acquired it, and has since added significantly more features than the original",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "ci"
+    ],
+    "url": "http://jenkins-ci.org/"
+  }
+]

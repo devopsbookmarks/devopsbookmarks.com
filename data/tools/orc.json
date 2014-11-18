@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "orc",
+    "name": "Orc",
+    "description": "A model driven orchestration tool for deployment of application clusters",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "provisioning",
+      "orchestration"
+    ],
+    "url": "https://github.com/youdevise/orc/"
+  }
+]

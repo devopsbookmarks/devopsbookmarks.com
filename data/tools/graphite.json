@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "graphite",
+    "name": "Graphite",
+    "description": "Graphite is a visualization tool for statistics configured from various sources. You can create customizable reports and dashboards, and it is one of the preferred backends for Statsd",
+    "tags": [
+      "linux",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "http://graphite.readthedocs.org/"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "chocolatey",
+    "name": "Chocolatey",
+    "description": "Chocolatey is like apt-get for Windows. It can install packages and dependencies over the command line.",
+    "tags": [
+      "windows",
+      "open-source",
+      "packaging",
+      "provisioning"
+    ],
+    "url": "http://chocolatey.org/"
+  }
+]

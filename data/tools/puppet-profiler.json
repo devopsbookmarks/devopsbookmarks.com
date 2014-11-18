@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "puppet-profiler",
+    "name": "Puppet-profiler",
+    "description": "Find out what’s making your Puppet run so bloody slow",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "https://github.com/rodjek/puppet-profiler"
+  }
+]

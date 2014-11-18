@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "basebox-packer",
+    "name": "Basebox-Packer",
+    "description": "A comprehensive set of Packer definitions. It has quite a collection of 64 bit and 32 bit images for Vagrant VirtualBox and VMWare. A good place to learn Packer definitions.",
+    "tags": [
+      "linux",
+      "open-source",
+      "virt"
+    ],
+    "url": "https://github.com/misheska/basebox-packer"
+  }
+]

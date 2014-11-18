@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "buildbot",
+    "name": "Buildbot",
+    "description": "Buildbot is an open-source framework for automating software build, test, and release processes. It differs from other CI tools in that it is more of a betteries included Framework, rather than a tool, and can hence be grown to meet your own needs. One of the reasons it is used in many high profile open source projects like Chromium, Firefox, Webkit, Python, etc.",
+    "tags": [
+      "linux",
+      "open-source",
+      "ci"
+    ],
+    "url": "http://buildbot.net/"
+  }
+]

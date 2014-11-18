@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "metrics",
+    "name": "Metrics",
+    "description": "Captures JVM and application-level metrics for Java",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "https://github.com/codahale/metrics/"
+  }
+]

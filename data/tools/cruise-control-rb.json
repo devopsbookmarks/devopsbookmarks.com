@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "cruise-control-rb",
+    "name": "CruiseControl.rb",
+    "description": "CI server written in Ruby with a focus on simplicity and being easy to hack, open sourced by ThoughtWorks",
+    "tags": [
+      "linux",
+      "open-source",
+      "ci"
+    ],
+    "url": "https://github.com/thoughtworks/cruisecontrol.rb"
+  }
+]

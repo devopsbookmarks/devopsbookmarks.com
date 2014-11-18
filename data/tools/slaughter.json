@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "slaughter",
+    "name": "Slaughter",
+    "description": "A Perl tool for automating configuration, maintenance and management of large number of systems. Allows policies to be written in a central server and implement specific policies in various servers",
+    "tags": [
+      "linux",
+      "open-source",
+      "provisioning",
+      "orchestration"
+    ],
+    "url": "https://github.com/skx/slaughter"
+  }
+]

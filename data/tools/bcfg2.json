@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "bcfg2",
+    "name": "Bcfg2",
+    "description": "bee-config (Bcfg) 2 is a centralized configuration management server to configure large number of systems, built to be cross platform. Bcfg2 uses a simple XML based configuration model with intuitive items like packages, services, config files, dependencies, etc. This model is easily validatable and can be used to audit and reconcile remote systems.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "provisioning"
+    ],
+    "url": "http://bcfg2.org"
+  }
+]

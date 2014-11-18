@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "mina",
+    "name": "Mina",
+    "description": "A Ruby Rake-like DSL for fast deployment and automation, similar to Capistrano but faster and lesser overhead, since it creates only a single SSH connection for a deploy",
+    "tags": [
+      "linux",
+      "osx",
+      "open-source",
+      "orchestration"
+    ],
+    "url": "http://nadarei.co/mina/"
+  }
+]

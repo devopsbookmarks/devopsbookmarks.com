@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "statsd",
+    "name": "Statsd",
+    "description": "A network daemon that listens and collects statistics and sends aggregates to many pluggable backend services",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "https://github.com/etsy/statsd/"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "eucalyptus",
+    "name": "Eucalyptus",
+    "description": "An open source software for building Amazon EC2-compatible private and hybrid cloud platforms",
+    "tags": [
+      "linux",
+      "open-source",
+      "virt",
+      "cloud-paas"
+    ],
+    "url": "https://github.com/eucalyptus/eucalyptus"
+  }
+]

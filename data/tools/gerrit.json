@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "gerrit",
+    "name": "Gerrit",
+    "description": "A Web based code review and project management system for Git projects",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "scm"
+    ],
+    "url": "https://code.google.com/p/gerrit/"
+  }
+]

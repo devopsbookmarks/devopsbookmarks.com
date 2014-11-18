@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "opskeleton",
+    "name": "Opskeleton",
+    "description": "Bootstrap a DevOps infrastructure with some opinionated defaults (vagrant, puppet, librarian-puppet, git, etc), standard development guidelines, etc. Makes it very quick to get a DevOps team up and running",
+    "tags": [
+      "linux",
+      "open-source",
+      "scm",
+      "virt",
+      "provisioning",
+      "orchestration"
+    ],
+    "url": "https://github.com/narkisr/opskeleton"
+  }
+]

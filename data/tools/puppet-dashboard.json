@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "puppet-dashboard",
+    "name": "Puppet Dashboard",
+    "description": "A web interface for Puppet. It can view and analyze Puppet reports, assign Puppet classes and parameters to nodes, view inventory data and backed-up file contents, etc.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "https://github.com/sodabrew/puppet-dashboard"
+  }
+]

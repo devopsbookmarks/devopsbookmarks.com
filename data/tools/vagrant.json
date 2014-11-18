@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "vagrant",
+    "name": "Vagrant",
+    "description": "Vagrant is a cross platform tool to create, boot, configure and destroy development environments. It provides a simple configuration-based approach to take a base image, boot it up, provision it (using any other provisioners), SSH, port forward, and much more. It automates the process of booting up and configuring virtual machines. It supports various providers like VirtualBox, VMWare, AWS, LXC, etc.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "virt",
+      "provisioning"
+    ],
+    "url": "http://www.vagrantup.com/"
+  }
+]

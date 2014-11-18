@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "gitlab-ci",
+    "name": "GitLab CI",
+    "description": "GitLab CI integrates with GitLab and runs continuous integration builds whenever you check in code to any of your projects.",
+    "tags": [
+      "linux",
+      "open-source",
+      "ci"
+    ],
+    "url": "http://gitlab.org/gitlab-ci"
+  }
+]

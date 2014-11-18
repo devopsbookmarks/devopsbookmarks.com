@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "cabot",
+    "name": "Cabot",
+    "description": "Cabot is an open source, self hosted infrastructure monitoring tool. It can monitor your services and send telephone, SMS, email or chat alerts to your team whenever anything goes down, all without writing a single line of code.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "ci"
+    ],
+    "url": "http://cabotapp.com/"
+  }
+]

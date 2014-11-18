@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "kibana",
+    "name": "Kibana",
+    "description": "Kibana is a modern, beautiful visualization tool that works seamlessly with Logstash and ElasticSearch. It features a no-code setup, realtime analytics, and much more.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "http://www.elasticsearch.org/overview/kibana/"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "coreos",
+    "name": "CoreOS",
+    "description": "CoreOS is an extremely lightweight base OS for Docker. It installs just a kernel, systemd and docker, and then you use Docker to pull in any service that you want. Can be used as a base OS when running your own PaaS with Docker, or other kind of deployments.",
+    "tags": [
+      "linux",
+      "open-source",
+      "commercial",
+      "virt",
+      "cloud-paas"
+    ],
+    "url": "http://coreos.com"
+  }
+]

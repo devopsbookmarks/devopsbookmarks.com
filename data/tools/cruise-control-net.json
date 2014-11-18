@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "cruise-control-net",
+    "name": "CruiseControl.NET",
+    "description": "A CI server made in .Net, mostly targeting Windows/.net platforms but can support other languages too. It was developed as a language fork of the original CruiseControl CI project developed by ThoughtWorks",
+    "tags": [
+      "windows",
+      "open-source",
+      "ci"
+    ],
+    "url": "http://www.cruisecontrolnet.org/projects/ccnet/wiki/About"
+  }
+]

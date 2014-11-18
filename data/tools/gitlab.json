@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "gitlab",
+    "name": "GitLab",
+    "description": "GitLab is an open-source, fully featured git web frontend developed using Ruby on Rails. You can host this in your own server, create projects, repositories and teams, manage fine grained access permissions, add wikis, collaborate, raise and merge pull requests, and do much more through the web!",
+    "tags": [
+      "linux",
+      "open-source",
+      "scm"
+    ],
+    "url": "http://gitlab.org"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "cmb",
+    "name": "CMB (Cloud Message Bus)",
+    "description": "A notification service (like Amazon SQS and SNS), allows notifications to be published across many channels like Email, VoIP, SMS, etc",
+    "tags": [
+      "linux",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "https://github.com/Comcast/cmb"
+  }
+]

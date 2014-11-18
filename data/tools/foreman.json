@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "foreman",
+    "name": "Foreman",
+    "description": "A complete lifecycle management tool for servers, both self-hosted and in the cloud. It allows you to create and manage instances, build and deploy images, view and audit hosts, and much more! It works with Puppet or Chef, and has multiple interaction facilities like a web frontend, CLI and a RESTful API.",
+    "tags": [
+      "linux",
+      "open-source",
+      "virt",
+      "cloud-paas"
+    ],
+    "url": "http://theforeman.org/"
+  }
+]

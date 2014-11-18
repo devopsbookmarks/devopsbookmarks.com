@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "jclouds",
+    "name": "jclouds",
+    "description": "A Java Library for controlling cloud resources, with various plugins for many popular cloud providers.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "cloud-paas"
+    ],
+    "url": "http://jclouds.apache.org"
+  }
+]

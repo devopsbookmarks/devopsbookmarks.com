@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "fog",
+    "name": "Fog",
+    "description": "The Ruby Cloud API library. Provides a Ruby API for interacting and managing many cloud providers, such as spinning up new instances, terminating old ones, attaching storage, etc. Currently supports more than 20 providers, including EC2, Rackspace, Brightbox, etc.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "cloud-paas"
+    ],
+    "url": "http://fog.io/"
+  }
+]

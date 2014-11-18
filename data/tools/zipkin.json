@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "zipkin",
+    "name": "Zipkin",
+    "description": "A distributed request tracking system, useful for micro-service and distributed architectures written in Scala",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "http://twitter.github.io/zipkin/"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "sunzi",
+    "name": "Sunzi",
+    "description": "A shell-based pure provisioning tool which doesn’t try to do anything else. Has no dependencies other than the shell",
+    "tags": [
+      "linux",
+      "open-source",
+      "provisioning"
+    ],
+    "url": "https://github.com/kenn/sunzi"
+  }
+]

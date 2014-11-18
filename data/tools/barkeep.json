@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "barkeep",
+    "name": "Barkeep",
+    "description": "A simple, friendly and self-hosted code review tool for git projects, which is focused purely on code reviewing. Can support both pre and post-commit workflows.",
+    "tags": [
+      "linux",
+      "osx",
+      "open-source",
+      "scm"
+    ],
+    "url": "http://getbarkeep.org"
+  }
+]

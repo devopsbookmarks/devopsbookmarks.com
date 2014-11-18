@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "osv",
+    "name": "OSV",
+    "description": "An operating system for lightweight virtual machines, designed from ground-up to run a single application, similar to CoreOS",
+    "tags": [
+      "linux",
+      "open-source",
+      "virt"
+    ],
+    "url": "http://osv.io/"
+  }
+]

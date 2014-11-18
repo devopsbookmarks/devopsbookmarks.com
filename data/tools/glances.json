@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "glances",
+    "name": "Glances",
+    "description": "A cross-platform, curses-based monitoring tool written in Python",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "http://nicolargo.github.io/glances/"
+  }
+]

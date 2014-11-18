@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "vaurien",
+    "name": "Vaurien",
+    "description": "A Chaos Monkey for TCP, it randomly disconnects or stalls TCP connections in your application to test application tolerance and high availability. Makes sure you correctly handle these unexpected events",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "security"
+    ],
+    "url": ""
+  }
+]

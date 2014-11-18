@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "archipel",
+    "name": "Archipel",
+    "description": "A centralized tool for managing Virtual machines and instances, such as creating, booting, migrating, snapshots, packaging, networking, monitoring, VNC client and much more! Allows you to control virtual machines through web based UI or an IRC bot",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "virt",
+      "cloud-paas"
+    ],
+    "url": "http://archipelproject.org"
+  }
+]

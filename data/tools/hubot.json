@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "hubot",
+    "name": "Hubot",
+    "description": "Hubot is a chat bot that can be configured to do a variety of tasks. Apart from usual CI stuff like deploying, it can be interestingly configured to do different workflows like posting images, translating languages and integrating with Google Maps, and being a bot, it can be configured to ask questions like what is the current deployed version, etc.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "ci"
+    ],
+    "url": "http://hubot.github.com/"
+  }
+]

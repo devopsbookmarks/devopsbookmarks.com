@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "folsom",
+    "name": "Folsom",
+    "description": "Captures Erlang events and metrics",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "https://github.com/boundary/folsom"
+  }
+]

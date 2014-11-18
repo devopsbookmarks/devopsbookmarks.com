@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "ganglia",
+    "name": "Ganglia",
+    "description": "Ganglia is a distributed monitoring system for high performance computing systems such as clusters and grids. It is optimized for low overhead and high concurency.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "http://ganglia.sourceforge.net"
+  }
+]

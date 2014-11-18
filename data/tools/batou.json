@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "batou",
+    "name": "Batou",
+    "description": "Batou makes it easy to perform automated deployments. It combines Fabric's simplicty and SSH automation, with Puppet's declarative syntax and idempotence",
+    "tags": [
+      "linux",
+      "open-source",
+      "provisioning"
+    ],
+    "url": "http://batou.readthedocs.org"
+  }
+]

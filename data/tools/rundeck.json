@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "rundeck",
+    "name": "Rundeck",
+    "description": "Turns your operational procedures into self-service portal. Define common operational tasks in the Rundeck web portal, and safely hand it over to the rest of the team so that they can perform these tasks without you being around.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "orchestration"
+    ],
+    "url": "http://rundeck.org"
+  }
+]

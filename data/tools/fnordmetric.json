@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "fnordmetric",
+    "name": "FnordMetric",
+    "description": "A HTML5/Javascript API for collecting and visualizing time series data",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "http://fnordmetric.io"
+  }
+]

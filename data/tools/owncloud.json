@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "owncloud",
+    "name": "ownCloud",
+    "description": "A self-hosted personal cloud/social platform with contacts, calendars, file sharing, tasks, etc.",
+    "tags": [
+      "linux",
+      "open-source",
+      "cloud-paas"
+    ],
+    "url": "http://owncloud.org/six/"
+  }
+]

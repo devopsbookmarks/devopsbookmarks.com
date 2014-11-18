@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "librarian-puppet",
+    "name": "Librarian-Puppet",
+    "description": "Librarian-Puppet is a source structure and dependency manager for Puppet modules, similar to bundler for Ruby. Each Puppet module can be managed as a separate source repository with individual versioning, and can then be pulled into your Puppetfile.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "scm"
+    ],
+    "url": "https://github.com/rodjek/librarian-puppet"
+  }
+]

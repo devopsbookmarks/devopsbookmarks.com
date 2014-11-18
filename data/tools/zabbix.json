@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "zabbix",
+    "name": "Zabbix",
+    "description": "An open source, enterprise-class monitoring framework",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "http://www.zabbix.com/"
+  }
+]

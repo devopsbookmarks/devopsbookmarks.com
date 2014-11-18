@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "wix-toolset",
+    "name": "WiX Toolset",
+    "description": "Windows Installer XML (WiX) is an open source set of tools to create your own Windows installer packages using an XML configuration. It supports a lot of functionality, like many pre-built wizard interfaces, splitting packages into separate features, adding custom dialog boxes or wizard steps, upgrading and repairing existing installations, etc.",
+    "tags": [
+      "windows",
+      "open-source",
+      "packaging"
+    ],
+    "url": "http://wixtoolset.org/"
+  }
+]

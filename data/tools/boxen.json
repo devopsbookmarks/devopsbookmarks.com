@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "boxen",
+    "name": "Boxen",
+    "description": "Boxen automates the entire process of setting up a Mac development environment. It can clone your project, install toolchains, apply security policies, clone your dotfiles and much more.",
+    "tags": [
+      "osx",
+      "open-source",
+      "provisioning"
+    ],
+    "url": "http://boxen.github.com"
+  }
+]

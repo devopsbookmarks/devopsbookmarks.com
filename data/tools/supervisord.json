@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "supervisord",
+    "name": "Supervisor",
+    "description": "Supervisor can manage application processes. It can start and stop a group of processes, restart processes if any of them terminate (keep-alive), start multiple instances of the same process (process pooling), automatically manage PID files, and much more! Very useful if you need to manage multiple processes for your application.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "process-mgmt"
+    ],
+    "url": "http://supervisord.org/"
+  }
+]

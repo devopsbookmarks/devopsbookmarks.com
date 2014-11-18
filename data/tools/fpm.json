@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "fpm",
+    "name": "FPM",
+    "description": "Effing Package Managers (FPM) is a single tool that can generate rpm, deb, solaris, osx (pkg) and many other packages. It supports multiple inputs (directory, gem, egg, deb, etc) and can produce multiple outputs (rpm, deb, solaris, etc). It relieves the pain out of creating various kinds of packages.",
+    "tags": [
+      "linux",
+      "osx",
+      "open-source",
+      "packaging"
+    ],
+    "url": "https://github.com/jordansissel/fpm"
+  }
+]

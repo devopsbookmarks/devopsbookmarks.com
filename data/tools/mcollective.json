@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "mcollective",
+    "name": "MCollective",
+    "description": "Marionette Collective (MCollective) is an orchestration framework built on top of Puppet. It can interact with a large number of servers (using a pub-sub middleware) and can execute jobs in parallel",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "free",
+      "orchestration"
+    ],
+    "url": "http://docs.puppetlabs.com/mcollective/"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "herd",
+    "name": "Herd",
+    "description": "A bittorrent based file distribution system based on Twitter’s Murder. It uses BitTorrent to push artifacts and code very fast across thousands of servers.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "packaging"
+    ],
+    "url": "https://github.com/russss/Herd"
+  }
+]

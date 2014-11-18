@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "docker",
+    "name": "Docker",
+    "description": "Docker uses LXC to create and manage native, sandboxed virtual containers. LXC containers acts like a separate OSes, can install their own packages without affecting anything else, and overall have almost the same flexibility of VMs but without any of the virtualization overhead!  Docker adds a ton of features, like an elegant configuration file that automates many things (like port forwarding, disk/directory mounting, networking, etc), a way to create and share readymade images that can be distributed as appliances, etc.",
+    "tags": [
+      "linux",
+      "open-source",
+      "virt",
+      "cloud-paas",
+      "provisioning"
+    ],
+    "url": "http://www.docker.io"
+  }
+]

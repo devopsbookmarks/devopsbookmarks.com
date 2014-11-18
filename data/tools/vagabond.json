@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "vagabond",
+    "name": "Vagabond",
+    "description": "Builds local nodes for Chef using LXC (Linux Containers) which are lightweight virtual machines, thus making performance a lot faster",
+    "tags": [
+      "linux",
+      "open-source",
+      "virt"
+    ],
+    "url": "https://github.com/chrisroberts/vagabond"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "pallet",
+    "name": "Pallet",
+    "description": "A tool to provision and maintain servers across various cloud platforms as well as virtual machine platforms, without any dependencies. Provides cloud and operating system independence.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "cloud-paas"
+    ],
+    "url": "http://palletops.com/"
+  }
+]

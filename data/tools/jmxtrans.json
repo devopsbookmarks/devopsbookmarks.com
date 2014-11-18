@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "jmxtrans",
+    "name": "jmxtrans",
+    "description": "Plugs Java VM statistics via JMX to various backend monitoring tools",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "https://github.com/jmxtrans/jmxtrans"
+  }
+]

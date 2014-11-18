@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "opsbot",
+    "name": "OpsBot",
+    "description": "A pluggable, configurable bot for improving communication in operations",
+    "tags": [
+      "linux",
+      "open-source",
+      "ci"
+    ],
+    "url": "https://github.com/alcy/OpsBot"
+  }
+]

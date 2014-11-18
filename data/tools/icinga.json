@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "icinga",
+    "name": "Icinga",
+    "description": "Icinga is an enterprise-grade monitoring system. It was forked from Nagios and has added many often new features and patches, including a HTML5 UI, REST interface, dynamic tables, etc. It is also backwards compatible with Nagios, so all the existing plugins can be reused.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "https://www.icinga.org"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "collectd",
+    "name": "collectd",
+    "description": "A daemon that collects system performance statistics periodically, and provides tons of plugins to store and analyze these values",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring"
+    ],
+    "url": "http://collectd.org/"
+  }
+]
