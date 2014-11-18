@@ -26,7 +26,7 @@ var licenses = [{
   icon: "fa fa-fw fa-usd"
 }];
 
-var categories = [{
+var topics = [{
   slug: "scm",
   name: "Source Code Management",
   subcat: "Development"
@@ -65,7 +65,7 @@ var categories = [{
 }];
 
 module.exports = {
-  categories: categories,
+  topics: topics,
   platforms: platforms,
   licenses: licenses
 }

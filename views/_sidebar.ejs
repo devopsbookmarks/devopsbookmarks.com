@@ -38,16 +38,16 @@
     <% }); %>
   </div>
 
-  <!-- Categories menu -->
-  <div class="categories menu">
-    <h3>Category</h3>
-    <% _u.each(categories, function(tag) { %>
+  <!-- Topics menu -->
+  <div class="topics menu">
+    <h3>Topics</h3>
+    <% _u.each(topics, function(tag) { %>
       <div class="tag">
         <% var active = _u.contains(tags, tag.slug); %>
         <a class="toggle" href="<%= extraUrlFor(tag.slug, tags) %>">
           <i class="fa fa-fw <%= active ? 'fa-check-circle' : 'fa-circle-o' %>"></i>
         </a>
-        <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, categories, tags) %>">
+        <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, topics, tags) %>">
           <%= tag.name %>
         </a>
       </div>

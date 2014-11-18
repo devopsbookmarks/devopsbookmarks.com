@@ -3,7 +3,7 @@ var walk = require('walk');
 var fs = require('fs');
 var tools = [];
 
-exports.categories = _u.indexBy(require('./tags').categories, 'slug');
+exports.topics = _u.indexBy(require('./tags').topics, 'slug');
 exports.platforms = _u.indexBy(require('./tags').platforms, 'slug');
 exports.licenses = _u.indexBy(require('./tags').licenses, 'slug');
 exports.tools = tools;

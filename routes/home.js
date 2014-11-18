@@ -18,8 +18,8 @@ module.exports = function(req, res) {
   res.render('home', {
     tags: [],
     platforms: data.platforms,
-    categories: data.categories,
     licenses: data.licenses,
+    topics: data.topics,
     _u: _u,
     onlyUrlFor: onlyUrlFor,
     extraUrlFor: extraUrlFor

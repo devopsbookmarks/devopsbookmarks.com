@@ -19,12 +19,12 @@ module.exports = function(req, res) {
 
   tags = req.params.tags.split("+");
 
-  var selCategories = _u.intersection(tags, _u.keys(data.categories));
   var selPlatforms = _u.intersection(tags, _u.keys(data.platforms));
   var selLicenses = _u.intersection(tags, _u.keys(data.licenses));
+  var selTopics = _u.intersection(tags, _u.keys(data.topics));
 
   tools = _u.filter(tools, function(tool) {
-    return (selCategories.length == 0 || _u.intersection(selCategories, tool.tags).length > 0) &&
+    return (selTopics.length == 0 || _u.intersection(selTopics, tool.tags).length > 0) &&
            (selPlatforms.length == 0 || _u.intersection(selPlatforms, tool.tags).length > 0) &&
            (selLicenses.length == 0 || _u.intersection(selLicenses, tool.tags).length > 0);
   });
@@ -33,7 +33,7 @@ module.exports = function(req, res) {
     tools: tools,
     tags: tags,
     platforms: data.platforms,
-    categories: data.categories,
+    topics: data.topics,
     licenses: data.licenses,
     _u: _u,
     onlyUrlFor: onlyUrlFor,

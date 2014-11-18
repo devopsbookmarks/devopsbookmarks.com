@@ -15,10 +15,10 @@
         <i class="<%= tag.icon %> <%= _u.contains(tool.tags, tag.slug) ? '' : 'disabled' %>" title="<%= tag.name %>"></i>
       <% }); %>
     </p>
-    <p class="categories">
-      <% _u.each(tool.tags, function(category) { %>
-        <% if (categories[category]) { %>
-          <small><%= categories[category].name %></small>
+    <p class="topics">
+      <% _u.each(tool.tags, function(topic) { %>
+        <% if (topics[topic]) { %>
+          <small><%= topics[topic].name %></small>
         <% } %>
       <% }); %>
     </p>
