@@ -45,7 +45,7 @@ a, a:link, a:visited, a:active {
 .nav {
   background: rgba($dark1, .5);
   color: $light1;
-  -webkit-font-smoothing: subpixel-antialiased;
+  position: relative;
 
   @media #{$landscape} {
     @include position(fixed, 0px auto 0px 0px);
@@ -102,6 +102,11 @@ a, a:link, a:visited, a:active {
   }
 
   .logo {
+    h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+
     a, a:link, a:visited, a:active, a:hover {
       color: $light3;
       background: $dark3;
@@ -109,17 +114,11 @@ a, a:link, a:visited, a:active {
       display: block;
       text-transform: uppercase;
       text-decoration: none;
-      font-size: 24px;
       line-height: $header-height;
+      text-align: center;
       @include transition(color .2s, background .2s);
       &:hover {
         color: $light1;
-      }
-      @media #{$portrait} {
-        text-align: center;
-      }
-      @media #{$portrait-2} {
-        width: 100%;
       }
     }
   }

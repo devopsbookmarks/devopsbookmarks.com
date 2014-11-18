@@ -30,7 +30,6 @@ module.exports = function(req, res) {
   });
 
   res.render('tools', {
-    title: 'Devops Bookmarks',
     tools: tools,
     tags: tags,
     platforms: data.platforms,

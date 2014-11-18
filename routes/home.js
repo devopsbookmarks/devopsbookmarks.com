@@ -16,7 +16,6 @@ function extraUrlFor(tag, allTags) {
 
 module.exports = function(req, res) {
   res.render('home', {
-    title: 'DevOps Bookmarks',
     tags: [],
     platforms: data.platforms,
     categories: data.categories,

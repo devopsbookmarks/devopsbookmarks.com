@@ -1,15 +1,3 @@
-var tools = require('./tools').tools;
-var _u = require('underscore');
-
-function withCount(tags) {
-  _u.each(tags, function(tag) {
-    tag.count = _u.filter(tools, function(tool) {
-      return _u.contains(tool.tags, tag.slug);
-    }).length;
-  });
-  return tags;
-}
-
 var platforms = [{
   slug: "linux",
   name: "Linux",
@@ -76,6 +64,8 @@ var categories = [{
   subcat: "Maintenance"
 }];
 
-exports.categories = withCount(categories);
-exports.platforms = withCount(platforms);
-exports.licenses = withCount(licenses);
+module.exports = {
+  categories: categories,
+  platforms: platforms,
+  licenses: licenses
+}
