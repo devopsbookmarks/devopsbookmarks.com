@@ -1,12 +1,13 @@
 var cluster = require('cluster');
 
-if (cluster.isMaster && process.env.NODE_ENV) {
+if (cluster.isMaster) {
   var cpuCount = require('os').cpus().length;
   for (var i=0; i < cpuCount; i++)
     cluster.fork();
 } else {
   var express = require('express');
   var app = express();
+  var port = process.env.PORT || 3000;
 
   app.set('views', __dirname + '/views');
   app.set('view engine', 'ejs');
@@ -19,5 +20,6 @@ if (cluster.isMaster && process.env.NODE_ENV) {
   app.get('/', require('./routes/home'));
   app.get('/:tags', require('./routes/tools'));
 
-  app.listen(process.env.PORT || 3000);
+  app.listen(port);
+  console.log('Worker ' + cluster.worker.id + ' listening on port ' + port);
 }

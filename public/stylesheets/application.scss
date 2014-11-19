@@ -23,7 +23,6 @@ html {
   font: 14px "Raleway", "Roboto", Arial, sans-serif;
   font-weight: $font-weight;
   line-height: 1.25;
-  text-rendering: optimizeLegibility;
 }
 
 body {
@@ -55,7 +54,7 @@ a, a:link, a:visited, a:active {
     z-index: 2;
   }
 
-  &>* {
+  .menu {
     display: block;
     @include clearfix;
 
@@ -104,6 +103,8 @@ a, a:link, a:visited, a:active {
   }
 
   .logo {
+    background: $dark3;
+
     h1 {
       font-size: 24px;
       margin: 0;
@@ -111,7 +112,6 @@ a, a:link, a:visited, a:active {
 
     a, a:link, a:visited, a:active, a:hover {
       color: $light3;
-      background: $dark3;
       white-space: nowrap;
       display: block;
       text-transform: uppercase;
