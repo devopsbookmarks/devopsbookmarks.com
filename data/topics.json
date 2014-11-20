@@ -53,5 +53,9 @@
 }, {
   "name": "Error Tracking",
   "slug": "errors",
-  "include_tags": [ "errors" ]
+  "include_tags": [ "errors", "monitoring" ]
+}, {
+  "name": "Documentation",
+  "slug": "documentation",
+  "include_tags": ["documentation", "cms"]
 }]
