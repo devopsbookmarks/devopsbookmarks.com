@@ -1,0 +1,11 @@
+[
+  {
+    "slug": "google-docs",
+    "name": "Google Docs",
+    "description": "A powerful document creation platform. Supports features such as: realtime collaboration, offline document editing, inline document comments, search and full differential changelog.",
+    "tags": [
+      "documentation",
+    ],
+    "url": "http://www.google.com/docs/about/"
+  }
+]
