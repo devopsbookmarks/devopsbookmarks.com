@@ -34,4 +34,8 @@
   "name": "Logging & Monitoring",
   "slug": "monitoring",
   "include_tags": [ "monitoring" ]
+}, {
+  "name": "Documentation",
+  "slug": "documentation",
+  "include_tags": ["documentation", "cms"]
 }]
