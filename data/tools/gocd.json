@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "gocd",
+    "name": "GoCD",
+    "description": "Contiuous delivery and release management tool",
+    "url": "http://go.cd",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "ci"
+    ]
+  }
+]
