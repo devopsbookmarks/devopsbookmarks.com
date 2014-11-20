@@ -1,0 +1,12 @@
+
+[
+  {
+    "slug": "hackpad",
+    "name": "Hackpad",
+    "description": "A lightweight, markdown based, document creation platform packed full of features such as: realtime collaboration, offline document reading (via dropbox), in documment comments, search / tagging and full diff'd changelog.",
+    "tags": [
+      "documentation",
+    ],
+    "url": "http://www.hackpad.com/"
+  }
+]
