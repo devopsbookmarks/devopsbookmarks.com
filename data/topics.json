@@ -2,6 +2,10 @@
   "name": "Source Code Management",
   "slug": "scm",
   "include_tags": [ "scm", "vcs" ]
+}, { 
+  "name": "Configuration Management",
+  "slug": "config-management",
+  "include_tags": [ "cm", "config", "configuration", "config-management" ]
 }, {
   "name": "Continuous Integration & Delivery",
   "slug": "ci",
