@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "chef",
+    "name": "Chef",
+    "description": "Configuration management tool which uses a pure-Ruby, domain-specific language (DSL) for writing system configuration recipes. Supports Linux, UNIX, Windows, and AIX as first-class citizens for management.",
+    "tags": [
+      "linux",
+      "windows",
+      "open-source",
+      "provisioning",
+      "configuration-management"
+    ],
+    "url": "http://www.getchef.com"
+  }
+]
