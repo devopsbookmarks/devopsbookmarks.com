@@ -27,6 +27,10 @@
   "slug": "orchestration",
   "include_tags": [ "orchestration" ]
 }, {
+  "name": "Service Discovery",
+  "slug": "service-discovery",
+  "include_tags": [ "service-discovery" ]
+}, {
   "name": "Process Management",
   "slug": "process-mgmt",
   "include_tags": [ "process-mgmt" ]
