@@ -42,6 +42,18 @@ a, a:link, a:visited, a:active {
   text-decoration: none;
 }
 
+.browserupgrade {
+  @include position(absolute, 0px 0px auto 0px);
+  padding: 1rem;
+  margin: 0 !important;
+  z-index: 1000;
+  margin: 1rem auto;
+  text-align: center;
+  background: $alert;
+  color: $light1;
+  font-size: 1.2rem;
+}
+
 .nav {
   color: $light1;
   position: relative;
@@ -128,7 +140,7 @@ a, a:link, a:visited, a:active {
 
 .content {
   margin: 0;
-  padding: .5em;
+  padding: .5rem;
   color: $dark1;
 
   @media #{$landscape} {
@@ -150,7 +162,6 @@ a, a:link, a:visited, a:active {
   }
 
   .content-grid {
-    @include clearfix;
     @include column-count(1);
     @include column-gap(0);
 
@@ -174,7 +185,7 @@ a, a:link, a:visited, a:active {
   .tool-container {
     display: inline-block;
     text-align: center;
-    padding: .5em;
+    padding: .5rem;
     width: 100%;
   }
 
