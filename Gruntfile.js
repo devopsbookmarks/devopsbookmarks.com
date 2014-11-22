@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         options: {
-          style: 'compressed',
+          outputStyle: 'compressed',
           includePaths: [ 'bower_components' ]
         },
         files: {
