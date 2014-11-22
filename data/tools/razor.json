@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "puppet-razor",
+    "name": "Razor",
+    "description": "Razor is next generation provisioning software that handles bare metal hardware and virtual server provisioning",
+    "url": "https://github.com/puppetlabs/razor-server",
+    "tags": [
+      "linux",
+      "open-source",
+      "provisioning",
+    ]
+  }
+]
