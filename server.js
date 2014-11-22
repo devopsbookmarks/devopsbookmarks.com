@@ -14,7 +14,7 @@ if (cluster.isMaster) {
   app.set('view engine', 'ejs');
 
   app.use(require('connect-redirecthost').redirectHost('www.devopsbookmarks.com'));
-  app.use(require('morgan')('combined'));
+  app.use(require('morgan')('short'));
   app.use(require('compression')());
   app.use(require('errorhandler')());
 
