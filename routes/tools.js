@@ -24,9 +24,9 @@ module.exports = function(req, res) {
   var selTopics = _u.intersection(tags, _u.keys(data.topics));
 
   tools = _u.filter(tools, function(tool) {
-    return (selTopics.length == 0 || _u.intersection(selTopics, tool.topics).length > 0) &&
-           (selPlatforms.length == 0 || _u.intersection(selPlatforms, tool.tags).length > 0) &&
-           (selLicenses.length == 0 || _u.intersection(selLicenses, tool.tags).length > 0);
+    return (selTopics.length === 0 || _u.intersection(selTopics, tool.topics).length > 0) &&
+           (selPlatforms.length === 0 || _u.intersection(selPlatforms, tool.tags).length > 0) &&
+           (selLicenses.length === 0 || _u.intersection(selLicenses, tool.tags).length > 0);
   });
 
   res.render('tools', {
