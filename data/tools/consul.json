@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "consul",
+    "name": "Consul",
+    "description": "Consul makes it simple for services to register themselves and to discover other services via a DNS or HTTP interface. Register external services such as SaaS providers as well",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "service-discovery"
+    ],
+    "url": "https://consul.io/"
+  }
+]
