@@ -16,8 +16,15 @@ walker = walk.walk(__dirname + '/tools/');
 
 walker.on('file', function(root, fileStats, next) {
   if (fileStats.name.match(/.json$/)) {
-    var toolStr = fs.readFileSync(root + '/' + fileStats.name, 'utf-8');
-    var toolJson = JSON.parse(toolStr);
+    var toolStr = fs.readFileSync(root + fileStats.name, 'utf-8');
+
+    try {
+      var toolJson = JSON.parse(toolStr);
+    } catch (e) {
+      console.log("Failed to read file: " + root + fileStats.name);
+      return;
+    }
+
     toolJson.forEach(function(tool) {
 
       tool.topics = _u.reduce(tool.tags, function(applied_topics, tag) {
