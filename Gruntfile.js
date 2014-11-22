@@ -2,6 +2,14 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
 
   grunt.initConfig({
+    jshint: {
+      dist: {
+        files: {
+          src: [ 'server.js', 'routes/**/*.js', 'data/**/*.js', 'data/**/*.json' ]
+        }
+      }
+    },
+
     bower: {
       install: {
         options: {
@@ -45,7 +53,7 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('build', [ 'bower:install', 'sass:dist' ]);
+  grunt.registerTask('build', [ 'jshint', 'bower:install', 'sass:dist' ]);
   grunt.registerTask('dev', [ 'build', 'express:dev', 'watch' ]);
   grunt.registerTask('heroku', [ 'build' ]);
 

@@ -25,4 +25,4 @@ module.exports = function(req, res) {
     extraUrlFor: extraUrlFor,
     tool: _u.sample(data.tools)
   });
-}
+};
