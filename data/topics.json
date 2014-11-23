@@ -9,7 +9,7 @@
 }, {
   "name": "Packaging & Artifacts",
   "slug": "packaging",
-  "include_tags": [ "packaging" ]
+  "include_tags": [ "packaging", "artifacts" ]
 }, {
   "name": "Virtualization & Containers",
   "slug": "virt",
@@ -21,7 +21,7 @@
 }, {
   "name": "Configuration Management",
   "slug": "config-management",
-  "include_tags": [ "cm", "config", "configuration", "config-management" ]
+  "include_tags": [ "cm", "config", "config-mgmt" ]
 }, {
   "name": "Provisioning",
   "slug": "provisioning",

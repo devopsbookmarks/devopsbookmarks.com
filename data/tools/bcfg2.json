@@ -8,6 +8,7 @@
       "windows",
       "osx",
       "open-source",
+      "config-mgmt",
       "provisioning"
     ],
     "url": "http://bcfg2.org"
