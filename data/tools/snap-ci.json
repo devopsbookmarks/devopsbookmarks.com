@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "snap-ci",
+    "name": "Snap-CI",
+    "description": "Snap CI is a hosted CI/CD service from ThoughtWorks. Supports pipelines and stages, artifact management, debugging shells and integrates out-of-the-box with deployment platforms like Heroku. Provides free builds for open source projects.",
+    "url": "http://snap-ci.com",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "free",
+      "commercial",
+      "ci",
+      "cd"
+    ]
+  }
+]
