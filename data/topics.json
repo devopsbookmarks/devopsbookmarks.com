@@ -5,7 +5,7 @@
 }, {
   "name": "Continuous Integration & Delivery",
   "slug": "ci",
-  "include_tags": [ "ci" ]
+  "include_tags": [ "ci", "cd" ]
 }, {
   "name": "Packaging & Artifacts",
   "slug": "packaging",
