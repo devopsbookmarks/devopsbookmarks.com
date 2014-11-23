@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "dokku-alt",
+    "name": "Dokku Alt",
+    "description": "Dokku on Steroids. The smallest PaaS implementation you've ever seen. It's fork of original dokku. The idea behind this fork is to provide complete solution with plugins covering most of use-cases which are stable and well tested.",
+    "url": "https://github.com/dokku-alt/dokku-alt",
+    "tags": [
+      "linux",
+      "open-source",
+      "virt",
+      "cloud-paas",
+      "provisioning"
+    ]
+  }
+]
