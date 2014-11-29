@@ -55,6 +55,10 @@
   "slug": "ruby",
   "icon": "ruby"
 }, {
+  "name": "Scala",
+  "slug": "scala",
+  "icon": "scala"
+}, {
   "name": "Shell",
   "slug": "shell",
   "icon": "shell"
