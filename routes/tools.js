@@ -27,7 +27,8 @@ module.exports = function(req, res) {
   tools = _u.filter(tools, function(tool) {
     return (selTopics.length === 0 || _u.intersection(selTopics, tool.topics).length > 0) &&
            (selPlatforms.length === 0 || _u.intersection(selPlatforms, tool.tags).length > 0) &&
-           (selLicenses.length === 0 || _u.intersection(selLicenses, tool.tags).length > 0);
+           (selLicenses.length === 0 || _u.intersection(selLicenses, tool.tags).length > 0) &&
+           (selLanguages.length === 0 || _u.intersection(selLanguages, tool.tags).length > 0);
   });
 
   res.render('tools', {

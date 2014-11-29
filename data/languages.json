@@ -1,19 +1,31 @@
 [{
   "name": "Actionscript",
-  "slug": "Actionscript",
-  "icon": "Actionscript"
+  "slug": "actionscript",
+  "icon": "actionscript"
 }, {
   "name": "C",
-  "slug": "C",
-  "icon": "C"
+  "slug": "c",
+  "icon": "c"
 }, {
   "name": "C++",
-  "slug": "C++",
-  "icon": "C++"
+  "slug": "c++",
+  "icon": "c++"
 }, {
   "name": "C#",
-  "slug": "C#",
-  "icon": "C#"
+  "slug": "c#",
+  "icon": "c#"
+}, {
+  "name": "Clojure",
+  "slug": "clojure",
+  "icon": "clojure"
+}, {
+  "name": "PHP",
+  "slug": "php",
+  "icon": "php"
+}, {
+  "name": "Perl",
+  "slug": "perl",
+  "icon": "perl"
 }, {
   "name": "Java",
   "slug": "java",
