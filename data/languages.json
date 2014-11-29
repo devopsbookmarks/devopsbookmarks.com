@@ -1,9 +1,37 @@
 [{
+  "name": "Actionscript",
+  "slug": "Actionscript",
+  "icon": "Actionscript"
+}, {
+  "name": "C",
+  "slug": "C",
+  "icon": "C"
+}, {
+  "name": "C++",
+  "slug": "C++",
+  "icon": "C++"
+}, {
+  "name": "C#",
+  "slug": "C#",
+  "icon": "C#"
+}, {
+  "name": "Java",
+  "slug": "java",
+  "icon": "java"
+}, {
+  "name": "node.js",
+  "slug": "nodejs",
+  "icon": "nodejs"
+}, {
   "name": "Python",
   "slug": "python",
   "icon": "python"
 }, {
   "name": "Ruby",
   "slug": "ruby",
-  "icon": "ruby",
+  "icon": "ruby"
+}, {
+  "name": "Go",
+  "slug": "go",
+  "icon": "go"
 }]
