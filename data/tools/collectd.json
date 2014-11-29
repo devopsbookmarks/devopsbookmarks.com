@@ -8,7 +8,8 @@
       "windows",
       "osx",
       "open-source",
-      "monitoring"
+      "monitoring",
+      "c"
     ],
     "url": "http://collectd.org/"
   }

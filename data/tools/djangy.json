@@ -8,7 +8,8 @@
       "windows",
       "osx",
       "open-source",
-      "cloud-paas"
+      "cloud-paas",
+      "python"
     ],
     "url": "https://github.com/dpaola2/djangy"
   }

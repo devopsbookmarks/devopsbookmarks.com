@@ -8,7 +8,8 @@
       "windows",
       "osx",
       "open-source",
-      "process-mgmt"
+      "process-mgmt",
+      "python"
     ],
     "url": "http://supervisord.org/"
   }

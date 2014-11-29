@@ -8,7 +8,8 @@
       "windows",
       "osx",
       "open-source",
-      "orchestration"
+      "orchestration",
+      "java"
     ],
     "url": "http://rundeck.org"
   }

@@ -7,7 +7,8 @@
       "linux",
       "open-source",
       "config-mgmt",
-      "provisioning"
+      "provisioning",
+      "perl"
     ],
     "url": "http://fai-project.org"
   }

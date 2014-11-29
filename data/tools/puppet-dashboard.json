@@ -8,7 +8,8 @@
       "windows",
       "osx",
       "open-source",
-      "monitoring"
+      "monitoring",
+      "ruby"
     ],
     "url": "https://github.com/sodabrew/puppet-dashboard"
   }

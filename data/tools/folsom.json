@@ -8,7 +8,8 @@
       "windows",
       "osx",
       "open-source",
-      "monitoring"
+      "monitoring",
+      "erlang"
     ],
     "url": "https://github.com/boundary/folsom"
   }

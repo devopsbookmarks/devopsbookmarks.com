@@ -10,7 +10,8 @@
       "virt",
       "cloud-paas",
       "orchestration",
-      "service-discovery"
+      "service-discovery",
+      "go"
     ]
   }
 ]
