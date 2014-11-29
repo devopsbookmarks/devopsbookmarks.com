@@ -1,0 +1,9 @@
+[{
+  "name": "Python",
+  "slug": "python",
+  "icon": "python"
+}, {
+  "name": "Ruby",
+  "slug": "ruby",
+  "icon": "ruby",
+}]
