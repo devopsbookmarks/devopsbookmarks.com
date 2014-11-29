@@ -54,6 +54,23 @@
     <% }); %>
   </div>
 
+  <!-- Languages menu -->
+  <div class="languages menu">
+    <h3>License</h3>
+    <% _u.each(languages, function(tag) { %>
+      <div class="tag">
+        <% var active = _u.contains(tags, tag.slug); %>
+        <a class="toggle" href="<%= extraUrlFor(tag.slug, tags) %>">
+          <i class="fa fa-fw <%= active ? 'fa-check-circle' : 'fa-circle-o' %>"></i>
+        </a>
+        <a class="<%= active ? 'active' : '' %>" href="<%= onlyUrlFor(tag.slug, languages, tags) %>">
+          <i class="<%= tag.icon %>"></i>
+          <%= tag.name %>
+        </a>
+      </div>
+    <% }); %>
+  </div>
+
   <div class="meta menu">
     <h3>Meta</h3>
     <a href="https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/CONTRIBUTING.md">Submit a tool</a>
