@@ -8,7 +8,8 @@
       "windows",
       "osx",
       "open-source",
-      "service-discovery"
+      "service-discovery",
+      "go"
     ],
     "url": "https://consul.io/"
   }

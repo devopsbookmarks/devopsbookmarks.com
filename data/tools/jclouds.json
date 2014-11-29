@@ -8,7 +8,8 @@
       "windows",
       "osx",
       "open-source",
-      "cloud-paas"
+      "cloud-paas",
+      "java"
     ],
     "url": "http://jclouds.apache.org"
   }

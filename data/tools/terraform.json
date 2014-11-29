@@ -8,7 +8,8 @@
       "windows",
       "osx",
       "open-source",
-      "cloud-paas"
+      "cloud-paas",
+      "go"
     ],
     "url": "https://www.terraform.io/"
   }

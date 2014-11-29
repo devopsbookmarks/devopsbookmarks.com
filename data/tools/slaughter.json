@@ -8,7 +8,8 @@
       "open-source",
       "config-mgmt",
       "provisioning",
-      "orchestration"
+      "orchestration",
+      "perl"
     ],
     "url": "https://github.com/skx/slaughter"
   }

@@ -9,7 +9,8 @@
       "osx",
       "open-source",
       "virt",
-      "provisioning"
+      "provisioning",
+      "ruby"
     ],
     "url": "http://www.vagrantup.com/"
   }

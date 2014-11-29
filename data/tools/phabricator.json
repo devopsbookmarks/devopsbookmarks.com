@@ -7,7 +7,8 @@
       "linux",
       "osx",
       "open-source",
-      "scm"
+      "scm",
+      "php"
     ],
     "url": "http://phabricator.org"
   }

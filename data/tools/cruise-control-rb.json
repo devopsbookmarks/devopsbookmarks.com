@@ -6,7 +6,8 @@
     "tags": [
       "linux",
       "open-source",
-      "ci"
+      "ci",
+      "ruby"
     ],
     "url": "https://github.com/thoughtworks/cruisecontrol.rb"
   }

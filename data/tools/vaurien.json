@@ -8,8 +8,9 @@
       "windows",
       "osx",
       "open-source",
-      "security"
+      "security",
+      "python"
     ],
-    "url": ""
+    "url": "http://vaurien.readthedocs.org/"
   }
 ]

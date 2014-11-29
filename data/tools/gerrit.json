@@ -8,7 +8,8 @@
       "windows",
       "osx",
       "open-source",
-      "scm"
+      "scm",
+      "java"
     ],
     "url": "https://code.google.com/p/gerrit/"
   }

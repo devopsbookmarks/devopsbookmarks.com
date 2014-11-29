@@ -8,7 +8,8 @@
       "windows",
       "osx",
       "open-source",
-      "monitoring"
+      "monitoring",
+      "java"
     ],
     "url": "https://github.com/codahale/metrics/"
   }

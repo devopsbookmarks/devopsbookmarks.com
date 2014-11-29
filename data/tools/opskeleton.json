@@ -10,7 +10,8 @@
       "virt",
       "config-mgmt",
       "provisioning",
-      "orchestration"
+      "orchestration",
+      "ruby"
     ],
     "url": "https://github.com/narkisr/opskeleton"
   }

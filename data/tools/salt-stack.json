@@ -9,7 +9,8 @@
       "commercial",
       "config-mgmt",
       "provisioning",
-      "orchestration"
+      "orchestration",
+      "python"
     ],
     "url": "http://www.saltstack.com/community/"
   }

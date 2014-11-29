@@ -8,7 +8,8 @@
       "windows",
       "osx",
       "open-source",
-      "process-mgmt"
+      "process-mgmt",
+      "ruby"
     ],
     "url": "http://godrb.com/"
   }

@@ -6,7 +6,8 @@
     "tags": [
       "linux",
       "open-source",
-      "ci"
+      "ci",
+      "ruby"
     ],
     "url": "http://gitlab.org/gitlab-ci"
   }
