@@ -11,29 +11,41 @@
   "slug": "c++",
   "icon": "c++"
 }, {
-  "name": "C#",
-  "slug": "c#",
-  "icon": "c#"
-}, {
   "name": "Clojure",
   "slug": "clojure",
   "icon": "clojure"
 }, {
-  "name": "PHP",
-  "slug": "php",
-  "icon": "php"
+  "name": "Erlang",
+  "slug": "erlang",
+  "icon": "erlang"
 }, {
-  "name": "Perl",
-  "slug": "perl",
-  "icon": "perl"
+  "name": "Go",
+  "slug": "go",
+  "icon": "go"
 }, {
   "name": "Java",
   "slug": "java",
   "icon": "java"
 }, {
+  "name": ".NET",
+  "slug": "net",
+  "icon": "net"
+}, {
   "name": "node.js",
   "slug": "nodejs",
   "icon": "nodejs"
+}, {
+  "name": "Perl",
+  "slug": "perl",
+  "icon": "perl"
+}, {
+  "name": "PHP",
+  "slug": "php",
+  "icon": "php"
+}, {
+  "name": "PowerShell",
+  "slug": "powershell",
+  "icon": "powershell"
 }, {
   "name": "Python",
   "slug": "python",
@@ -43,7 +55,7 @@
   "slug": "ruby",
   "icon": "ruby"
 }, {
-  "name": "Go",
-  "slug": "go",
-  "icon": "go"
+  "name": "Shell",
+  "slug": "shell",
+  "icon": "shell"
 }]
