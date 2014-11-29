@@ -19,6 +19,7 @@ module.exports = function(req, res) {
     tags: [],
     platforms: data.platforms,
     licenses: data.licenses,
+    languages: data.languages,
     topics: data.topics,
     _u: _u,
     onlyUrlFor: onlyUrlFor,
