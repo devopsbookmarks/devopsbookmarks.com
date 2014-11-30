@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "landscape",
+    "name": "Landscape.io",
+    "description": "Landscape.io provides hosted continuous static analysis for Python. After every commit, code is inspected to find errors, code smells and find style guide violations. It integrates with GitHub, and provides trends and comparisons between commits and branches.",
+    "tags": [
+      "free",
+      "commercial",
+      "ci",
+      "scm",
+      "python"
+    ],
+    "url": "http://landscape.io"
+  }
+]
