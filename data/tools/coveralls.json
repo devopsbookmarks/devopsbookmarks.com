@@ -7,7 +7,6 @@
       "free",
       "commercial",
       "ci",
-      "scm",
     ],
     "url": "https://coveralls.io"
   }
