@@ -14,6 +14,10 @@
       <% _u.each(licenses, function(tag) { %>
         <i class="<%= tag.icon %> <%= _u.contains(tool.tags, tag.slug) ? '' : 'disabled' %>" title="<%= tag.name %>"></i>
       <% }); %>
+      &nbsp;&nbsp;
+      <% _u.each(languages, function(tag) { %>
+        <i class="<%= tag.icon %> <%= _u.contains(tool.tags, tag.slug) ? '' : 'disabled' %>" title="<%= tag.name %>"></i>
+      <% }); %>
     </p>
     <p class="topics">
       <% _u.each(tool.tags, function(tag) { %>

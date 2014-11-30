@@ -9,7 +9,8 @@
       "windows",
       "open-source",
       "virt",
-      "packaging"
+      "packaging",
+      "ruby"
     ],
     "url": "https://github.com/jedi4ever/veewee"
   }

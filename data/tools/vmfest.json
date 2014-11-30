@@ -9,7 +9,8 @@
       "osx",
       "open-source",
       "virt",
-      "cloud-paas"
+      "cloud-paas",
+      "clojure"
     ],
     "url": "https://github.com/tbatchelli/vmfest"
   }

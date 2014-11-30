@@ -6,7 +6,8 @@
     "tags": [
       "linux",
       "open-source",
-      "provisioning"
+      "provisioning",
+      "shell"
     ],
     "url": "https://github.com/bltavares/kickstart"
   }

@@ -7,7 +7,8 @@
       "linux",
       "osx",
       "open-source",
-      "scm"
+      "scm",
+      "ruby"
     ],
     "url": "http://getbarkeep.org"
   }

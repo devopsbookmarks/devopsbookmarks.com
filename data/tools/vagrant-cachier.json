@@ -9,7 +9,8 @@
       "osx",
       "open-source",
       "virt",
-      "artifacts"
+      "artifacts",
+      "ruby"
     ],
     "url": "http://fgrehm.viewdocs.io/vagrant-cachier"
   }

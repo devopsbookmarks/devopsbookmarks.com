@@ -9,7 +9,8 @@
       "open-source",
       "virt",
       "packaging",
-      "provisioning"
+      "provisioning",
+      "powershell"
     ]
   }
 ]

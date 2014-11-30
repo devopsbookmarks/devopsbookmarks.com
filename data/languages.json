@@ -1,0 +1,65 @@
+[{
+  "name": "Actionscript",
+  "slug": "actionscript",
+  "icon": "actionscript"
+}, {
+  "name": "C",
+  "slug": "c",
+  "icon": "c"
+}, {
+  "name": "C++",
+  "slug": "c++",
+  "icon": "c++"
+}, {
+  "name": "Clojure",
+  "slug": "clojure",
+  "icon": "clojure"
+}, {
+  "name": "Erlang",
+  "slug": "erlang",
+  "icon": "erlang"
+}, {
+  "name": "Go",
+  "slug": "go",
+  "icon": "go"
+}, {
+  "name": "Java",
+  "slug": "java",
+  "icon": "java"
+}, {
+  "name": ".NET",
+  "slug": "net",
+  "icon": "net"
+}, {
+  "name": "node.js",
+  "slug": "nodejs",
+  "icon": "nodejs"
+}, {
+  "name": "Perl",
+  "slug": "perl",
+  "icon": "perl"
+}, {
+  "name": "PHP",
+  "slug": "php",
+  "icon": "php"
+}, {
+  "name": "PowerShell",
+  "slug": "powershell",
+  "icon": "powershell"
+}, {
+  "name": "Python",
+  "slug": "python",
+  "icon": "python"
+}, {
+  "name": "Ruby",
+  "slug": "ruby",
+  "icon": "ruby"
+}, {
+  "name": "Scala",
+  "slug": "scala",
+  "icon": "scala"
+}, {
+  "name": "Shell",
+  "slug": "shell",
+  "icon": "shell"
+}]

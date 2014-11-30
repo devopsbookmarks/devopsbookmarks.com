@@ -9,7 +9,8 @@
       "osx",
       "open-source",
       "config-mgmt",
-      "provisioning"
+      "provisioning",
+      "python"
     ],
     "url": "http://bcfg2.org"
   }

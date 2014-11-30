@@ -8,7 +8,8 @@
       "windows",
       "osx",
       "open-source",
-      "ci"
+      "ci",
+      "java"
     ],
     "url": "http://jenkins-ci.org/"
   }

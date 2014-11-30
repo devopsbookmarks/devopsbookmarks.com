@@ -9,7 +9,8 @@
       "osx",
       "open-source",
       "config-mgmt",
-      "provisioning"
+      "provisioning",
+      "ruby"
     ],
     "url": "https://github.com/bfirsh/loom"
   }

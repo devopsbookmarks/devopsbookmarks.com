@@ -8,7 +8,8 @@
       "open-source",
       "provisioning",
       "config-mgmt",
-      "orchestration"
+      "orchestration",
+      "python"
     ],
     "url": "http://www.ansibleworks.com"
   }

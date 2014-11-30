@@ -21,12 +21,14 @@ module.exports = function(req, res) {
 
   var selPlatforms = _u.intersection(tags, _u.keys(data.platforms));
   var selLicenses = _u.intersection(tags, _u.keys(data.licenses));
+  var selLanguages = _u.intersection(tags, _u.keys(data.languages));
   var selTopics = _u.intersection(tags, _u.keys(data.topics));
 
   tools = _u.filter(tools, function(tool) {
     return (selTopics.length === 0 || _u.intersection(selTopics, tool.topics).length > 0) &&
            (selPlatforms.length === 0 || _u.intersection(selPlatforms, tool.tags).length > 0) &&
-           (selLicenses.length === 0 || _u.intersection(selLicenses, tool.tags).length > 0);
+           (selLicenses.length === 0 || _u.intersection(selLicenses, tool.tags).length > 0) &&
+           (selLanguages.length === 0 || _u.intersection(selLanguages, tool.tags).length > 0);
   });
 
   res.render('tools', {
@@ -35,6 +37,7 @@ module.exports = function(req, res) {
     platforms: data.platforms,
     topics: data.topics,
     licenses: data.licenses,
+    languages: data.languages,
     _u: _u,
     onlyUrlFor: onlyUrlFor,
     extraUrlFor: extraUrlFor

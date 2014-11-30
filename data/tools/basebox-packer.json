@@ -6,7 +6,8 @@
     "tags": [
       "linux",
       "open-source",
-      "virt"
+      "virt",
+      "bash?"
     ],
     "url": "https://github.com/misheska/basebox-packer"
   }
