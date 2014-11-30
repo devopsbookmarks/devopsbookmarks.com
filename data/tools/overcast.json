@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "overcast",
+    "name": "Overcast",
+    "description": "A simple command line program designed to make it easy to spin up, configure, and interact with any number of machines over SSH. Supported providers include AWS, DigitalOcean, Linode and Virtualbox.",
+    "tags": [
+      "linux",
+      "osx",
+      "open-source",
+      "provisioning",
+      "config-mgmt",
+      "orchestration",
+      "nodejs"
+    ],
+    "url": "http://andrewchilds.github.io/overcast/"
+  }
+]
