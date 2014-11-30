@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "elita",
+    "name": "Elita",
+    "description": "Deployment system & automation framework",
+    "url": "https://bitbucket.org/scorebig/elita",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "ci",
+      "packaging",
+      "orchestration"
+    ]
+  }
+]
