@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "server-density",
+    "name": "Server Density",
+    "description": "SaaS server and availability monitoring providing alerting, historical graphing, dashboards and log search.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "freebsd",
+      "monitoring",
+      "python",
+      "commercial"
+    ],
+    "url": "https://www.serverdensity.com"
+  }
+]
