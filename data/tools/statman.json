@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "statman",
+    "name": "Statman",
+    "description": "Statman makes it possible to instrument and collect statistics from your high-traffic production Erlang systems with very low overhead. The collected data points are aggregated in the VM and can be sent to services like Graphite, Munin, New Relic, etc.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "monitoring",
+      "erlang"
+    ],
+    "url": "https://github.com/knutin/statman"
+  }
+]
