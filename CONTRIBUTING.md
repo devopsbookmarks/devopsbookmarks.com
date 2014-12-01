@@ -14,7 +14,7 @@
         "url": "<URL to project homepage>",
         "tags": [
           // Mention Platform
-          // ref: https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/data/topics.json
+          // ref: https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/data/platforms.json
           "linux",
           "windows",
           "osx",
