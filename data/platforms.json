@@ -10,4 +10,12 @@
   "name": "OSX",
   "slug": "osx",
   "icon": "fa fa-fw fa-apple"
+}, {
+  "name": "Solaris",
+  "slug": "solaris",
+  "icon": ""
+}, {
+  "name": "BSD",
+  "slug": "bsd",
+  "icon": ""
 }]

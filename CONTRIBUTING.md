@@ -18,6 +18,8 @@
           "linux",
           "windows",
           "osx",
+          "bsd",
+          "solaris",
 
           // Mention License
           // ref: https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/data/licenses.json
