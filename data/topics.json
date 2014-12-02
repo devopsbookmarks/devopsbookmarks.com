@@ -17,7 +17,7 @@
 }, {
   "name": "Cloud & PaaS Environments",
   "slug": "cloud-paas",
-  "include_tags": [ "cloud-paas" ]
+  "include_tags": [ "cloud", "cloud-paas", "paas" ]
 }, {
   "name": "Configuration Management",
   "slug": "config-management",
@@ -41,5 +41,9 @@
 }, {
   "name": "Logging & Monitoring",
   "slug": "monitoring",
-  "include_tags": [ "monitoring" ]
+  "include_tags": [ "logging", "monitoring" ]
+}, {
+  "name": "Metrics & Visualization",
+  "slug": "metrics-visualization",
+  "include_tags": [ "metrics", "visualization" ]
 }]
