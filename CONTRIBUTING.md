@@ -36,6 +36,7 @@
       }
     ]
     ```
-* Raise a pull request and select label as `tools`
+* Raise a pull request
 * Discuss in the pull request
 * Once its merged, enjoy the satisfaction of contributing. Snap-CI will do the rest.
+p
