@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "semaphore",
+    "name": "Semaphore",
+    "description": "Semaphore is a hosted continuous integration and deployment service for open source and private projects. Its cloud solution helps developers find bugs before they reach users and deliver new features faster.",
+    "url": "https://semaphoreapp.com/",
+    "tags": [
+      "linux",
+      "open-source",
+      "free",
+      "commercial",
+      "ci",
+      "ruby",
+      "php",
+      "node-js"
+    ]
+  }
+]
