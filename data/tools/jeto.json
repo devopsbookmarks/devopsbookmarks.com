@@ -5,18 +5,8 @@
     "description": "Streamline your web projects from development from production. Jeto is a web interface for several ReST APIs (nginx-api, vagrant-worker and htpasswd-api). With Ĵeto you add and manage (start/stop/provision) vagrant projects on the fly via a nice and easy to use web interface.",
     "url": "http://jeto.io",
     "tags": [
-      // Mention Platform
-      // ref: https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/data/platforms.json
       "linux",
-
-      // Mention License
-      // ref: https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/data/licenses.json
       "open-source",
-
-      // And add tags related to this tool
-      // Tags are grouped into topic
-      // Cross verify if these tags belong to a topic
-      // ref: https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/data/topics.json
       "cloud", 
       "cloud-paas", 
       "paas",
