@@ -46,4 +46,8 @@
   "name": "Metrics & Visualization",
   "slug": "metrics-visualization",
   "include_tags": [ "metrics", "visualization" ]
+}, {
+  "name": "Security & Hardening",
+  "slug": "security",
+  "include_tags": [ "security", "hardening" ]
 }]
