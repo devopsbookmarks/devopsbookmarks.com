@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "ffwd",
+    "name": "FastForward",
+    "description": "Flexible operating-system event and metric forwarding agent.  Receives input and forwards output using plugins.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "metrics",
+      "monitoring",
+      "ruby"
+    ],
+    "url": "https://github.com/spotify/ffwd"
+  }
+]
