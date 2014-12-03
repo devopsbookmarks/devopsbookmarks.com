@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "jeto",
+    "name": "ĵeto",
+    "description": "Streamline your web projects from development from production. Jeto is a web interface for several ReST APIs (nginx-api, vagrant-worker and htpasswd-api). With Ĵeto you add and manage (start/stop/provision) vagrant projects on the fly via a nice and easy to use web interface.",
+    "url": "http://jeto.io",
+    "tags": [
+      "linux",
+      "open-source",
+      "cloud", 
+      "cloud-paas", 
+      "paas",
+      "ci", 
+      "cd",
+      "virt",
+      "provisioning",
+      "orchestration",
+      "python" 
+
+    ]
+  }
+]
