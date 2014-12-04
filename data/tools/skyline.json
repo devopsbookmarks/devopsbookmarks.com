@@ -1,0 +1,16 @@
+[
+    {
+        "slug": "skyline",
+        "name": "Skyline",
+        "description": "Skyline is a real-time* anomaly detection* system*, built to enable passive monitoring of hundreds of thousands of metrics, without the need to configure a model/thresholds for each one, as you might do with Nagios. It is designed to be used wherever there are a large quantity of high-resolution timeseries which need constant monitoring.",
+        "url": "https://github.com/etsy/skyline",
+        "tags": [
+            "linux",
+            "osx",
+            "bsd",
+            "open-source",
+            "free",
+            "metrics"
+        ]
+    }
+]

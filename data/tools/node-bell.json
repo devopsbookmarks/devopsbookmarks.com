@@ -1,0 +1,16 @@
+[
+    {
+        "slug": "node-bell",
+        "name": "Node-Bell",
+        "description": "Node-Bell is a real-time anomalies detection system for periodic time series, built to be able to monitor a large quantity of metrics. It collects metrics from clients like statsd, analyzes them with the 3-sigma rule and visualizes results on the web. Once enough anomalies were found in a short time, it alerts you via alerters like hipchat.",
+        "url": "https://github.com/eleme/node-bell",
+        "tags": [
+            "linux",
+            "osx",
+            "bsd",
+            "open-source",
+            "free",
+            "metrics"
+        ]
+    }
+]
