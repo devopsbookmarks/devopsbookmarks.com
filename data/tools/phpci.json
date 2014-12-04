@@ -1,0 +1,14 @@
+[{
+    "slug": "phpci",
+    "name": "PHPCI",
+    "description": "Free and open source continuous integration specifically designed for PHP.",
+    "url": "https://www.phptesting.org/",
+    "tags": [
+        "osx",
+        "open-source",
+        "free",
+        "bsd",
+        "ci",
+        "cd"
+    ]
+}]
