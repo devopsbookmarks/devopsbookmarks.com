@@ -2,7 +2,7 @@
   {
     "slug": "travis-ci",
     "name": "Travis-CI",
-    "description": "Travis CI is a hosted CI service free for open source communities. It directly integrates with GitHub, BitBucket and many other version control systems, and offers deep support for a variety of languages.",
+    "description": "Travis CI is a hosted CI service free for open source communities. It directly integrates with GitHub, BitBucket and many other version control systems, and offers deep support for a variety of languages. Travis also has an Enterprise version that can be installed on your own servers.",
     "tags": [
       "linux",
       "free",
