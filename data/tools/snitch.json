@@ -1,0 +1,21 @@
+[
+  {
+    "slug": "snitch",
+    "name": "Snitch",
+    "description": "SaaS SSL monitoring and alerting. Snitch audits for revocation, expiration, changes to the certificate, known security vulnerabilities, and best practices. Snitch worries about your SSL/TLS certificate so you don't have to",
+    "tags": [
+      "monitoring",
+      "commercial",
+      "linux",
+      "windows",
+      "freebsd",
+      "bsd",
+      "solaris",
+      "osx",
+      "metrics",  
+      "security",
+      "hardening"
+    ],
+    "url": "https://snitch.io"
+  }
+]
