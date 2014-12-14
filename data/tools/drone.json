@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "drone",
+    "name": "Drone",
+    "description": "Drone is a Continuous Integration platform built on Docker, written in Go",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "ci",
+      "go"
+    ],
+    "url": "https://github.com/drone/drone"
+  }
+]
