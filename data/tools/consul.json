@@ -9,7 +9,8 @@
       "osx",
       "open-source",
       "service-discovery",
-      "go"
+      "go",
+      "monitoring"
     ],
     "url": "https://consul.io/"
   }
