@@ -5,6 +5,8 @@
     "description": "Puppet is a tool designed to manage the configuration of Unix-like and Microsoft Windows systems declaratively.",
     "tags": [
       "linux",
+      "windows",
+      "osx",
       "open-source",
       "config-mgmt",
       "ruby"
