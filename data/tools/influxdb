@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "influxdb",
+    "name": "InfluxDB",
+    "description": "InfluxDB is a time series, metrics, and analytics database. It’s written in Go and has no external dependencies. InfluxDB is targeted at use cases for DevOps, metrics, sensor data, and real-time analytics.",
+    "tags": [
+      "linux",
+      "open-source",
+      "monitoring",
+      "go",
+      "metrics"
+    ],
+    "url": "http://influxdb.com/"
+  }
+]
