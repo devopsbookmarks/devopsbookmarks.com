@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "codeine",
+    "name": "Codeine",
+    "description": "Codeine is a continuous deployment tool that makes product deployment faster and safer through automation and monitoring.",
+    "url": "https://github.com/codeine-cd/codeine",
+    "tags": [
+      "linux",
+      "windows",
+
+      "open-source",
+    
+      "cd",
+      "monitoring"
+    
+    ]
+  }
+]
