@@ -1,0 +1,19 @@
+[
+  {
+    "slug": "honeybadger",
+    "name": "Honeybadger",
+    "description": "Honeybadger is a hosted monitoring service that tracks errors happening in your applications, aggregates them, and notifies you about them based on rules you define. Honeybadger gives you the insight you need to diagnose and fix application errors, faster.",
+    "tags": [
+      "linux",
+      "open-source",
+      "free",
+      "commercial",
+      "monitoring",
+      "ruby",
+      "nodejs",
+      "php",
+      "java"
+    ],
+    "url": "https://www.honeybadger.io"
+  }
+]
