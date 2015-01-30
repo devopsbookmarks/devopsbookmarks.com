@@ -9,10 +9,9 @@
       "windows",
       "osx",
       "bsd",
-
       "open-source",
-
       "cloud-paas",
+      "python",
     ]
   }
 ]
