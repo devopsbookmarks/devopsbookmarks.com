@@ -1,0 +1,20 @@
+[
+    {
+        "slug": "elasticbox",
+        "name": "ElasticBox",
+        "description": "ElasticBox is an enterprise DevOps platform for IT teams to deliver applications frequently at low costs and with fewer failures. Applications are much easier to automate, orchestrate, deploy, and manage on private, public or hybrid clouds. IT teams can use the platform to align with business needs in an agile, transparent, and collaborative way.",
+        "tags": [
+            "linux",
+            "osx",
+            "solaris",
+            "windows",
+            "commercial",
+            "free",
+            "cloud-paas",
+            "config-management",
+            "provisioning",
+            "orchestration"
+        ],
+        "url": "https://elasticbox.com/"
+    }
+]
