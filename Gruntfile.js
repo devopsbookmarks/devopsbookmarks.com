@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     jshint: {
       dist: {
         files: {
-          src: [ 'server.js', 'routes/**/*.js', 'data/**/*.js', 'data/**/*.json' ]
+          src: [ 'server.js', 'cluster.js', 'routes/**/*.js', 'data/**/*.js', 'data/**/*.json' ]
         }
       }
     },
