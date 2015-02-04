@@ -12,7 +12,7 @@ $header-height: 56px;
 $font-weight: 300;
 
 @import "normalize-scss/normalize";
-@import "bower-bourbon/bourbon";
+@import "bourbon/app/assets/stylesheets/bourbon";
 @import "responsive";
 
 *, *:before, *:after {
