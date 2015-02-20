@@ -5,6 +5,8 @@
     "description": "Salt is a powerful and different approach to infrastructure management, by focusing on high speed communications between large number of systems, and can perform orchestration, remote code execution and much more.",
     "tags": [
       "linux",
+      "windows",
+      "osx",
       "open-source",
       "commercial",
       "config-mgmt",

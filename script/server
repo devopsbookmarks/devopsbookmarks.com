@@ -2,5 +2,5 @@
 
 set -xe
 
-npm install
+npm install --no-bin-links
 grunt dev

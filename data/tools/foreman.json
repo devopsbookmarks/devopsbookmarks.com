@@ -7,6 +7,9 @@
       "linux",
       "open-source",
       "virt",
+      "config-mgmt",
+      "provisioning",
+      "monitoring",
       "cloud-paas",
       "ruby"
     ],

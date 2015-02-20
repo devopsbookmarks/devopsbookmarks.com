@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "cfengine",
+    "name": "CFEgine",
+    "description": "An open source configuration management system whose primary function is to provide stable and resilient automated configuration and maintenance of large-scale computer systems, including the unified management of servers, desktops, embedded networked devices, mobile smartphones, and tablet computers. It is an agent based system that is fully distributed and autonomous. It is very lightweight, fast, portable, and flexible with a strong security track record.",
+    "tags": [
+      "linux",
+      "Solaris",
+      "Windows",
+      "open-source",
+      "commercial",
+      "config-mgmt",
+      "C"
+    ],
+    "url": "http://cfengine.com"
+  }
+]

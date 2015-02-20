@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "grafana",
+    "name": "Grafana",
+    "description": "Graphite and InfluxDB dashboard and graph composer",
+    "url": "http://grafana.org/",
+    "tags": [
+      "linux",
+      "open-source",
+      "monitoring"
+    ]
+  }
+]

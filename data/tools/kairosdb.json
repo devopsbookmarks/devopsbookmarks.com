@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "kairosdb",
+    "name": "KairosDB",
+    "description": "KairosDB is a fast distributed scalable time series database written on top of Cassandra.  RESTful JSON-based query/results.  Includes flot-based visualization.",
+    "url": "https://github.com/kairosdb/kairosdb",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "metrics",
+      "visualization",
+      "java",
+      "cassandra"
+    ]
+  }
+]

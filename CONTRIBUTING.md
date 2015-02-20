@@ -18,6 +18,8 @@
           "linux",
           "windows",
           "osx",
+          "bsd",
+          "solaris",
 
           // Mention License
           // ref: https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/data/licenses.json
@@ -36,6 +38,7 @@
       }
     ]
     ```
-* Raise a pull request and select label as `tools`
+* Raise a pull request
 * Discuss in the pull request
 * Once its merged, enjoy the satisfaction of contributing. Snap-CI will do the rest.
+p

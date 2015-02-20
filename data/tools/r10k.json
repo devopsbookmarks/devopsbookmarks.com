@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "r10k",
+    "name": "r10k",
+    "description": "r10k provides a general purpose toolset for deploying Puppet environments and modules. It implements the Puppetfile format and provides a native implementation of Puppet dynamic environments.",
+    "url": "https://github.com/puppetlabs/r10k",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "free",
+      "scm"
+    ]
+  }
+]

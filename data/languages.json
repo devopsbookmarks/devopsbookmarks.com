@@ -8,8 +8,8 @@
   "icon": "c"
 }, {
   "name": "C++",
-  "slug": "c++",
-  "icon": "c++"
+  "slug": "cpp",
+  "icon": "cpp"
 }, {
   "name": "Clojure",
   "slug": "clojure",

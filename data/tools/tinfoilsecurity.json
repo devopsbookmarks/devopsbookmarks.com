@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "tinfoil-security",
+    "name": "Tinfoil Security",
+    "description": "Thorough web application security testing, with an extensive API, easy to hook into CI and issue tracking tools.",
+    "url": "https://www.tinfoilsecurity.com",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "free",
+      "commercial",
+      "ci",
+      "monitoring",
+      "security"
+    ]
+  }
+]

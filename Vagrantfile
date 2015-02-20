@@ -14,9 +14,13 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
      fi;
   SCRIPT
 
-  config.vm.provision :shell, privileged: false, inline: <<-SCRIPT
+  config.vm.provision :shell, privileged: true, inline: <<-SCRIPT
     cd /vagrant
     mkdir -p log
+
+
+    echo 'Fix potential git problem with Bower set up and connecting to github'
+    git config --global url."https://".insteadOf git://
 
     # piping output because express crashes when stdout/stderr is disconnected
     killall node

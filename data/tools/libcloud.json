@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "libcloud",
+    "name": "Apache Libcloud",
+    "description": "Python library for interacting with many of the popular cloud service providers using a unified API.",
+    "url": "https://libcloud.apache.org/",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "bsd",
+      "open-source",
+      "cloud-paas",
+      "python"
+    ]
+  }
+]
