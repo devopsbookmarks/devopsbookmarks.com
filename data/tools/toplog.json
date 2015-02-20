@@ -5,10 +5,13 @@
     "description": "Find and be alerted to abnormal patterns and lines in your logs.  topLog not only lets you aggregate your logs, whether they are system or application, into one place and then gives you pro-active insights and alarms.  Know when your logs are telling you things are going wrong before they actually do.",
     "tags": [
       "linux",
+      "bsd",
+      "windows",
       "application",
       "monitoring",
       "java",
-      "commercial"
+      "commercial",
+      "free"
     ],
     "url": "http://toplog.io"
   }
