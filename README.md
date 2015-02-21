@@ -14,6 +14,13 @@ and frameworks.
 
 Refer to [CONTRIBUTING.md](https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/CONTRIBUTING.md)
 
+## Development
+
+* Make sure you have VirtualBox and Vagrant installed
+* Clone this repository
+* Run `vagrant up` to provision the VM
+* Run `vagrant ssh -c /vagrant/script/server` to start the server
+
 ## Inspiration
 
 * http://www.unheap.com/
