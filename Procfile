@@ -1,1 +1,1 @@
-web: node server
+web: node cluster
