@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "bitrise",
+    "name": "Bitrise",
+    "description": "Automate your iOS development: Bitrise helps you automate your daily mobile app development tasks from building through testing to deployment. With Bitrise you can configure these tasks with a unique, visual workflow editor, where all of the steps are open source. If the step you need is not in our collection you can create your own and share it with others.",
+    "url": "https://www.bitrise.io",
+    "tags": [
+      "osx",
+      "open-source",
+      "free",
+      "commercial",
+      "ci", "cd",
+      "cloud", "cloud-paas", "paas"
+    ]
+  }
+]
