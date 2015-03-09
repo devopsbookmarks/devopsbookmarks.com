@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "tsuru",
+    "name": "tsuru",
+    "description": "tsuru is an extensible and open source Platform as a Service (PaaS) that makes application deployments faster and easier. Its built upon Docker and allows you easily manage and scale your applications.",
+    "tags": [
+      "linux",
+      "open-source",
+      "virt",
+      "cloud-paas",
+      "go"
+    ],
+    "url": "https://tsuru.io"
+  }
+]
