@@ -1,0 +1,12 @@
+[
+  {
+    "slug": "packagecloud",
+    "name": "packagecloud",
+    "description": "A hosted platform for managing software package repositories. Apt, yum, and rubygems repositories without the headaches.",
+    "tags": [
+      "linux",
+      "packaging"
+    ],
+    "url": "http://www.packagecloud.io"
+  }
+]
