@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "prometheus",
+    "name": "Prometheus",
+    "description": "Prometheus is an open-source systems monitoring and alerting toolkit built at SoundCloud.",
+    "tags": [
+      "linux",
+      "open-source",
+      "monitoring",
+      "go",
+      "metrics",
+      "monitoring"
+    ],
+    "url": "http://prometheus.io/"
+  }
+]
