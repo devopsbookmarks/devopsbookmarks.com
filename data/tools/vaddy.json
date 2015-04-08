@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "vaddy",
+    "name": "VAddy",
+    "description": "VAddy integrates with your existing CI tools and performs robust security checks. Cloud-Based Service Automates Security Tests for DevOps Teams.",
+    "url": "http://vaddy.net/",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "free",
+      "commercial",
+      "ci",
+      "cloud",
+      "security"
+    ]
+  }
+]
