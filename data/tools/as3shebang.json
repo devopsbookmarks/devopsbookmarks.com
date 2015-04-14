@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "as3shebang",
+    "name": "AS3shebang",
+    "description": "Run ActionScript 3.0 shell scripts",
+    "url": "https://github.com/Corsaair/as3shebang",
+    "tags": [
+      "linux",
+      "osx",
+      "open-source",
+      "config",
+      "shell",
+      "actionscript"
+    ]
+  }
+]
