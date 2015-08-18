@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "healthchecks",
+    "name": "Healthchecks",
+    "description": "Cron Monitoring. Get Notified When Your Cron Jobs Fail",
+    "url": "https://healthchecks.io",
+    "tags": [
+      "free",
+      "linux",
+      "open-source",
+      "monitoring",
+      "cron",
+      "python"
+    ]
+  }
+]
