@@ -1,0 +1,19 @@
+[
+  {
+    "slug": "splunk",
+    "name": "Splunk",
+    "description": "Splunk captures, indexes and correlates data (usually logs) in a searchable repository from which it can generate graphs, reports, alerts, dashboards and visualizations. Splunk provides searching time field parsing, so users can index any clear text data into splunk and extract the reqired fields later when needed.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "bsd",
+      "solaris",
+      "commercial",
+      "monitoring",
+      "C++",
+      "Python"
+    ],
+    "url": "http://www.splunk.com/"
+  }
+]
