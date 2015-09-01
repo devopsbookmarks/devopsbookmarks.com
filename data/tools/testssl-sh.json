@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "testssl-sh",
+    "name": "testssl.sh",
+    "description": "A command-line tool which checks a server's service on any port for the support of TLS/SSL ciphers, protocols as well as some cryptographic flaws. It's designed to provide clear output for your \"is this good or bad\" decision.",
+    "tags": [
+      "linux",
+      "osx",
+      "open-source",
+      "security",
+      "shell"
+    ],
+    "url": "https://github.com/drwetter/testssl.sh"
+  }
+]
