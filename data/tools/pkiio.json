@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "pki-io",
+    "name": "pki.io",
+    "description": "pki.io is an open source project that makes managing and deploying X.509 certificates easy and scalable",
+    "url": "https://pki.io",
+    "tags": [
+      "linux",
+      "osx",
+      "bsd",
+      "open-source",
+      "free",
+      "security",
+      "x509",
+      "key mangament"
+    ]
+  }
+]
