@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "datadog",
+    "name": "Datadog",
+    "description": "Datadog is a full-stack monitoring service for large-scale cloud environments that aggregates metrics/events from servers, databases, and applications. The SaaS-based data analytics platform helps Dev & Ops teams resolve performance issues, and ensure timely completion of dev/deployment cycles.",
+    "url": "http://www.datadoghq.com",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "commercial",
+      "monitoring",
+      "metrics", 
+      "visualization"
+    ]
+  }
+]
