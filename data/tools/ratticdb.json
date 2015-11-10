@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "ratticdb",
+    "name": "RatticDB",
+    "description": "RatticDB is a centralized, multi-user password management database, providing API access for automation, audit logs for accountability, and change queue to manage password rotation.",
+    "url": "http://rattic.org/",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "bsd",
+      "solaris",
+      "open-source",
+	  "security"
+    ]
+  }
+]
