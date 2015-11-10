@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "teampass",
+    "name": "TeamPass",
+    "description": "TeamPass is a Collaborative Passwords Manager. Its aim is to provide the ability to share password items through a secured and managed environment.",
+    "url": "http://teampass.net/",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "bsd",
+      "solaris",
+      "open-source",
+	  "security"
+    ]
+  }
+]
