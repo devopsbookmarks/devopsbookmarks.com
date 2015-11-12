@@ -55,7 +55,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', [ 'jshint', 'bower:install', 'sass:dist' ]);
   grunt.registerTask('dev', [ 'build', 'express:dev', 'watch' ]);
-  grunt.registerTask('heroku', [ 'build' ]);
 
   grunt.registerTask('default', ['dev']);
 }
