@@ -6,11 +6,11 @@
     "url": "http://www.stackstorm.com",
     "tags": [
       "automation",
-      "continous-delivery",
+      "cd",
       "provisioning",
       "cloud",
       "orchestration",
-      "config-management",
+      "config-mgmt",
       "orchestration",
       "python",
 
