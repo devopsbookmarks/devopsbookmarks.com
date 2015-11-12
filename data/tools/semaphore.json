@@ -12,7 +12,7 @@
       "ci",
       "ruby",
       "php",
-      "node-js"
+      "nodejs"
     ]
   }
 ]
