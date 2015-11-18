@@ -11,7 +11,7 @@ $sidebar-width: 300px;
 $header-height: 56px;
 $font-weight: 300;
 
-@import "normalize-scss/normalize";
+@import "normalize-scss/_normalize.scss";
 @import "bourbon/app/assets/stylesheets/bourbon";
 @import "responsive";
 
