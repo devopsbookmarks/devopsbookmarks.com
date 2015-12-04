@@ -9,7 +9,8 @@
       "osx",
       "open-source",
       "monitoring",
-      "nodejs"
+      "nodejs",
+      "visualization"
     ],
     "url": "http://www.elasticsearch.org/overview/kibana/"
   }
