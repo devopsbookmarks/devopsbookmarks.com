@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "aap",
+    "name": "aap",
+    "description": "language-agnostic buildpacks using aap.json: an npmlike, highlevel dependecy manager/buildtool using bash+git",
+    "url": "https://github.com/coderofsalvation/aap",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "bsd",
+      "solaris",
+      "build",
+      "deploy",
+      "bash",
+      "git",
+      "dependency",
+      "buildtool",
+      "open-source",
+      "free"
+    ]
+  }
+]
