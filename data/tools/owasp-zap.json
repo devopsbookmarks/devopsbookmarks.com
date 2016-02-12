@@ -1,7 +1,7 @@
 [
   {
-    "slug": "owasp-zed-zap",
-    "name": "Zed Attack Project",
+    "slug": "owasp-zap",
+    "name": "Zed Attack Proxy (ZAP)",
     "description": "A penetration testing tool for finding vulnerabilities in web applications, from OWASP",
     "tags": [
       "linux",
