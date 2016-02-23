@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "solano-ci",
+    "name": "Solano CI",
+    "description" : "Solano CI is a massively parallelized continious integration and deployment platform that is available both as a hosted or a virtual appliance solution. It integrates seamlessly with GitHub, Bitbucket, GitLab, and any self-hosted Git or Mercurial server. Solano CI is heavily integrated with AWS tools and is available in the AWS console via CodePipeline.",
+    "tags": [
+      "linux",
+      "osx",
+      "commercial",
+      "ci",
+      "ruby",
+      "java",
+      "php",
+      "python",
+      "nodejs",
+      "go",
+      "c",
+      "c++",
+      "clojure",
+      "scala",
+      "shell",
+      "cd"
+    ],
+    "url": "https://www.solanolabs.com/"
+  }
+]
