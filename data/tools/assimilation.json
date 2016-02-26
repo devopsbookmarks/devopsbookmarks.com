@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "assimilation",
+    "name": "Assimilation System Management Suite",
+    "description": "The Assimilation Suite discovers systems, services, network connections, configuration and dependencies, IP and MAC addresses. This all goes into a continually updated graph-based configuration management database (CMDB).  This is then compared and scored against best practices, services and servers are monitored - all with near-zero configuration - in a way that scales to hundreds of thousands of servers.\nIt also provides visualization tools, APIs for sending alerts to humans and other systems, and a variety of canned reports (queries) to aid in securing and managing systems, hooking into ChatOps, and creating plans for triaging your security issues",
+    "url": "http://AssimilationSystems.com/",
+    "tags": [
+      "linux",
+      "open-source",
+      "commercial",
+      "C",
+      "shell",
+      "python",
+      "config",
+      "CMDB",
+      "service-discovery",
+      "monitoring",
+      "visualization",
+      "security",
+      "hardening"
+    ]
+  }
+]
