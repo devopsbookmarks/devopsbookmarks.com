@@ -1,0 +1,19 @@
+[
+  {
+    "slug": "quickcheck-ci",
+    "name": "QuickCheck CI",
+    "description": "QuickCheck CI is a continuous integration server that runs QuviQ QuickCheck on a project. QuickCheck is a tool for automatically generating test cases from specified properties of the software under test.",
+    "url": "http://quickcheck-ci.com/",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "bsd",
+      "solaris",
+      "commercial",
+      "free (beer)",
+      "Quviq Licence http://quickcheck-ci.com/EQC_CI_LICENCE.txt",
+      "ci"
+    ]
+  }
+]
