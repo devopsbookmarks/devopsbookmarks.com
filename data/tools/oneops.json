@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "oneops",
+    "name": "OneOps",
+    "description": "OneOps is a cloud management and application lifecycle management platform that developers use to both develop and launch new products faster, and to more easily maintain them throughout their entire lifecycle. OneOps enables developers to code their products in a hybrid, multi-cloud environment. This means developers can switch between different cloud providers to take advantage of better pricing, technology or scalability – without being locked into one cloud provider. Our mission is to give our customers the most agile, cost-effective, flexible application lifecycle management solution for enterprise class workloads in the cloud",
+    "tags": [
+      "linux",
+      "open-source",
+      "virt",
+      "config-mgmt",
+      "provisioning",
+      "monitoring",
+      "cloud-paas"
+    ],
+    "url": "http://oneops.com/"
+  }
+]
