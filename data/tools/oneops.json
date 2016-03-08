@@ -9,7 +9,6 @@
       "virt",
       "config-mgmt",
       "provisioning",
-      "monitoring",
       "cloud-paas"
     ],
     "url": "http://oneops.com/"
