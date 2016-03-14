@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "concourse",
+    "name": "Concourse",
+    "description": "Concourse is a CI system composed of simple tools and ideas. It can express entire pipelines, integrating with arbitrary resources, or it can be used to execute one-off tasks, either locally or in another CI system.",
+    "url": "http://concourse.ci/",
+    "tags": [
+      "linux",
+      "open-source",
+      "go",
+      "ci",
+      "cd"
+    ]
+  }
+]
