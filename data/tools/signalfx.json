@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "signalfx",
+    "name": "SignalFx",
+    "description": "SignalFx is an advanced monitoring and alerting solution for modern infrastructure. With SignalFx, development and operations teams monitor, analyze, and alert in real-time on any time series data.",
+    "tags": [
+      "linux",
+      "windows",
+      "oxs",
+      "commercial",
+      "go",
+      "python",
+      "c",
+      "metrics",
+      "monitoring",
+      "visualization"
+    ],
+    "url": "https://www.signalfx.com/"
+  }
+]
