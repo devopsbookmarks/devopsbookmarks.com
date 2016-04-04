@@ -3,7 +3,7 @@
     "slug": "hardening-io",
     "name": "Hardening Framework",
     "description": "The Hardening Framework combines DevOps with security by adding a security layer into your automation framework, that configures your operating systems and services. It takes care of difficult settings, compliance guidelines, cryptography recommendations, and secure defaults. Works great with Puppet, Chef and Ansible.",
-    "url": "http://hardening.io/",
+    "url": "http://dev-sec.io/",
     "tags": [
       "linux",
       "open-source",
