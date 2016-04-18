@@ -2,32 +2,20 @@
   {
     "slug": "Cloudify",
     "name": "Cloudify",
-    "description": "<Description>",
-    "url": "http://getcloudify.org/",
+    "description": "Cloudify is a pure play, open source cloud orchestration and automation software. It's used for a variety of needs, from autonomous application management, to uses like NFV orchestration. It was built from the bottom up as a cloud orchestration framework, and is built to be pluggable to any infrastructure. Its also the most extensive implementation of TOSCA, which makes it completely technology agnostic.",
     "tags": [
-      // Mention Platform
-      // ref: https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/data/platforms.json
       "linux",
       "windows",
       "osx",
-      "solaris",
       "open-source",
       "provisioning",
       "orchestration",
-
-      // Mention License
-      // ref: https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/data/licenses.json
+      "automation",
+      "scaling",
       "open-source",
       "free",
       "commercial",
-
-      // And add tags related to this tool
-      // Tags are grouped into topic
-      // Cross verify if these tags belong to a topic
-      // ref: https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/data/topics.json
-      "orchestration",
-      "vcs",
-      etc.
-    ]
+    ],
+    "url": "http://getcloudify.org/",
   }
 ]
