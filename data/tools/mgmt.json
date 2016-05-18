@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "mgmt",
+    "name": "mgmt",
+    "description": "The mgmt tool is a distributed, event driven, config management tool, that supports parallel execution, and librarification to be used as the management foundation in and for, new and existing software.",
+    "url": "https://github.com/purpleidea/mgmt/blob/master/DOCUMENTATION.md",
+    "tags": [
+      "linux",
+      "osx",
+      "open-source",
+      "config",
+      "config-mgmt"
+    ]
+  }
+]
