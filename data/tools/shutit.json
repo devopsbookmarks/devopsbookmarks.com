@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "shutit",
+    "name": "ShutIt",
+    "description": "ShutIt is an automation platform. It makes it easy to create simple modular automation scripts that handle differing output, install software, log in and out of servers, capture output etc.. ShutItFiles are an extension to make it even easier for people to develop automation scripts.",
+    "tags": [
+      "linux",
+      "open-source",
+      "config-mgmt",
+      "provisioning",
+      "python"
+    ],
+    "url": "http://ianmiell.github.io/shutit/"
+  }
+]
