@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "https://msdn.microsoft.com/en-us/powershell/dsc/overview",
+    "name": "PowerShell Desired State Configuration",
+    "description": "DSC is a new management platform in Windows PowerShell that enables deploying and managing configuration data for software services and managing the environment in which these services run.",
+    "url": "https://github.com/PowerShell/DscResources",
+    "tags": [
+      "linux",
+      "windows",
+      "powershell",
+      "open-source",
+      "commercial",
+      "config-mgmt"
+    ]
+  }
+]
