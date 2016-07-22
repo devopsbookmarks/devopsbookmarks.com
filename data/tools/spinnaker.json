@@ -2,7 +2,7 @@
   {
     "slug": "spinnaker",
     "name": "Spinnaker",
-    "description": "Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence. It provides two core sets of features: cluster management and deployment management. Below we give a top-level overview of these features.",
+    "description": "Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence. It provides two core sets of features: cluster management and deployment management.",
     "tags": [
       "linux",
       "windows",
