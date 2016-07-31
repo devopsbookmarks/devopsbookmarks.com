@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "opennebula",
+    "name": "OpenNebula",
+    "description": "An open source, scalable cloud operating system used for building private and hybrid clouds",
+    "tags": [
+      "linux",
+      "open-source",
+      "virt"
+    ],
+    "url": "http://opennebula.org/"
+  }
+]
