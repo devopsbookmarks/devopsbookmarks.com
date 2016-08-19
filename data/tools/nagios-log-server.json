@@ -1,0 +1,19 @@
+[
+  {
+    "slug": "nagios-log-server",
+    "name": "Nagios Log Server",
+    "description": "Nagios Log Server greatly simplifies the process of searching your log data. Set up alerts to notify you when potential threats arise, or simply query your log data to quickly audit any system. With Nagios Log Server, you get all of your log data in one location, with high availability and fail-over built right in.",
+    "tags": [
+      "linux",
+      "commercial",
+      "monitoring",
+      "metrics",
+      "visualization",
+      "java",
+      "php",
+      "ruby",
+      "shell"
+    ],
+    "url": "https://www.nagios.com/products/nagios-log-server/"
+  }
+]

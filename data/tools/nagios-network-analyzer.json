@@ -1,0 +1,19 @@
+[
+  {
+    "slug": "nagios-network-analyzer-server",
+    "name": "Nagios Network Analyzer",
+    "description": "Nagios Network Analyzer provides an in-depth look at all network traffic sources and potential security threats allowing system admins to quickly gather high-level information regarding the health of the network as well as highly granular data for complete and thorough network analysis using netflow, sflow, jflow, etc.",
+    "tags": [
+      "linux",
+      "commercial",
+      "monitoring",
+      "metrics",
+      "visualization",
+      "c",
+      "php",
+      "python",
+      "shell"
+    ],
+    "url": "https://www.nagios.com/products/nagios-network-analyzer/"
+  }
+]
