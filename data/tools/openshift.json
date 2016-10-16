@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "openshift",
+    "name": "Openshift",
+    "description": "Openshift is a container management platform built around a core of Docker container packaging and Kubernetes cluster management. Origin is the upstream community project that powers OpenShift.",
+    "url": "https://www.openshift.org",
+    "tags": [
+      "linux",
+      "open-source",
+      "cloud-paas",
+      "go"
+    ]
+  }
+]
