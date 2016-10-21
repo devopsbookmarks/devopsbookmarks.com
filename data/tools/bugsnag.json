@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "bugsnag",
+    "name": "bugsnag",
+    "description": "Monitor everything you're building.",
+    "tags": [
+      "windows",
+      "linux",
+      "osx",
+      "open-source",
+      "ruby",
+      "java",
+      "python",
+      "php",
+      "nodejs",
+      "errors"
+    ],
+    "url": "https://bugsnag.com/"
+  }
+]

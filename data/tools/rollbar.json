@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "rollbar",
+    "name": "Rollbar",
+    "description": "Detect, diagnose and defeat errors.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "nodejs",
+      "open-source",
+      "ruby",
+      "php",
+      "java",
+      "python",
+      "errors"
+    ],
+    "url": "http://www.rollbar.com/"
+  }
+]
