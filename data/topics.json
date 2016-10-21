@@ -50,4 +50,8 @@
   "name": "Security & Hardening",
   "slug": "security",
   "include_tags": [ "security", "hardening" ]
+}, {
+  "name": "Error Tracking",
+  "slug": "errors",
+  "include_tags": [ "errors" ]
 }]

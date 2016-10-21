@@ -1,0 +1,19 @@
+[
+  {
+    "slug": "sentry",
+    "name": "Sentry",
+    "description": "More helpful than, “Your sh*t is broken”",
+    "url": "http://sentry.io",
+    "tags": [
+      "osx",
+      "windows",
+      "linux",
+      "open-source",
+      "nodejs",
+      "ruby",
+      "python",
+      "php",
+      "errors"
+    ]
+  }
+]
