@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "icinga2",
+    "name": "Icinga 2",
+    "description": "Icinga 2 is the newest version of Icinga. It is a scalable and extensible monitoring system which checks the availability of your resources, notifies users of outages and provides extensive BI data.",
+    "url": "https://www.icinga.org/",
+    "tags": [
+      "linux",
+      "windows",
+      "bsd",
+      "open-source",
+      "monitoring",
+      "C++"
+    ]
+  }
+]
