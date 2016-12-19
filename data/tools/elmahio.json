@@ -1,0 +1,15 @@
+[
+  {
+    "name": "elmah.io",
+    "slug": "elmah-io",
+    "description": "Cloud-based error management/logging for .NET web applications. Find bugs before you go live. Powerful search, API, integration with Slack, GitHub, Visual Studio and more.",
+    "tags": [
+      "windows",
+      "commercial",
+      "errors",
+      "logging",
+      "monitoring"
+    ],
+    "url": "https://elmah.io/"
+  }
+]
