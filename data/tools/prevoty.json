@@ -1,0 +1,31 @@
+[
+  {
+    "slug": "prevoty",
+    "name": "Prevoty Application Monitoring & Protection (AMP)",
+    "description": "Prevoty enables DevOps to inject security into your web applications and web services. Protection is provided at runtime from within the application itself, and stays with the app regardless of deployment method (cloud, on-premises, etc).  Applications are protected against threats including XSS, SQLi, CSRF, command injection, etc. Works with Puppet, Chef, Ansible, Docker, Splunk, QRadar, ELK, and many others.",
+    "url": "https://prevoty.com/",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "bsd",
+      "commercial",
+      "go",
+      "java",
+      "net",
+      "nodejs",
+      "perl",
+      "php",
+      "python",
+      "ruby",
+      "monitoring",
+      "security",
+      "hardening",
+      "chef",
+      "puppet",
+      "ansible",
+      "metrics-visualization",
+      "ci"
+    ]
+  }
+]
