@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "appveyor",
+    "name": "AppVeyor",
+    "description": "Continuous Delivery service for Windows",
+    "url": "https://www.appveyor.com/",
+    "tags": [
+      "windows", 
+      "free",
+      "commercial",
+      "ci"
+    ]
+  }
+]
