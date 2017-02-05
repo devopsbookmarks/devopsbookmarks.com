@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "sshkeybox",
+    "name": "SSH KeyBox",
+    "description": "An open-source jump box solution with auditing capabilities",
+    "tags": [
+      "linux",
+      "open-source",
+      "cloud",
+      "monitoring",
+      "security",
+      "java"
+    ],
+    "url": "http://sshkeybox.com/"
+  }
+]
