@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "snort",
+    "name": "Snort",
+    "description": "Snort is an open-source, free and lightweight network intrusion detection system (NIDS) software for Linux and Windows to detect emerging threats.",
+    "tags": [
+      "open-source",
+      "security",
+      "hardening"
+    ],
+    "url": "https://www.snort.org/"
+  }
+]
