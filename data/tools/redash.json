@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "redash",
+    "name": "Redash",
+    "description": "Redash is an open source tool for teams to query, visualize and collaborate. Redash is quick to setup and works with any data source you might need so you can query from anywhere in no time. Share your results and dashboards with other team members and empower your entire organization to be data driven with no-code filters and parameters that instantly adjust. ",
+    "tags": [
+      "open-source",
+      "monitoring",
+      "visualization"
+    ],
+    "url": "https://redash.io/"
+  }
+]
