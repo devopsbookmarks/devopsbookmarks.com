@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "check_mk",
+    "name": "check_mk",
+    "description": "Check_MK is an extension to the Nagios monitoring system that allows creating rule-based configuration using Python and offloading work from the Nagios core to make it scale better, allowing more systems to be monitored from a single Nagios server. It comes with a set of system checks, a mod_python and JavaScript based web user interface, and a module that allows fast access to the Nagios core. On top of Nagios it also adds additional features",
+    "tags": [
+      "linux",
+      "solaris",
+      "bsd",
+      "open-source",
+      "monitoring",
+      "python"
+    ],
+    "url": "https://mathias-kettner.de/check_mk.html"
+  }
+]
