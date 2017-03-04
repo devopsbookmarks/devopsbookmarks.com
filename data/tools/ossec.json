@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "ossec",
+    "name": "ossec",
+    "description": "OSSEC is an Open Source Host-based Intrusion Detection System. It performs log analysis, integrity checking, Windows registry monitoring, rootkit detection, real-time alerting and active response. It runs on most operating systems, including Linux, OpenBSD, FreeBSD, Mac OS X, Solaris and Windows",
+    "tags": [
+      "open-source",
+      "security",
+      "hardening",
+      "linux",
+      "windows",
+      "solaris",
+      "osx",
+      "bsd"
+    ],
+    "url": "http://ossec.github.io/"
+  }
+]
