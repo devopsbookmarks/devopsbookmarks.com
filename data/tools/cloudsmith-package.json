@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "cloudsmith-package",
+    "name": "Cloudsmith Package",
+    "description": "Just Better Package Management. Manage your software dependencies and distribution with Enterprise-grade package management.",
+    "tags": [
+      "linux",
+      "windows",
+      "cloud",
+      "packaging",
+      "distribution",
+      "debian",
+      "nuget",
+      "maven",
+      "python",
+      "rpm",
+      "redhat",
+      "ruby"
+    ],
+    "url": "https://cloudsmith.io"
+  }
+]
