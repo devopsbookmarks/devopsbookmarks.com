@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "okmeter",
+    "name": "okmeter.io",
+    "description": "okmeter.io is an integrated and ready-to-use monitoring solution. It autodiscovers sevices and collects 1000s of metrics from each kind of source — hardware, OS, net stack, processes, databases, queue, web-servers, etc. Okmeter goes with preset dashboards and preconfigured triggers on common pitfalls for all those services.",
+    "url": "https://okmeter.io",
+    "tags": [
+      "linux",
+      "bsd",
+      "commercial",
+      "monitoring",
+      "metrics", 
+      "visualization"
+    ]
+  }
+]
