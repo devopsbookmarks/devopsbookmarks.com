@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "simp",
+    "name": "System Integrety Management Platform",
+    "description": "SIMP is an enterprise ready, full-featured, infrastructure framework designed around policy compliance and enforcement over time. It aims to be an open source practical reference implementation for both policy and best security practice able to run in both enclave and cloud environments.",
+    "url": "http://simp-project.com/",
+    "tags": [
+      "config-mgmt",
+      "linux",
+      "open-source",
+      "security",
+      "hardening",
+      "puppet",
+      "nist-800-53",
+      "disa-stig",
+      "fips",
+      "compliance",
+      "automation",
+      "framework"
+    ]
+  }
+]
