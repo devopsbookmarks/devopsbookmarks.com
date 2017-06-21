@@ -8,7 +8,7 @@
     "heroku-postbuild": "grunt build"
   },
   "engines": {
-    "node": "4.x"
+    "node": "8.x"
   },
   "dependencies": {
     "compression": "^1.6.0",
