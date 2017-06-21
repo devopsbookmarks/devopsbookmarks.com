@@ -1,6 +1,16 @@
 language: node_js
 node_js:
-  - "4"
-script: npm test
+  - '4'
+script:
+  - npm test
 notifications:
   email: false
+deploy:
+  provider: heroku
+  app: devopsbookmarks-staging
+  api_key:
+    secure: d/gGUhVBgk3IGOj0pzoEziRoNjUmX00F7t7da0b4E2Mw8H8zwY7qTEfj5N5+NNOekCvOMTr9oa14fsffKG07ue59nWmX/TvQt+QUyaKzITRKz1R73gSktjz2yn20P6JuByyyXDGaqQ7ZSDZHnWjqXE0ywywxxJ+Ve0BwuZw/5FA=
+  on:
+    repo: devopsbookmarks/devopsbookmarks.com
+    branch: master
+    tags: false
