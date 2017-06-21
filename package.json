@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "postinstall": "grunt build"
+    "test": "grunt build",
+    "heroku-postbuild": "grunt build"
   },
   "engines": {
     "node": "4.x"
