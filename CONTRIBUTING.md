@@ -38,7 +38,6 @@
       }
     ]
     ```
-* Raise a pull request
+* Raise a pull request and ensure sure tests pass
 * Discuss in the pull request
-* Once its merged, enjoy the satisfaction of contributing. Snap-CI will do the rest.
-p
+* Once its merged, enjoy the satisfaction of contributing. Travis-CI will do the rest.
