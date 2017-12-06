@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "Shippable",
+    "name": "Shippable",
+    "description": "CI/CD and DevOps automation platform with Docker support that simplifies provisioning, building, testing, and deploying any application anywhere.",
+    "url": "https://www.shippable.com",
+    "tags": [
+      "linux",
+      "free",
+      "commercial",
+      "ci",
+      "cd",
+      "provisioning",
+      "orchestration",
+      "config-management"
+    ]
+  }
+]
