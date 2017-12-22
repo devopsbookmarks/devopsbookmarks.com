@@ -11,6 +11,6 @@
       "virt",
       "ruby"
     ],
-    "url": "https://github.com/opscode/bento"
+    "url": "http://chef.github.io/bento/"
   }
 ]

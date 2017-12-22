@@ -3,7 +3,7 @@
     "slug": "weave",
     "name": "Weave",
     "description": "Weave creates a virtual network that connects Docker containers deployed across multiple hosts. Services provided by application containers on the weave network can be made accessible to the outside world, regardless of where those containers are running. Similarly, existing internal systems can be exposed to application containers irrespective of their location.",
-    "url": "https://github.com/zettio/weave",
+    "url": "https://www.weave.works/",
     "tags": [
       "linux",
       "open-source",

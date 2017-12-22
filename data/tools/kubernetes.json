@@ -3,7 +3,7 @@
     "slug": "kubernetes",
     "name": "Kubernetes",
     "description": "Kubernetes is a system for managing containerized applications across multiple hosts, providing basic mechanisms for deployment, maintenance, and scaling of applications",
-    "url": "https://github.com/googlecloudplatform/kubernetes",
+    "url": "https://kubernetes.io/",
     "tags": [
       "linux",
       "open-source",

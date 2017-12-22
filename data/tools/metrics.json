@@ -11,6 +11,6 @@
       "monitoring",
       "java"
     ],
-    "url": "https://github.com/codahale/metrics/"
+    "url": "http://metrics.dropwizard.io/3.2.3/"
   }
 ]
