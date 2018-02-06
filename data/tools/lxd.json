@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "lxd",
+    "name": "LXD",
+    "description": "LXD is a next generation system container manager. It offers a user experience similar to virtual machines but using Linux containers instead. It's image based with pre-made images available for a wide number of Linux distributions and is built around a very powerful, yet pretty simple, REST API.",
+    "tags": [
+      "linux",
+      "open-source",
+      "virt",
+      "cloud-paas",
+      "provisioning",
+      "go"
+    ],
+    "url": "https://linuxcontainers.org/lxd/"
+  }
+]
+
