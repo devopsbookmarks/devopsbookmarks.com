@@ -1,12 +1,14 @@
 language: node_js
 node_js:
-  - '4'
+  - '8'
 install:
   - npm install --silent
 script:
   - npm test
 notifications:
-  email: false
+  email:
+    on_success: change
+    on_failure: change
 deploy:
   provider: heroku
   app: devops-bookmarks

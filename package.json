@@ -8,7 +8,7 @@
     "heroku-postbuild": "grunt build"
   },
   "engines": {
-    "node": "4.x"
+    "node": "8.x"
   },
   "dependencies": {
     "compression": "^1.6.0",
@@ -22,7 +22,7 @@
     "grunt-contrib-jshint": "^0.11.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-express-server": "^0.5.1",
-    "grunt-sass": "^1.1.0",
+    "grunt-sass": "^2.0.0",
     "load-grunt-tasks": "^3.3.0",
     "morgan": "^1.6.1",
     "static-asset": "^0.6.0",
