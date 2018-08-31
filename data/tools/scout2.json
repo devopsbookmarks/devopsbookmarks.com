@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "scout2",
+    "name": "AWS Scout2",
+    "description": "A CLI tool for viewing the security status of your AWS infrastructure",
+    "tags": [
+      "security",
+      "cloud",
+      "monitoring",
+      "hardening",
+      "python",
+      "open-source",
+      "windows",
+      "linux",
+      "osx",
+      "bsd"
+    ],
+    "url": "https://github.com/nccgroup/Scout2"
+  }
+]
