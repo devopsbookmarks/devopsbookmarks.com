@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "terratest",
+    "name": "Terratest",
+    "description": "Tool to write automation tests for your infrastructure code.",
+    "tags": [
+      "testing",
+      "cloud",
+      "provisioning",
+      "hardening",
+      "go",
+      "linux",
+      "osx",
+      "open-source"
+    ],
+    "url": "https://github.com/gruntwork-io/terratest"
+  }
+]

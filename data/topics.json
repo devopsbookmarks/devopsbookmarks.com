@@ -54,4 +54,8 @@
   "name": "Error Tracking",
   "slug": "errors",
   "include_tags": [ "errors" ]
+}, {
+  "name": "Infrastructure Testing",
+  "slug": "infrastructure-testing",
+  "include_tags": [ "testing" ]
 }]
