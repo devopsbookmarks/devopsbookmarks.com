@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "buildkite",
+    "name": "Buildkite",
+    "description": "Buildkite is a platform for running fast, secure, and scalable continuous integration pipelines on your own infrastructure.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "commercial",
+      "ci",
+      "cd"
+    ],
+    "url": "http://buildkite.com"
+  }
+]
