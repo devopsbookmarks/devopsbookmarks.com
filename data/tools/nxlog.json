@@ -2,10 +2,7 @@
   {
     "slug": "nxlog",
     "name": "NXLog Enterprise and Community Editions",
-    "description": "A multi-platform log collection suite to
-    collect, parse, convert and send logs. Integrate with a wide
-    range of products including SIEMs, log analytics dashboards,
-    cloud services, databases, and more.",
+    "description": "A multi-platform log collection suite to collect, parse, convert and send logs. Integrate with a wide range of products including SIEMs, log analytics dashboards, cloud services, databases, and more.",
     "tags": [
       "linux",
       "windows",
