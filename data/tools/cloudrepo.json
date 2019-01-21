@@ -1,0 +1,30 @@
+[
+    {
+        "slug": "cloudrepo",
+        "name": "CloudRepo",
+        "description": "Public and Private Maven and Python (PyPi) repositories.  Fully managed and highly available repository hosting.",
+        "url": "https://www.cloudrepo.io",
+        "tags": [
+            "linux",
+            "windows",
+            "osx",
+            "bsd",
+            "solaris",
+            "commercial",
+            "packaging",
+            "artifacts",
+            "java",
+            "clojure",
+            "scala",
+            "groovy",
+            "python",
+            "pypi",
+            "cloud",
+            "maven",
+            "sbt",
+            "leiningen",
+            "gradle",
+            "ivy"
+        ]
+    }
+]
