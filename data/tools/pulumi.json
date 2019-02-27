@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "pulumi",
+    "name": "Pulumi",
+    "description": "Create, deploy, and manage Cloud Native infrastructure, as real code. A single toolset for infrastructure, managed services, containers, and serverless environments on any cloud infrastructure. You get all the benefits of real programming languages; IDEs, abstractions and reuse thanks to functions, classes, and packages, debugging, testability, and more",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "cloud-paas",
+      "go",
+      "javascript",
+      "python"
+    ],
+    "url": "https://pulumi.io"
+  }
+]
