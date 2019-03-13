@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "argo-cd",
+    "name": "argo-cd",
+    "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.",
+    "tags": [
+      "open-source",
+      "cd",
+      "virt",
+      "kubernetes",
+      "cloud",
+       "go"
+    ],
+    "url": "https://argoproj.github.io/argo-cd"
+  }
+]
