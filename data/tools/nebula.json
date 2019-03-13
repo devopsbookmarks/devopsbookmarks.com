@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "Nebula",
+    "name": "Nebula",
+    "description": "Nebula is a Docker orchestration tool designed to manage massive scale distributed clusters",
+    "url": "http://nebula.readthedocs.io/en/latest/",
+    "tags": [
+      "linux",
+      "open-source",
+      "virt",
+      "orchestration",
+      "python"
+    ]
+  }
+]

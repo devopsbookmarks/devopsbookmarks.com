@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "bitbucket",
+    "name": "bitbucket",
+    "description": "Bitbucket is a web-based hosting service that supports both Mercurial and Git version control systems. It offers commercial and free accounts. It supports collaboration with unlimited private repos, diff views, CI build integrations, large file storage, pipelines, JIRA and other 3rd party integrations.",
+    "tags": [    
+      "commercial",
+      "vcs",
+      "git",
+      "mercurial"
+    ],
+    "url": "https://bitbucket.org/"
+  }
+]

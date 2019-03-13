@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "monitoring",
+    "name": "NGINX Amplify",
+    "description": "Amplify is free monitoring tool for NGINX. Amplify offers extended NGINX metric collection, visualization, monitoring, and a static analyzer for NGINX configuration. It's simple to set up, yet powerful enough to bring the much needed insight into NGINX performance. Amplify is a SaaS developed and operated by Nginx, Inc. Keep NGINX up to date and secure with a native monitoring solution.",
+    "url": "https://amplify.nginx.com",
+    "tags": [
+      "linux",
+      "bsd",
+      "free",
+      "commercial",
+      "logging", "monitoring",
+      "metrics", "visualization",
+      "security", "hardening",
+      "errors"
+    ]
+  }
+]

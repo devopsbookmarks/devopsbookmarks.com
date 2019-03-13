@@ -1,0 +1,19 @@
+[
+  {
+    "slug": "webhook",
+    "name": "webhook",
+    "description": "Configurable incoming webhook server",
+    "url": "https://www.github.com/adnanh/webhook",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "bsd",
+      "solaris",
+      "open-source",
+      "ci",
+      "cd",
+      "orchestration"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "fabric8",
+    "name": "Fabric8",
+    "description": "fabric8 is an end to end development platform spanning ideation to production for the creation of cloud native applications and microservices",
+    "url": "https://fabric8.io/",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "free",
+      "cloud-paas",
+      "virt",
+      "go"
+    ]
+  }
+]

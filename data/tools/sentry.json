@@ -2,18 +2,20 @@
   {
     "slug": "sentry",
     "name": "Sentry",
-    "description": "More helpful than, “Your sh*t is broken”",
-    "url": "http://sentry.io",
+    "description": "Automate error tracking to find and fix issues before your users even experience a crash. Sentry is open-source, real-time, and loved by 100,000 developers around the world.",
+    "url": "https://sentry.io",
     "tags": [
       "osx",
       "windows",
       "linux",
       "open-source",
+      "errors",
       "nodejs",
       "ruby",
       "python",
       "php",
-      "errors"
+      "java",
+      "monitoring"
     ]
   }
 ]

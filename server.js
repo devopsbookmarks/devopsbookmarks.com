@@ -6,7 +6,9 @@ var staticAsset = require('static-asset');
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-app.use(require('connect-redirecthost').redirectHost('www.devopsbookmarks.com'));
+if (process.env.BASE_URL) {
+	app.use(require('connect-redirecthost').redirectHost(process.env.BASE_URL));
+}
 app.use(require('morgan')('short'));
 app.use(require('compression')());
 app.use(require('errorhandler')());
