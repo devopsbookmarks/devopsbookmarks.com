@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "Oracle-Wercker",
+    "name": "Oracle-Wercker",
+    "description": "Continuous delivery to the cloud",
+    "url": "https://blogs.oracle.com/wercker/",
+    "tags": [
+      "commercial",
+      "cloud",
+      "cd"
+    ]
+  }
+]
