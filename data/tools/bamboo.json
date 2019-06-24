@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "Bamboo",
+    "name": "Bamboo",
+    "description": "Build, test, deploy. Bamboo Server is the choice of professional teams for continuous integration, deployment, and delivery",
+    "url": "https://www.atlassian.com/software/bamboo",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "commercial",
+      "ci",
+      "cd",
+      "cloud"
+    ]
+  }
+]
