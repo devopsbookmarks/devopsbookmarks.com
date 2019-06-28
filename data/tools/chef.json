@@ -7,10 +7,11 @@
       "linux",
       "windows",
       "open-source",
+      "comercial",
       "provisioning",
       "config-mgmt",
       "ruby"
     ],
-    "url": "http://www.getchef.com"
+    "url": "https://www.chef.io/"
   }
 ]
