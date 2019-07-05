@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "<URL Slug>",
+    "name": "<Name>",
+    "description": "Kallithea, a member project of Software Freedom Conservancy, is a GPLv3'd, Free Software source code management system that supports two leading version control systems, Mercurial and Git, and has a web interface that is easy to use for users and admins. You can install Kallithea on your own server and host repositories for the version control system of your choice.",
+    "url": "https://kallithea-scm.org/",
+    "tags": [
+      "linux",
+      "windows",
+      "open-source",
+      "scm",
+      "vcs"
+    ]
+  }
+]
