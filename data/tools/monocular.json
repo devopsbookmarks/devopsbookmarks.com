@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "monocular",
+    "name": "Monocular",
+    "description": "Monocular is a web-based application that enables the search and discovery of charts from multiple Helm Chart repositories. It is the codebase that powers the Helm Hub project.",
+    "url": "https://github.com/helm/monocular",
+    "tags": [
+      "linux",
+      "open-source",
+      "service-discovery"
+    ]
+  }
+]
