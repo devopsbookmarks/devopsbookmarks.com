@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "draft",
+    "name": "Draft",
+    "description": "Streamlined Kubernetes Development. Simple app development & deployment - into any Kubernetes cluster.",
+    "url": "https://draft.sh/",
+    "tags": [
+      "linux",
+      "open-source",
+      "ci",
+      "cd"
+    ]
+  }
+]
