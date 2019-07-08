@@ -1,0 +1,21 @@
+[
+  {
+    "slug": "Cloudify",
+    "name": "Cloudify",
+    "description": "Cloudify is a pure play, open source cloud orchestration and automation software. It's used for a variety of needs, from autonomous application management, to uses like NFV orchestration. It was built from the bottom up as a cloud orchestration framework, and is built to be pluggable to any infrastructure. Its also the most extensive implementation of TOSCA, which makes it completely technology agnostic.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "provisioning",
+      "orchestration",
+      "automation",
+      "scaling",
+      "open-source",
+      "free",
+      "commercial"
+    ],
+    "url": "http://cloudify.co/"
+  }
+]
