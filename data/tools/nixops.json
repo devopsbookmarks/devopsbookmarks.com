@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "nixops",
+    "name": "NixOps",
+    "description": "NixOps is a tool for deploying sets of NixOS Linux machines, either to real hardware or to virtual machines. It extends NixOS’s declarative approach to system configuration management to networks and adds provisioning.",
+    "url": "https://nixos.org/nixops/",
+    "tags": [
+      "linux",
+      "open-source",
+      "provisioning"
+    ]
+  }
+]
