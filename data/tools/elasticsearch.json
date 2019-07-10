@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "elasticsearch",
+    "name": "Elasticsearch",
+    "description": "<Description>",
+    "url": "https://www.elastic.co/products/elasticsearch",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "logging", 
+      "monitoring"
+    ]
+  }
+]
