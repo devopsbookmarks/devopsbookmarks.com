@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "marathon",
+    "name": "Marathon",
+    "description": "A container orchestration platform for Mesos and DC/OS ",
+    "url": "http://mesosphere.github.io/marathon/",
+    "tags": [
+      "linux",
+      "open-source",
+      "orchestration"
+    ]
+  }
+]
