@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "rudder",
+    "name": "Rudder",
+    "description": "RUDDER is a professional, open source, multi-platform solution for managing configurations of mission-critical systems. Based on the Continuous Configuration concept, RUDDER embodies the fusion of configuration management and continuous audit.",
+    "url": "https://www.rudder.io",
+    "tags": [
+      "linux",
+      "open-source",
+      "config-mgmt"
+    ]
+  }
+]
