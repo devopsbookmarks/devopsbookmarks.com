@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "okd",
+    "name": "okd",
+    "description": "<Description>",
+    "url": "https://www.okd.io",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "virt"
+    ]
+  }
+]
