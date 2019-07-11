@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "harbor",
+    "name": "Harbor",
+    "description": "Harbor is an open source cloud native registry that stores, signs, and scans container images for vulnerabilities. Harbor solves common challenges by delivering trust, compliance, performance, and interoperability. It fills a gap for organizations and applications that cannot use a public or cloud-based registry, or want a consistent experience across clouds.",
+    "url": "https://goharbor.io/",
+    "tags": [
+      "linux",
+      "open-source",
+      "security", 
+      "hardening"
+    ]
+  }
+]
