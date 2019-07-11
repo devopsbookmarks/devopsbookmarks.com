@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "<URL Slug>",
+    "name": "<Name>",
+    "description": "<Description>",
+    "url": "https://www.simp-project.com/",
+    "tags": [
+      // Mention Platform
+      // ref: https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/data/platforms.json
+      "linux",
+      "open-source",
+      "security"
+    ]
+  }
+]
