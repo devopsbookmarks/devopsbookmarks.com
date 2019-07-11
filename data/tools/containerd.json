@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "containerd",
+    "name": "containerd",
+    "description": "An industry-standard container runtime with an emphasis on simplicity, robustness and portability",
+    "url": "https://containerd.io/",
+    "tags": [
+      "linux",
+      "open-source",
+      "virt"
+    ]
+  }
+]
