@@ -10,7 +10,7 @@
       "osx",
       "bsd",
       "solaris",
-      "open-source"
+      "open-source",
       "scm",
       "vcs",
       "ci"
