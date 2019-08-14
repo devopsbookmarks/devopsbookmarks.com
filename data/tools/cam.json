@@ -1,0 +1,19 @@
+[
+    {
+        "slug": "cam",
+        "name": "Cloud Application Manager",
+        "description": "Cloud Application Manager is a software-defined managed services orchestration platform that enables the configuration, deployment, management and automation of applications within public, private and hybrid IT environments.",
+        "tags": [
+            "linux",
+            "osx",
+            "solaris",
+            "windows",
+            "commercial",
+            "cloud-paas",
+            "config-mgmt",
+            "provisioning",
+            "orchestration"
+        ],
+        "url": "https://cam.ctl.io/"
+    }
+]
