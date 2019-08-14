@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "azuredevops",
+    "name": "Azure DevOps",
+    "description": "Azure DevOps provides development collaboration tools including high-performance pipelines, free private Git repositories, configurable Kanban boards, and extensive automated and continuous testing capabilities.",
+    "url": "https://azure.microsoft.com/en-us/services/devops/",
+    "tags": [
+      "commercial",
+      "scm",
+      "git",
+      "vcs"
+    ]
+  }
+]
