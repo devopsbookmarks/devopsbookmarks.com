@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "configcat",
+    "name": "ConfigCat",
+    "description": "ConfigCat is a feature flags as a service. It gives you a web based dashboard to manage your feature flags + SDKs to integrate those feature flags into your applications. ConfigCat enables you to use the same feature flags in your mobile apps, websites and server-side applications. It offers all features for free. You get an enterprise-ready SLA with the pricing plans.",
+    "url": "https://configcat.com",
+    "tags": [
+      "linux",
+      "osx",
+      "windows",
+      "open-source",
+      "free",
+      "commercial",
+      "ci",
+      "cd",
+      "config-management",
+      "go",
+      "java",
+      "net",
+      "nodejs",
+      "php",
+      "python",
+      "ruby"
+    ]
+  }
+]
