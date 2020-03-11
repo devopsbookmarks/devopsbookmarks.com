@@ -8,7 +8,7 @@ and frameworks.
 
 ## Deployment Status
 
-[![Build Status](https://snap-ci.com/devopsbookmarks/devopsbookmarks.com/branch/master/build_image)](https://snap-ci.com/devopsbookmarks/devopsbookmarks.com/branch/master)
+[![Build Status](https://travis-ci.org/devopsbookmarks/devopsbookmarks.com.svg?branch=master)](https://travis-ci.org/devopsbookmarks/devopsbookmarks.com)
 
 ## Contributing
 
