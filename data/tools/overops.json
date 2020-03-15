@@ -8,9 +8,9 @@
       "osx",
       "windows",
       "java",
-      "errors"
+      "errors",
       "metrics", 
-      "visualization"
+      "visualization",
       "monitoring"
     ],
     "url": "https://www.overops.com/"
