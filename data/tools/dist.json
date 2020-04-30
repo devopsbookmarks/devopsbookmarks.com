@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "dist",
+    "name": "Dist",
+    "description": "Private, fully managed Docker Container Registries and Maven Repositories. Works with native tooling, no plugins required. Reliable, secure, and fast (with a purpose built CDN).",
+    "tags": [
+      "linux",
+      "cloud",
+      "packaging",
+      "maven",
+      "java",
+      "clojure",
+      "scala"
+    ],
+    "url": "https://dist.cloud"
+  }
+]
