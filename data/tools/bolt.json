@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "bolt",
+    "name": "Bolt",
+    "description": "Bolt is an open source commandline tool for executing commands, scripts, and orchestrated workflows on remote systems using SSH and WinRM",
+    "tags": [
+      "linux",
+      "open-source",
+      "provisioning",
+      "config-mgmt",
+      "orchestration",
+      "ruby"
+    ],
+    "url": "https://bolt.guide"
+  }
+]
