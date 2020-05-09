@@ -1,15 +1,18 @@
 [
   {
-    "slug": "over-ops",
+    "slug": "overops",
     "name": "OverOps",
-    "description": "Know when and why code breaks in production.",
+    "description": "Know when, where and why code breaks in pre-production and production.",
     "tags": [
       "linux",
       "osx",
       "windows",
       "java",
-      "errors"
+      "errors",
+      "metrics", 
+      "visualization",
+      "monitoring"
     ],
-    "url": "https://overops.com/"
+    "url": "https://www.overops.com/"
   }
 ]
