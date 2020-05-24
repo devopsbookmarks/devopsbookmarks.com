@@ -29,6 +29,16 @@ Refer to [CONTRIBUTING.md][contributing_url]
 
 [build_issue]: https://travis-ci.org/github/devopsbookmarks/devopsbookmarks.com/builds/690566413
 
+## Maintenance
+
+This project has been alive and keeping for a while now (first commit in 2014), but it has gone
+through a period of neglect. The aim now is do a seasonal update which may include things like:
+
+* bump dependencies
+* force a redeploy is there's nothing to do
+* find an opportunity to remove something
+* go through neglected issues and pull requests
+
 ## Inspiration
 
 * http://www.unheap.com/
