@@ -24,7 +24,7 @@ Refer to [CONTRIBUTING.md][contributing_url]
 
 * Have a working `docker` setup and this repository clone
 * `docker run --rm -it -v $PWD:/workspace -p 3000:3000 -w /workspace node:12 bash`
-* Running `npm build` and then `npm start`
+* Running `npm run-script build` and then `npm start`
 * Look at the results in your browser: `open http://"$(docker-machine ip)":3000`
 
 ## Maintenance
