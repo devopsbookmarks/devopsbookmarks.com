@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "notabug",
+    "name": "notabug.org",
+    "description": "Free code hosting",
+    "url": "https://notabug.org/",
+    "tags": [
+      "cloud",
+      "open-source",
+      "scm",
+      "vcs"
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "habitat",
+    "name": "Habitat by CHEF",
+    "description": "Habitat is open source software that creates platform-independent build artifacts and provides built-in deployment and management capabilities.",
+    "url": "https://www.habitat.sh/",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "commercial",
+      "cd"
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "slug": "gitbucket",
+    "name": "GitBucket",
+    "description": "A Git platform powered by Scala with easy installation, high extensibility & GitHub API compatibility.",
+    "url": "https://gitbucket.github.io/",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "bsd",
+      "solaris",
+      "open-source",
+      "scm",
+      "vcs",
+      "ci"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "pagure",
+    "name": "pagure",
+    "description": "Pagure is an Open Source software code hosting system.",
+    "tags": [
+      "cloud",
+      "open-source",
+      "scm"
+    ],
+    "url": "https://pagure.io/"
+  }
+]

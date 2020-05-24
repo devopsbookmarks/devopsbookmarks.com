@@ -1,8 +1,8 @@
 [
   {
     "slug": "juju",
-    "name": "Juju",
-    "description": "Juju is a free and libre orchestration service with a great web GUI, which provides easy scaling, automatic provisioning on a variety of providers including metal and Linux containers, and a community ecosystem of best-practice service definitions.  Service files define 'interfaces' to allow easy specification and connection of backends or other dependencies.",
+    "name": "JAAS | Juju",
+    "description": "Juju simplifies how you configure, scale and operate today’s complex software. Juju deploys everywhere: to public or private clouds.",
     "tags": [
       "linux",
       "open-source",
@@ -11,6 +11,6 @@
       "orchestration",
       "scaling"
     ],
-    "url": "https://jujucharms.com/"
+    "url": "https://jaas.ai/"
   }
 ]

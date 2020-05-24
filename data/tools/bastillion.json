@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "Bastillion",
+    "name": "Bastillion",
+    "description": "Bastillion is an open-source web-based SSH console that centrally manages administrative access to systems. A bastion host for administrators with features that promote infrastructure security, including key management and auditing.",
+    "url": "https://www.bastillion.io/",
+    "tags": [
+      "linux",
+      "open-source",
+      "security"
+    ]
+  }
+]

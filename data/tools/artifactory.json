@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "artifactory",
+    "name": "Artifactory",
+    "description": "JFrog’s Artifactory open source project was created to speed up development cycles using binary repositories. It’s the world’s most advanced repository manager, creating a single place for teams to manage all their binary artifacts efficiently.",
+    "url": "https://jfrog.com/open-source/",
+    "tags": [
+      "linux",
+      "windows",
+      "open-source",
+      "artifacts",
+      "packaging"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "minikube",
+    "name": "minikube",
+    "description": "minikube implements a local Kubernetes cluster on macOS, Linux, and Windows.",
+    "url": "https://github.com/kubernetes/minikube",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "virt"
+    ]
+  }
+]

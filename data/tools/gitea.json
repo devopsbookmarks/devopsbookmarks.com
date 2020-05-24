@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "gitea",
+    "name": "gitea",
+    "description": "Gitea is a community managed lightweight code hosting solution written in Go. It published under the MIT license. ",
+    "url": "https://gitea.io/",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "scm",
+      "vcs"
+    ]
+  }
+]

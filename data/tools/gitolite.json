@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "gitolite",
+    "name": "Gitolite",
+    "description": "Gitolite allows you to setup git hosting on a central server, with fine-grained access control and many more powerful features",
+    "url": "https://gitolite.com/gitolite/index.html",
+    "tags": [
+      "linux",
+      "open-source",
+      "scm",
+      "vcs"
+    ]
+  }
+]

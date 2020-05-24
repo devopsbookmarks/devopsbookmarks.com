@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "podman",
+    "name": "Podman",
+    "description": "Podman is a daemonless container engine for developing, managing, and running OCI Containers on your Linux System. Containers can either be run as root or in rootless mode. Simply put: `alias docker=podman`.",
+    "url": "https://podman.io",
+    "tags": [
+      "linux",
+      "open-source",
+      "virt"
+    ]
+  }
+]

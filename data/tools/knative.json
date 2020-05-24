@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "knative",
+    "name": "Knative",
+    "description": "Kubernetes-based platform to build, deploy, and manage modern serverless workloads.",
+    "url": "https://knative.dev/",
+    "tags": [
+      "linux",
+      "open-source",
+      "ci",
+      "cd"
+    ]
+  }
+]
