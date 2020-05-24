@@ -8,15 +8,25 @@ and frameworks.
 
 ## Deployment Status
 
-[![Build Status](https://travis-ci.org/devopsbookmarks/devopsbookmarks.com.svg?branch=master)](https://travis-ci.org/devopsbookmarks/devopsbookmarks.com)
+[![Build Status][build_image]][build_page]
+
+
+[build_image]: https://travis-ci.org/devopsbookmarks/devopsbookmarks.com.svg?branch=master
+[build_page]: https://travis-ci.org/github/devopsbookmarks/devopsbookmarks.com
 
 ## Contributing
 
-Refer to [CONTRIBUTING.md](https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/CONTRIBUTING.md)
+Refer to [CONTRIBUTING.md][contributing_url]
+
+[contributing_url]: https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/CONTRIBUTING.md
 
 ## Development
 
-* A work in progress at the moment
+* Have a working `docker` setup and this repository clone
+* `docker run --rm -it -v $PWD:/workspace -w /workspace node:4 bash`
+* Running `npm i` and then `npm test` replicated the current [build issue][build_issue]
+
+[build_issue]: https://travis-ci.org/github/devopsbookmarks/devopsbookmarks.com/builds/690566413
 
 ## Inspiration
 
