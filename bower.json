@@ -1,8 +1,0 @@
-{
-  "name" : "devops",
-  "version" : "0.0.1",
-  "dependencies" : {
-    "bourbon" : "3.1.8",
-    "normalize-scss" : "2.1.2"
-  }
-}

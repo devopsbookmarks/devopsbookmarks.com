@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+set -e
+
+npm install
+
+node_modules/.bin/jshint \
+  --filename server.js \
+  --filename cluster.js \
+  --filename routes/**/*.js \
+  --filename data/**/*.js \
+  --filename data/**/*.json
+
+# including all of node_modules might result in issues
+# it's only included for bourbon, and normalize-scss
+node_modules/.bin/node-sass \
+  --output-style compressed \
+  --include-path node_modules \
+  public/stylesheets/application.scss \
+  > public/stylesheets/application.css
+

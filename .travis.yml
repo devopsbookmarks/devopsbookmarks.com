@@ -4,7 +4,7 @@ node_js:
 install:
   - npm install --silent
 script:
-  - npm test
+  - npm build
 notifications:
   email: false
 deploy:

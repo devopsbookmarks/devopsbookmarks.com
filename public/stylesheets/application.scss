@@ -11,12 +11,15 @@ $sidebar-width: 300px;
 $header-height: 56px;
 $font-weight: 300;
 
-@import "normalize-scss/_normalize.scss";
-@import "bourbon/app/assets/stylesheets/bourbon";
+@import "normalize-scss/sass/normalize";
+@import "bourbon/core/bourbon";
 @import "responsive";
+@import "deprecated_bourbon";
 
 *, *:before, *:after {
-  @include box-sizing(border-box);
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
 }
 
 html {
@@ -84,7 +87,7 @@ a, a:link, a:visited, a:active {
       padding: 0 10px;
       position: relative;
       color: $light1;
-      @include transition(background .2s);
+/*      @include transition(background .2s); */
 
       &.toggle {
         float: right;
@@ -130,7 +133,7 @@ a, a:link, a:visited, a:active {
       text-decoration: none;
       line-height: $header-height;
       text-align: center;
-      @include transition(color .2s, background .2s);
+      /* @include transition(color .2s, background .2s); */
       &:hover {
         color: $light1;
       }
@@ -193,7 +196,7 @@ a, a:link, a:visited, a:active {
     border-radius: 3px;
     background: $light1;
     color: $dark1;
-    @include transition(background .2s, color .2s);
+    /* @include transition(background .2s, color .2s); */
 
     &>* {
       padding: 10px;
@@ -208,7 +211,7 @@ a, a:link, a:visited, a:active {
     a {
       text-decoration: none;
       color: darken($dark2, 10%);
-      @include transition(color .2s);
+      /* @include transition(color .2s); */
       &:hover {
         color: $dark3;
       }
