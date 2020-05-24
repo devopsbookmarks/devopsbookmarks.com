@@ -16,10 +16,7 @@ Refer to [CONTRIBUTING.md](https://github.com/devopsbookmarks/devopsbookmarks.co
 
 ## Development
 
-* Make sure you have VirtualBox and Vagrant installed
-* Clone this repository
-* Run `vagrant up` to provision the VM
-* Run `vagrant ssh -c /vagrant/script/server` to start the server
+* A work in progress at the moment
 
 ## Inspiration
 

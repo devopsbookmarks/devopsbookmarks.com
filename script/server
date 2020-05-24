@@ -1,7 +1,0 @@
-#!/usr/bin/env sh
-
-set -xe
-
-cd `dirname ${0%/*}`
-npm install
-grunt dev
