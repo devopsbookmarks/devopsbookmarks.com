@@ -1,5 +1,6 @@
 module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
+  const sass = require('node-sass');
 
   grunt.initConfig({
     jshint: {
@@ -21,6 +22,7 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         options: {
+          implementation: sass,
           outputStyle: 'compressed',
           includePaths: [ 'bower_components' ]
         },

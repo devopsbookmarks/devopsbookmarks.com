@@ -8,7 +8,7 @@
     "heroku-postbuild": "grunt build"
   },
   "engines": {
-    "node": "4.x"
+    "node": "12.x"
   },
   "dependencies": {
     "compression": "^1.6.0",
@@ -16,15 +16,16 @@
     "ejs": "^2.3.4",
     "errorhandler": "^1.4.2",
     "express": "^4.13.3",
-    "grunt": "^0.4.5",
-    "grunt-bower-task": "^0.5.0",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-jshint": "^0.11.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-express-server": "^0.5.1",
-    "grunt-sass": "^1.1.0",
-    "load-grunt-tasks": "^3.3.0",
+    "grunt": "latest",
+    "grunt-bower-task": "latest",
+    "grunt-cli": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-express-server": "latest",
+    "grunt-sass": "latest",
+    "load-grunt-tasks": "latest",
     "morgan": "^1.6.1",
+    "node-sass": "latest",
     "static-asset": "^0.6.0",
     "underscore": "^1.8.3",
     "walk": "^2.3.9"
