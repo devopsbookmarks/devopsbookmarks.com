@@ -4,12 +4,11 @@ set -e
 
 npm install
 
-node_modules/.bin/jshint \
-  --filename server.js \
-  --filename cluster.js \
-  --filename routes/**/*.js \
-  --filename data/**/*.js \
-  --filename data/**/*.json
+# this is a bit of a greedy way of gettting all the files
+find . \
+  -path ./node_modules -prune \
+  -o -name "*.js*" -print \
+  | xargs node_modules/.bin/jshint
 
 # including all of node_modules might result in issues
 # it's only included for bourbon, and normalize-scss
