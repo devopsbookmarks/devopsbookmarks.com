@@ -5,6 +5,8 @@
     "description": "A versatile orchestration engine that can automate systems and apps. Instead of a custom scripting language or code, it is very simple and shell based. It is also agent-less, so you can just start using it right away and get things done",
     "tags": [
       "linux",
+      "windows",
+      "osx",
       "open-source",
       "provisioning",
       "config-mgmt",
