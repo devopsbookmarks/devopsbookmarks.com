@@ -1,12 +1,10 @@
 [
   {
-    "slug": "<URL Slug>",
-    "name": "<Name>",
-    "description": "<Description>",
+    "slug": "simp",
+    "name": "Simp",
+    "description": "Compliance automation",
     "url": "https://www.simp-project.com/",
     "tags": [
-      // Mention Platform
-      // ref: https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/data/platforms.json
       "linux",
       "open-source",
       "security"
