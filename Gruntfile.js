@@ -28,4 +28,4 @@ module.exports = function(grunt) {
   grunt.registerTask('dev', [ 'express:dev', 'watch' ]);
 
   grunt.registerTask('default', ['dev']);
-}
+};
