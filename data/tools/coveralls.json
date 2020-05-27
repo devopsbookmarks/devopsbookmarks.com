@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "coveralls",
+    "name": "Coveralls",
+    "description": "Coveralls works with your continuous integration server to give you test coverage history and statistics. Free for open source, pro accounts for private repos, instant sign up with GitHub OAuth.",
+    "tags": [
+      "free",
+      "commercial",
+      "ci"
+    ],
+    "url": "https://coveralls.io"
+  }
+]
