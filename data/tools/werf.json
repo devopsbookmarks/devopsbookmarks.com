@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "werf",
+    "name": "werf",
+    "description": "werf is CI/CD tool for building Docker images and delivering them to Kubernetes using a GitOps approach. It integrates with any existing CI systems including GitLab CI, GitHub Actions, etc.",
+    "url": "https://werf.io/",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "ci",
+      "kubernetes",
+      "virt",
+      "go"
+    ]
+  }
+]
