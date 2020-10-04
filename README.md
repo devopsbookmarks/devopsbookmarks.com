@@ -2,7 +2,7 @@
 
 > To discover tools in the devops landscape.
 
-There are new awesome tools and frameworks being released everyday.
+There are new incredible tools and frameworks being released everyday.
 This is an open and transparent attempt at aggregating all these tools
 and frameworks.
 
