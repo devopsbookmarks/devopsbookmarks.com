@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "Akeyless",
+    "name": "Akeyless Vault",
+    "description": "Secrets Management: Automate Secrets across your DevOps tools and cloud platforms using a secured vault for credentials, tokens, API-Keys and passwords.",
+    "url": "https://www.akeyless.io/",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "bsd",
+      "solaris",
+      "free",
+      "commercial",
+      "security",      
+    ]
+  }
+]
