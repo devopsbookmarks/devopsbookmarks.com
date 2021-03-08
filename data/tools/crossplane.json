@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "crossplane",
+    "name": "Crossplane",
+    "description": "Crossplane, a Cloud Native Computing Foundation sandbox project, is an open source Kubernetes add-on that extends any cluster with the ability to provision and manage cloud infrastructure, services, and applications using kubectl, GitOps, or any tool that works with the Kubernetes API.",
+    "tags": [
+      "linux",
+      "windows",
+      "osx",
+      "open-source",
+      "provisioning",
+      "orchestration",
+      "automation",
+      "open-source",
+      "free",
+      "commercial"
+    ],
+    "url": "https://crossplane.io/"
+  }
+]
