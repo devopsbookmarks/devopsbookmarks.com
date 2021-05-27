@@ -6,6 +6,8 @@
     "url": "https://www.releaseiq.io",
     "tags": [
       "linux",
+      "free",
+      "commercial",
       "ci",
       "cd",
       "orchestration"
