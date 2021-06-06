@@ -13,7 +13,7 @@
   "dependencies": {
     "bourbon": "latest",
     "compression": "^1.7.4",
-    "connect-redirecthost": "^2.0.0",
+    "connect-redirecthost": "^3.0.0",
     "ejs": "^2.3.4",
     "errorhandler": "^1.4.2",
     "express": "^4.13.3",
