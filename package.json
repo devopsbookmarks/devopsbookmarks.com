@@ -23,7 +23,7 @@
     "grunt-express-server": "latest",
     "jshint": "latest",
     "load-grunt-tasks": "latest",
-    "morgan": "^1.6.1",
+    "morgan": "^1.10.0",
     "node-sass": "latest",
     "normalize-scss": "latest",
     "static-asset": "^0.6.0",
