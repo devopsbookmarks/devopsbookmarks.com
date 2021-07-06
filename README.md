@@ -10,9 +10,11 @@ and frameworks.
 
 [![Build Status][build_image]][build_page]
 
+Legacy [travis-ci builds][legacy_build_page].
 
-[build_image]: https://travis-ci.org/devopsbookmarks/devopsbookmarks.com.svg?branch=master
-[build_page]: https://travis-ci.org/github/devopsbookmarks/devopsbookmarks.com
+[build_image]: https://github.com/devopsbookmarks/devopsbookmarks.com/actions/workflows/push.yaml/badge.svg
+[build_page]: https://github.com/devopsbookmarks/devopsbookmarks.com/actions
+[legacy_build_page]: https://travis-ci.org/github/devopsbookmarks/devopsbookmarks.com
 
 ## Contributing
 
