@@ -10,3 +10,8 @@ jobs:
       with:
         node-version: 14
     - run: npm run-script build
+    - uses: akhileshns/heroku-deploy@v3.12.12
+      with:
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_app_name: "devops-bookmarks"
+        heroku_email: "scottmuc@gmail.com"
