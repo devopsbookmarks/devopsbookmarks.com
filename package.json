@@ -28,7 +28,7 @@
     "normalize-scss": "latest",
     "static-asset": "^0.6.0",
     "underscore": "^1.13.1",
-    "urijs": ">=1.19.6",
+    "urijs": ">=1.19.7",
     "walk": "^2.3.14"
   }
 }
