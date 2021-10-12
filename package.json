@@ -27,6 +27,7 @@
     "node-sass": "latest",
     "normalize-scss": "latest",
     "static-asset": "^0.6.0",
+    "trim-newlines": ">=3.0.1",
     "underscore": "^1.13.1",
     "urijs": ">=1.19.7",
     "walk": "^2.3.14"
