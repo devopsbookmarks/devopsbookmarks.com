@@ -1,0 +1,16 @@
+on:
+  pull_request:
+  # defaults to types: [ opened, synchronize, reopened ]
+
+name: Pull Request
+
+jobs:
+  ci:
+    name: Build - Test
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 14
+    - run: npm run-script build
