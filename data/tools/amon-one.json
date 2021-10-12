@@ -1,7 +1,7 @@
 [
   {
-    "slug": "amon-one",
-    "name": "AmonOne",
+    "slug": "amon",
+    "name": "Amon",
     "description": "A modern, self-hosted server monitoring system with system monitoring, process monitoring and notifications",
     "tags": [
       "linux",
@@ -11,6 +11,6 @@
       "monitoring",
       "python"
     ],
-    "url": "https://github.com/martinrusev/amonone"
+    "url": "https://github.com/amonapp/amon"
   }
 ]
