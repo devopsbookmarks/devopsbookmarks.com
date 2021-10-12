@@ -3,11 +3,11 @@ on:
     branches:
     - main
 
-name: Build - Test - Deploy
+name: Continuous Deployment
 
 jobs:
   ci:
-    name: Build - Test - Deploy
+    name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
