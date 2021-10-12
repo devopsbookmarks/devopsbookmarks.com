@@ -12,7 +12,7 @@ and frameworks.
 
 Legacy [travis-ci builds][legacy_build_page].
 
-[build_image]: https://github.com/devopsbookmarks/devopsbookmarks.com/actions/workflows/push.yaml/badge.svg
+[build_image]: https://github.com/devopsbookmarks/devopsbookmarks.com/actions/workflows/continuous-deployment.yaml/badge.svg
 [build_page]: https://github.com/devopsbookmarks/devopsbookmarks.com/actions
 [legacy_build_page]: https://travis-ci.org/github/devopsbookmarks/devopsbookmarks.com
 
