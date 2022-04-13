@@ -12,5 +12,5 @@ jobs:
     - uses: actions/checkout@master
     - uses: actions/setup-node@v1
       with:
-        node-version: 14
+        node-version: 16
     - run: npm run-script build
