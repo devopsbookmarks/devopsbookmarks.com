@@ -18,7 +18,6 @@
     "errorhandler": "^1.5.1",
     "express": "^4.17.1",
     "jshint": "^2.13.4",
-    "load-grunt-tasks": "latest",
     "morgan": "^1.10.0",
     "node-sass": "latest",
     "normalize-scss": "latest",
