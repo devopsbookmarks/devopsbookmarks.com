@@ -1,6 +1,6 @@
 FROM debian:bullseye as builder
 
-ARG NODE_VERSION=v16.18.1
+ARG NODE_VERSION=v18.16.0
 
 RUN apt-get update; apt install -y curl python3 build-essential
 RUN curl https://get.volta.sh | bash
