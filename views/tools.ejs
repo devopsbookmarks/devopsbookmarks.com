@@ -17,13 +17,13 @@
   <![endif]-->
 
   <div class="container">
-    <% include _sidebar %>
+    <%- include('_sidebar'); %>
 
     <div class="content">
       <input type="text" id="search-input" onkeyup="filter()" placeholder="Search..">
       <div class="content-grid">
         <% _u.each(tools, function(tool) { %>
-          <% include _tool %>
+        <%- include('_tool', { tool: tool }); %>
         <% }); %>
       </div>
     </div>
