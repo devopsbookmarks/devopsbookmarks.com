@@ -1,5 +1,12 @@
 # Devops Bookmarks
 
+```diff
+- This repository is no longer maintained. Please check out the repository located
+- at: https://github.com/devopsbookmarks-org/devopsbookmarks.org
+-
+- Thanks for all your support, Scott
+```
+
 > To discover tools in the devops landscape.
 
 There are new incredible tools and frameworks being released everyday.
